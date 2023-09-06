@@ -1,0 +1,13 @@
+codecov:
+  require_ci_to_pass: yes
+  
+coverage:
+  ignore:
+  - "Pods/.*"
+  - "Applications/Xcode.app/.*"
+  - "vendor/.*"
+  - "Carthage/.*"
+  - ".*Tests.m"
+  - ".*Tests.swift"
+  status:
+    patch: false

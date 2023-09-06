@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="WeatherAppOrcasTask" customModuleProvider="target">
+            <connections>
+                <outlet property="indicator" destination="rrb-S6-PQN" id="zXR-3Y-Bkd"/>
+                <outlet property="lblDataNotAcurate" destination="cgY-mh-pvT" id="mh6-lr-k7b"/>
+                <outlet property="tableView" destination="29d-7a-IP3" id="gr8-tK-zms"/>
+                <outlet property="txtCityName" destination="wAD-Dc-FhS" id="koF-sJ-agh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xsz-O5-wOt">
+                    <rect key="frame" x="16" y="60" width="382" height="45"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wAD-Dc-FhS">
+                            <rect key="frame" x="0.0" y="0.0" width="342" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="QFT-gA-oKK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFU-rH-JhB">
+                            <rect key="frame" x="342" y="0.0" width="40" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="w1G-Lu-XeB"/>
+                            </constraints>
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" image="arrow.forward.circle.fill" catalog="system"/>
+                            <connections>
+                                <action selector="btnSearchTapped:" destination="-1" eventType="touchUpInside" id="rbn-XI-bWN"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GAL-pX-QTN">
+                    <rect key="frame" x="15" y="110" width="384" height="752"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not accurate data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgY-mh-pvT">
+                            <rect key="frame" x="0.0" y="0.0" width="384" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="29d-7a-IP3">
+                            <rect key="frame" x="0.0" y="20.5" width="384" height="731.5"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </tableView>
+                    </subviews>
+                </stackView>
+                <activityIndicatorView opaque="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="rrb-S6-PQN">
+                    <rect key="frame" x="182" y="423" width="50" height="50"/>
+                    <color key="backgroundColor" systemColor="labelColor"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Soy-it-bnk"/>
+                        <constraint firstAttribute="width" constant="50" id="g14-5K-bbL"/>
+                    </constraints>
+                    <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="rrb-S6-PQN" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="1cu-gk-Y5C"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GAL-pX-QTN" secondAttribute="trailing" constant="15" id="2O7-63-FLN"/>
+                <constraint firstItem="Xsz-O5-wOt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="5ex-dV-0Wp"/>
+                <constraint firstItem="rrb-S6-PQN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KLo-nq-v9G"/>
+                <constraint firstItem="GAL-pX-QTN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="N2k-bK-CHM"/>
+                <constraint firstItem="Xsz-O5-wOt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="fPF-Ty-eE2"/>
+                <constraint firstItem="GAL-pX-QTN" firstAttribute="top" secondItem="Xsz-O5-wOt" secondAttribute="bottom" constant="5" id="iFA-Xx-N3c"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="GAL-pX-QTN" secondAttribute="bottom" id="ljb-h4-na0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Xsz-O5-wOt" secondAttribute="trailing" constant="16" id="y3p-tX-lmH"/>
+            </constraints>
+            <point key="canvasLocation" x="-190" y="96"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow.forward.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

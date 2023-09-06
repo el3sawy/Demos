@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3A8F9974-25EF-4783-846A-17AC158EEA9F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EDE479D-A88B-401A-8C7A-9B931D6F24B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestModelTests/TestModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "testSearchResponse()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2EDE479D-A88B-401A-8C7A-9B931D6F24B0 - 27698f33195d14f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestModelTests.TestModelTests.testSearchResponse() throws -&gt; ()"
+                  moduleName = "TestModelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nego/Desktop/Testing/TestModel/TestModelTests/TestModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1709">
+               </Location>
+               <Location
+                  uuid = "2EDE479D-A88B-401A-8C7A-9B931D6F24B0 - 27698f33195d14b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestModelTests.TestModelTests.testSearchResponse() throws -&gt; ()"
+                  moduleName = "TestModelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nego/Desktop/Testing/TestModel/TestModelTests/TestModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1163">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D58C6F7-FE2F-4F87-869A-928A1C6D56E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestModelTests/TestModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "testSearchResponse()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8D58C6F7-FE2F-4F87-869A-928A1C6D56E2 - 27698f33195d14f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestModelTests.TestModelTests.testSearchResponse() throws -&gt; ()"
+                  moduleName = "TestModelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nego/Desktop/Testing/TestModel/TestModelTests/TestModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1709">
+               </Location>
+               <Location
+                  uuid = "8D58C6F7-FE2F-4F87-869A-928A1C6D56E2 - 27698f33195d144e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestModelTests.TestModelTests.testSearchResponse() throws -&gt; ()"
+                  moduleName = "TestModelTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nego/Desktop/Testing/TestModel/TestModelTests/TestModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1385">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

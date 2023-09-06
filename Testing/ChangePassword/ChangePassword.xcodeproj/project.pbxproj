@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		927DF99527945B1E00FBEA89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DF99427945B1E00FBEA89 /* AppDelegate.swift */; };
+		927DF99E27945B1F00FBEA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927DF99D27945B1F00FBEA89 /* Assets.xcassets */; };
+		927DF9A127945B1F00FBEA89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927DF99F27945B1F00FBEA89 /* LaunchScreen.storyboard */; };
+		927DF9AC27945B1F00FBEA89 /* ChangePasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DF9AB27945B1F00FBEA89 /* ChangePasswordTests.swift */; };
+		927DF9C727945B6100FBEA89 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DF9C527945B6100FBEA89 /* ChangePasswordViewController.swift */; };
+		927DF9C827945B6100FBEA89 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 927DF9C627945B6100FBEA89 /* ChangePasswordViewController.xib */; };
+		927DF9CA27945CC700FBEA89 /* PasswordChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DF9C927945CC700FBEA89 /* PasswordChanger.swift */; };
+		927DF9CC2794A07F00FBEA89 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DF9CB2794A07F00FBEA89 /* TestHelpers.swift */; };
+		C92F689168CC11DEE4763210 /* Pods_ChangePassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8608A5863A9AEF1C2ABA09 /* Pods_ChangePassword.framework */; };
+		D783547E8EA6E976749B2B74 /* Pods_ChangePasswordTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F975CB4F57AD17C762607CD5 /* Pods_ChangePasswordTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		927DF9A827945B1F00FBEA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 927DF98927945B1D00FBEA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 927DF99027945B1D00FBEA89;
+			remoteInfo = ChangePassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E3D215DAC6049E2AB4353D6 /* Pods-ChangePassword.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangePassword.debug.xcconfig"; path = "Target Support Files/Pods-ChangePassword/Pods-ChangePassword.debug.xcconfig"; sourceTree = "<group>"; };
+		2FF558E3EF89ADE6F962D240 /* Pods-ChangePassword.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangePassword.release.xcconfig"; path = "Target Support Files/Pods-ChangePassword/Pods-ChangePassword.release.xcconfig"; sourceTree = "<group>"; };
+		927DF99127945B1D00FBEA89 /* ChangePassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangePassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927DF99427945B1E00FBEA89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		927DF99D27945B1F00FBEA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927DF9A027945B1F00FBEA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		927DF9A227945B1F00FBEA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927DF9A727945B1F00FBEA89 /* ChangePasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangePasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		927DF9AB27945B1F00FBEA89 /* ChangePasswordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordTests.swift; sourceTree = "<group>"; };
+		927DF9C527945B6100FBEA89 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		927DF9C627945B6100FBEA89 /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		927DF9C927945CC700FBEA89 /* PasswordChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChanger.swift; sourceTree = "<group>"; };
+		927DF9CB2794A07F00FBEA89 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
+		A9FF484C9E28E93F275B096A /* Pods-ChangePasswordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangePasswordTests.release.xcconfig"; path = "Target Support Files/Pods-ChangePasswordTests/Pods-ChangePasswordTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD8608A5863A9AEF1C2ABA09 /* Pods_ChangePassword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChangePassword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD50DCDE185E8BCF1903D0E1 /* Pods-ChangePasswordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangePasswordTests.debug.xcconfig"; path = "Target Support Files/Pods-ChangePasswordTests/Pods-ChangePasswordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F975CB4F57AD17C762607CD5 /* Pods_ChangePasswordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChangePasswordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		927DF98E27945B1D00FBEA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92F689168CC11DEE4763210 /* Pods_ChangePassword.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927DF9A427945B1F00FBEA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D783547E8EA6E976749B2B74 /* Pods_ChangePasswordTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76DAAD2AF1933BEA98D77607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD8608A5863A9AEF1C2ABA09 /* Pods_ChangePassword.framework */,
+				F975CB4F57AD17C762607CD5 /* Pods_ChangePasswordTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		927DF98827945B1D00FBEA89 = {
+			isa = PBXGroup;
+			children = (
+				927DF99327945B1E00FBEA89 /* ChangePassword */,
+				927DF9AA27945B1F00FBEA89 /* ChangePasswordTests */,
+				927DF99227945B1D00FBEA89 /* Products */,
+				AEE479D1F08E84455A689B48 /* Pods */,
+				76DAAD2AF1933BEA98D77607 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		927DF99227945B1D00FBEA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				927DF99127945B1D00FBEA89 /* ChangePassword.app */,
+				927DF9A727945B1F00FBEA89 /* ChangePasswordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927DF99327945B1E00FBEA89 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				927DF9C427945B4C00FBEA89 /* Sences */,
+				927DF99427945B1E00FBEA89 /* AppDelegate.swift */,
+				927DF99D27945B1F00FBEA89 /* Assets.xcassets */,
+				927DF99F27945B1F00FBEA89 /* LaunchScreen.storyboard */,
+				927DF9A227945B1F00FBEA89 /* Info.plist */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		927DF9AA27945B1F00FBEA89 /* ChangePasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				927DF9AB27945B1F00FBEA89 /* ChangePasswordTests.swift */,
+				927DF9CB2794A07F00FBEA89 /* TestHelpers.swift */,
+			);
+			path = ChangePasswordTests;
+			sourceTree = "<group>";
+		};
+		927DF9C427945B4C00FBEA89 /* Sences */ = {
+			isa = PBXGroup;
+			children = (
+				927DF9C527945B6100FBEA89 /* ChangePasswordViewController.swift */,
+				927DF9C627945B6100FBEA89 /* ChangePasswordViewController.xib */,
+				927DF9C927945CC700FBEA89 /* PasswordChanger.swift */,
+			);
+			path = Sences;
+			sourceTree = "<group>";
+		};
+		AEE479D1F08E84455A689B48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E3D215DAC6049E2AB4353D6 /* Pods-ChangePassword.debug.xcconfig */,
+				2FF558E3EF89ADE6F962D240 /* Pods-ChangePassword.release.xcconfig */,
+				CD50DCDE185E8BCF1903D0E1 /* Pods-ChangePasswordTests.debug.xcconfig */,
+				A9FF484C9E28E93F275B096A /* Pods-ChangePasswordTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		927DF99027945B1D00FBEA89 /* ChangePassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927DF9BB27945B1F00FBEA89 /* Build configuration list for PBXNativeTarget "ChangePassword" */;
+			buildPhases = (
+				6170C9FB3A0379D94BEC5802 /* [CP] Check Pods Manifest.lock */,
+				927DF98D27945B1D00FBEA89 /* Sources */,
+				927DF98E27945B1D00FBEA89 /* Frameworks */,
+				927DF98F27945B1D00FBEA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangePassword;
+			productName = ChangePassword;
+			productReference = 927DF99127945B1D00FBEA89 /* ChangePassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		927DF9A627945B1F00FBEA89 /* ChangePasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927DF9BE27945B1F00FBEA89 /* Build configuration list for PBXNativeTarget "ChangePasswordTests" */;
+			buildPhases = (
+				2F61B69DF14B1E9DD3DCB86A /* [CP] Check Pods Manifest.lock */,
+				927DF9A327945B1F00FBEA89 /* Sources */,
+				927DF9A427945B1F00FBEA89 /* Frameworks */,
+				927DF9A527945B1F00FBEA89 /* Resources */,
+				489E2BF3A2C1ECDE5296B111 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				927DF9A927945B1F00FBEA89 /* PBXTargetDependency */,
+			);
+			name = ChangePasswordTests;
+			productName = ChangePasswordTests;
+			productReference = 927DF9A727945B1F00FBEA89 /* ChangePasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		927DF98927945B1D00FBEA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					927DF99027945B1D00FBEA89 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					927DF9A627945B1F00FBEA89 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 927DF99027945B1D00FBEA89;
+					};
+				};
+			};
+			buildConfigurationList = 927DF98C27945B1D00FBEA89 /* Build configuration list for PBXProject "ChangePassword" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 927DF98827945B1D00FBEA89;
+			productRefGroup = 927DF99227945B1D00FBEA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				927DF99027945B1D00FBEA89 /* ChangePassword */,
+				927DF9A627945B1F00FBEA89 /* ChangePasswordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		927DF98F27945B1D00FBEA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927DF9A127945B1F00FBEA89 /* LaunchScreen.storyboard in Resources */,
+				927DF9C827945B6100FBEA89 /* ChangePasswordViewController.xib in Resources */,
+				927DF99E27945B1F00FBEA89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927DF9A527945B1F00FBEA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F61B69DF14B1E9DD3DCB86A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChangePasswordTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		489E2BF3A2C1ECDE5296B111 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChangePasswordTests/Pods-ChangePasswordTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChangePasswordTests/Pods-ChangePasswordTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChangePasswordTests/Pods-ChangePasswordTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6170C9FB3A0379D94BEC5802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChangePassword-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		927DF98D27945B1D00FBEA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927DF99527945B1E00FBEA89 /* AppDelegate.swift in Sources */,
+				927DF9C727945B6100FBEA89 /* ChangePasswordViewController.swift in Sources */,
+				927DF9CA27945CC700FBEA89 /* PasswordChanger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927DF9A327945B1F00FBEA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927DF9AC27945B1F00FBEA89 /* ChangePasswordTests.swift in Sources */,
+				927DF9CC2794A07F00FBEA89 /* TestHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		927DF9A927945B1F00FBEA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 927DF99027945B1D00FBEA89 /* ChangePassword */;
+			targetProxy = 927DF9A827945B1F00FBEA89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		927DF99F27945B1F00FBEA89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927DF9A027945B1F00FBEA89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		927DF9B927945B1F00FBEA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		927DF9BA27945B1F00FBEA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		927DF9BC27945B1F00FBEA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3D215DAC6049E2AB4353D6 /* Pods-ChangePassword.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChangePassword/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.ChangePassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		927DF9BD27945B1F00FBEA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF558E3EF89ADE6F962D240 /* Pods-ChangePassword.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChangePassword/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.ChangePassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		927DF9BF27945B1F00FBEA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD50DCDE185E8BCF1903D0E1 /* Pods-ChangePasswordTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.ChangePasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangePassword.app/ChangePassword";
+			};
+			name = Debug;
+		};
+		927DF9C027945B1F00FBEA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FF484C9E28E93F275B096A /* Pods-ChangePasswordTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.ChangePasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangePassword.app/ChangePassword";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		927DF98C27945B1D00FBEA89 /* Build configuration list for PBXProject "ChangePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927DF9B927945B1F00FBEA89 /* Debug */,
+				927DF9BA27945B1F00FBEA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927DF9BB27945B1F00FBEA89 /* Build configuration list for PBXNativeTarget "ChangePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927DF9BC27945B1F00FBEA89 /* Debug */,
+				927DF9BD27945B1F00FBEA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927DF9BE27945B1F00FBEA89 /* Build configuration list for PBXNativeTarget "ChangePasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927DF9BF27945B1F00FBEA89 /* Debug */,
+				927DF9C027945B1F00FBEA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 927DF98927945B1D00FBEA89 /* Project object */;
+}
