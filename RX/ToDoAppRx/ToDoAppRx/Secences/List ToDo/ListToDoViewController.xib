@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListToDoViewController" customModule="ToDoAppRx" customModuleProvider="target">
+            <connections>
+                <outlet property="segmentview" destination="tQE-fL-otn" id="D1M-m8-GV7"/>
+                <outlet property="tableView" destination="krn-Jp-hfg" id="IvR-sI-H9e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tQE-fL-otn">
+                    <rect key="frame" x="81.5" y="64" width="251" height="32"/>
+                    <segments>
+                        <segment title="Falunt "/>
+                        <segment title="Very Good"/>
+                        <segment title="Good"/>
+                    </segments>
+                    <connections>
+                        <action selector="segmentTapped:" destination="-1" eventType="valueChanged" id="OWX-z5-pIU"/>
+                    </connections>
+                </segmentedControl>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="krn-Jp-hfg">
+                    <rect key="frame" x="15" y="115" width="384" height="732"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5p-j7-ytI">
+                    <rect key="frame" x="15" y="64" width="50" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Add"/>
+                    <connections>
+                        <action selector="btuttonAddTapped:" destination="-1" eventType="touchUpInside" id="h25-eR-pI2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="krn-Jp-hfg" firstAttribute="top" secondItem="tQE-fL-otn" secondAttribute="bottom" constant="20" id="0dN-TV-1p8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="krn-Jp-hfg" secondAttribute="bottom" constant="15" id="Azy-wm-Uiy"/>
+                <constraint firstItem="tQE-fL-otn" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="IjN-cX-FQG"/>
+                <constraint firstItem="I5p-j7-ytI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="T6N-RO-YQC"/>
+                <constraint firstItem="I5p-j7-ytI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="Xgb-Oa-K5V"/>
+                <constraint firstItem="tQE-fL-otn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Y59-kc-moW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="krn-Jp-hfg" secondAttribute="trailing" constant="15" id="fTS-xy-Gkn"/>
+                <constraint firstItem="krn-Jp-hfg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="reX-lD-HQ4"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="100"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
