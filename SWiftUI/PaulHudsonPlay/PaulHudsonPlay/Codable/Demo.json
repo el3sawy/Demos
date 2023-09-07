@@ -1,0 +1,27 @@
+{
+    "name": "Ahmed",
+    "dob": "10-05-2000",
+    "data": [
+        {
+            "name": "Naguib",
+            "type": "VIDEO",
+            "base_url": "Demo"
+        },
+        {
+            "name": "Naguib",
+            "type": "IMAGE",
+            "image": "Demo"
+        },
+        {
+            "name": "Naguib",
+            "type": "VIDEO",
+            "base_url": "Demo"
+        },
+        {
+            "name": "Naguib",
+            "type": "LIVE",
+            "live_url": "Demo"
+        }
+        
+        ]
+}
