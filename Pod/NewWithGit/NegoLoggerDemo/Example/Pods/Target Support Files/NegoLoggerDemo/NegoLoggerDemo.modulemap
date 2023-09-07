@@ -1,0 +1,6 @@
+framework module NegoLoggerDemo {
+  umbrella header "NegoLoggerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

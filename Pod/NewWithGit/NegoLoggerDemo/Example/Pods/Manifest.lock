@@ -1,0 +1,22 @@
+PODS:
+  - NegoLoggerDemo (1.0.0)
+
+DEPENDENCIES:
+  - NegoLoggerDemo (from `https://github.com/el3sawy/NegoLoggerDemo.git`, branch `main`)
+
+EXTERNAL SOURCES:
+  NegoLoggerDemo:
+    :branch: main
+    :git: https://github.com/el3sawy/NegoLoggerDemo.git
+
+CHECKOUT OPTIONS:
+  NegoLoggerDemo:
+    :commit: 47187c42297493f99d1626cd7372d9349815d3ab
+    :git: https://github.com/el3sawy/NegoLoggerDemo.git
+
+SPEC CHECKSUMS:
+  NegoLoggerDemo: e401610b8300dcb281fee2c249f9f134af0e68d2
+
+PODFILE CHECKSUM: 87f6f32b36ae6f03bdc782239024af9ec625ee76
+
+COCOAPODS: 1.12.1
