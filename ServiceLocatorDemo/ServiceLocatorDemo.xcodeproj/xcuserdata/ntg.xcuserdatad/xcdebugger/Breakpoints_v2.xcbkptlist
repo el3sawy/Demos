@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F18014B4-E817-49C6-B794-F290EF62F141"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B0F17F1-96CE-43C3-8B63-1E5082CB954B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ServiceLocatorDemo/Scence/PdfViewCustom/PdfViewCustom.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "loadViewFromNib(bundle:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7B0F17F1-96CE-43C3-8B63-1E5082CB954B - 81658b1c3cb15257"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIView.loadViewFromNib(bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ()"
+                  moduleName = "ServiceLocatorDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ntg/Documents/Demos/ServiceLocatorDemo/ServiceLocatorDemo/Scence/PdfViewCustom/PdfViewCustom.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "7B0F17F1-96CE-43C3-8B63-1E5082CB954B - 81658b1c3cb15530"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIView.loadViewFromNib(bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ()"
+                  moduleName = "ServiceLocatorDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ntg/Documents/Demos/ServiceLocatorDemo/ServiceLocatorDemo/Scence/PdfViewCustom/PdfViewCustom.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

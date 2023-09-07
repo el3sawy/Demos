@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TimelaneCombine",
+        "repositoryURL": "https://github.com/icanzilb/TimelaneCombine",
+        "state": {
+          "branch": null,
+          "revision": "e6837bcbb19332866d5e37d501c05d68fbf985f2",
+          "version": "2.0.0"
+        }
+      },
+      {
+        "package": "TimelaneCore",
+        "repositoryURL": "https://github.com/icanzilb/TimelaneCore",
+        "state": {
+          "branch": null,
+          "revision": "c554d6d61be14bd7acb8b10161fe5d9dc20d7fbc",
+          "version": "2.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

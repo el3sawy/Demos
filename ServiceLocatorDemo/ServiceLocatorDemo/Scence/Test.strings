@@ -1,0 +1,1454 @@
+/* No comment provided by engineer. */
+
+"Aqiqah" = "Aqiqah";
+"HAJJ.AdahiType.Aqiqah" = "Aqiqah";
+"HAJJ.AdahiType.Fediah"  = "rançon/Fediah";
+
+/* No comment provided by engineer. */
+"HAJJ.Gender.Female" = "féminin";
+
+/* No comment provided by engineer. */
+"HAJJ.AdahiType.Hadee" = "Hadee";
+/* No comment provided by engineer. */
+
+"Are you sure you want to delete %@ ?" = "Are you sure you want to delete %@ ?";
+
+/* No comment provided by engineer. */
+
+"Fediah" = "rançon/Fediah";
+
+/* No comment provided by engineer. */
+
+"Female" = "féminin";
+
+/* No comment provided by engineer. */
+
+"Hadee" = "Hadee";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.AdahiAddedSuccessfully" = "Les animaux sacrificiels ont été ajoutés avec succès";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.AdahiEditedSuccessfully" = "Adahi a édité avec succès";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.AdahiSavedSuccessfully" = "Adahi a enregistré avec succès";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.AddAdahiButton" = "Ajout des animaux sacrificiels (Adahi)";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.AddAdahiTitle" = "Ajout des animaux sacrificiels (Adahi)";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.EditAdahiTitle" = "Ajustement des sacrifices";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.Hajj" = "Hajj";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.Instructions" = "Le projet du Royaume d'Arabie Saoudite de bénéficier des sacrifices et des sacrifices notifiera le client (le pèlerin) par SMS dès qu'il accomplira ses rituels de sacrifice.";
+
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.NoAdahi" = "Vous n'avez pas d'Adahi";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.NusukEmpty" = "Veuillez sélectionner le type de Nusuk";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.NusukType" = "Le type de Nusuk";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.SelectHajjInstructions" = "Veuillez choisir le pèlerin puis sélectionner le type de Nusuk";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.SelectHajjTitle" = "Le choix du pèlerin";
+
+/* No comment provided by engineer. */
+
+"HAJJ.Adahi.title" = "Adahi/animaux sacrificiels";
+
+/* No comment provided by engineer. */
+"HAJJ.Adahi.total" = "Total";
+
+/* No comment provided by engineer. */
+"HAJJ.Adahi.TotalAdahi" = "Adahi Total";
+
+/* No comment provided by engineer. */
+"HAJJ.AddButton" = "Ajouter";
+
+/* No comment provided by engineer. */
+"HAJJ.AddPackages.AddPackages" = "Ajouter des forfaits";
+
+/* No comment provided by engineer. */
+"HAJJ.AddPackages.BackupPackagePrice" = "échelle des prix";
+
+/* No comment provided by engineer. */
+"HAJJ.AddPackages.CheckDifferenceBetweenCategories" = "Voir la différence entre les types de forfaits";
+
+/* No comment provided by engineer. */
+"HAJJ.AddPackages.PackagePrice" = "Valeur du forfait";
+
+/* No comment provided by engineer. */
+
+"HAJJ.AddPackages.Select" = "sélectionner";
+
+/* No comment provided by engineer. */
+"HAJJ.AddPackages.Select10Only" = "Vous pouvez sélectionner jusqu'à dix packages";
+
+/* No comment provided by engineer. */
+"HAJJ.AddPackages.Selectd" = "Sélectionné";
+
+/* No comment provided by engineer. */
+"HAJJ.AddPackages.VATIncluded" = "Taxe incluse";
+
+/* No comment provided by engineer. */
+"HAJJ.AddPackages.ViewDetails" = "Détails";
+
+/* No comment provided by engineer. */
+"HAJJ.AddPackages.YouCanAddUpTo10Packages" = "Un maximum de dix packages peuvent être ajoutés";
+
+/* No comment provided by engineer. */
+"HAJJ.Alert.Cancel" = "Annuler";
+"HAJJ.Alert.CancelBack" = "Retraite";
+
+/* No comment provided by engineer. */
+"HAJJ.Alert.OK" = "d'accord";
+"HAJJ.Alert.Confirm" = "confirmer";
+
+
+/* No comment provided by engineer. */
+"HAJJ.Applicant.AddedSuccessfully" = "Le demandeur a ajouté avec succès";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicant.EmptyBirthDate" = "La date de naissance est obligatoire";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicant.EmptyID" = "Le numéro d'identification est requis";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicant.InvalidId" = "Le numéro d'identification est incorrect";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicant.MahramUpdatedSuccessfully" = "Mahram a été mis à jour avec succès";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicant.SelectRelationAlert" = "Veuillez sélectionner un parent de tous les compagnons";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.AddApplicant" = "Ajout d'un accompagnateur pour le Hajj";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.AddApplicantButton" = "Ajouter un accompagnant";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.AdmitNoPreviousHajj" = "Le compagnon n'a pas encore effectué le Hajj";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.ApplicantsTitle" = "اPersonnes accompagnantes (facultatif)";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.BirthDate" = "Date de naissance";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.BirthDateInstruction" = "Veuillez saisir la date de naissance telle qu'indiquée dans la pièce d'identité";
+
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.ConfirmButton" = "Confirmer la sélection";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.EnterId" = "Entrez le numéro";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.IdNumber" = "Numéro d'identification national ou de résident";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.MahramAndGroup" = "Maharram pour les femmes";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.MahramButton" = "Définir comme Mahram";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.MahramForAll" = "Mahram pour les femmes";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.MahramInstructions" = "Un seul Muharram peut être défini";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.MahramTitle" = "Mahram";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.MainApplicantTitle" = "Candidat principal";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.PleaseSelectRelation" = "Veuillez spécifier le lien de parenté pour Mahram";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.RelationInstructions" =   "S'il n'y a pas de lien de parenté entre un mahram et une femme, veuillez sélectionner Sans mahram.";
+
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.RemoveMahramConfirm" = "Êtes-vous sûr de supprimer ce Muharram ?";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.SelectDate" = "Entrez la date";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.SelectRelation" = "Sélectionner une relation";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.SelectRelationPlaceHolder" = "Sélectionner la relation";
+/* No comment provided by engineer. */
+"HAJJ.Applicants.ShowDetails" = "Afficher les détails";
+
+/* No comment provided by engineer. */
+"HAJJ.Applicants.Title" = "Candidats";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.(NotSelected)" = "(Non sélectionné)";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.(optional)" = "(facultatif)";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.Adhahi" = "Sacrifice";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.Adhahis" = "Sacrifices";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.Applicant" = "Candidat";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.Applicants" = "Candidats";
+"HAJJ.ApplyForHajj.ApplicantsCount" = "Candidats";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.BackupPackagePrice" = "Fourchette de prix";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.CacelRequestButton" = "Annuler";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.ChoosePackages" = "Choisir le package";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.Edit" = "Modifier";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.HajjRequirements" = "Exigences du Hajj";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.HajjWishRegistration" = "Réservation de forfait Hajj";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.OtherServices" = "Services supplémentaires";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.Packages" = "Forfaits";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.SelectAdditionalService" = "Sélectionnez des services supplémentaires";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.selectedPackages" = "Packages sélectionnés";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.SendRequest?" = " Êtes-vous sûr d'avoir terminé le processus de réservation ?";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.SendRequestButton" = "Confirmer";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.SendRequestDetails" =  "Une facture de réservation sera émise pour le forfait sélectionné et vous ne pourrez pas ajouter de compagnons après avoir confirmé la réservation";
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.TermsAndConditions" = "Termes et conditions";
+
+"HAJJ.ApplyForHajj.FullTermsAndConditionsTitle" = "Conditions générales et politique d'annulation";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.ThereAreNoSelectedPackages" = "Vous n'avez pas de forfaits préférés";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.ThereAreNoSelectedServices" = "Il n'y a pas de services supplémentaires";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.TotalAdahiCost" = "Valeur de sacrifice totale";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.ViewApplicants" = "Candidats";
+
+/* No comment provided by engineer. */
+"HAJJ.ApplyForHajj.ViewPackages" ="Voir les forfaits";
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+"HAJJ.AreYouSureYouWantToDelete?" = "Etes-vous sûr de supprimer ?";
+
+/* No comment provided by engineer. */
+"HAJJ.BottomView.Save" = "Enregistrer";
+
+/* No comment provided by engineer. */
+"HAJJ.BottomView.SendRequest" = "Réservation";
+
+/* No comment provided by engineer. */
+"HAJJ.ConformationView.BackToMainView" = "Retour à la vue principale";
+
+/* No comment provided by engineer. */
+"HAJJ.ConformationView.HajjWishSuccessfullyRegistered" = "Forfait Hajj réservé avec succès";
+
+/* No comment provided by engineer. */
+"HAJJ.ConformationView.ModifyHajjWishRequest" = "Modifier la demande de réservation de forfait Hajj";
+
+/* No comment provided by engineer. */
+"HAJJ.Delete" = "Supprimer";
+
+/* No comment provided by engineer. */
+"HAJJ.ERROR.ErrorHappenedPleaseTryAgain" =  "Une erreur s'est produite, veuillez réessayer";
+
+/* No comment provided by engineer. */
+"HAJJ.ExtraServices.Adahi" = "Animaux sacrificiels/ Adahi";
+
+/* No comment provided by engineer. */
+"HAJJ.ExtraServices.title" = "Services supplémentaires";
+
+/* No comment provided by engineer. */
+"HAJJ.Images.hajj_arrow" = "hajj_arrow_ar";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.Cancel" = "Annuler";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.City" = "Ville d'arrivée :";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.CouldNotGetWishListId" = "Impossible d'obtenir l'ID de commande";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.CouldNotLoadUserId" = "Erreur lors de l'obtention de l'ID utilisateur";
+/* No comment provided by engineer. */
+"HAJJ.Main.From" = "De";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.Next" = "Suivant";
+
+"HAJJ.Main.Skip" = "Passer";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.PullToRefresh" = "Tirer pour actualiser";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.SAR" = "SAR";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.Save" = "Enregistrer";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.Search" = "Rechercher";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.SelectCategory" = "Sélectionner une catégorie";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.SomethingWentWrong" = "Quelque chose c'est mal passé. Merci d'essayer plus tard";
+
+/* No comment provided by engineer. */
+"HAJJ.Main.To" = "pour";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageBackup.Maximum" = "Maximum";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageBackup.Minimum" = "Le minimum";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageBackup.PackageBackupPrice" = "Définir la fourchette de prix";
+/* No comment provided by engineer. */
+"HAJJ.PackageBackup.PleaseSelectOrChangePriceRange" = "Veuillez sélectionner ou modifier la fourchette de prix";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageBackup.PriceFrom" = "prix de";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageBackup.PriceTo" = "Prix à";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageBackup.TopInstructions" = "Dans le cas où vous n'êtes pas nominé pour l'un des forfaits préférés, vous pouvez être nominé pour d'autres forfaits selon la fourchette de prix spécifiée";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.AdditionalA-C" = "Climatisation au fréon supplémentaire";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.AdditionalServices"= "Services supplémentaires (facultatif)";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.Address" = "Adresse";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.Call" = "Appeler";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.CampNumber" = "Numéro de camp";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.Category" = "Catégorie de camp";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.City" = "Département Ville";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.ContactNumbers"= "Coordonnées professionnelles";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.Copy" = "Copier";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.FaxNumber"= "Numéro de fax";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.FromAndToTheCityOfHajj"= "De et vers la ville d'arrivée";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.InsideSacredSites" = "à l'intérieur de l'Al Mashaer";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.LeaveMina" = "Quitter Mina";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.MakkahResidance" = "Résidence de La Mecque";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.PackageCategory" = " Type de paquet ";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.PackageDetails" = "Détails du package";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.PackageMeals" = "Nourriture et repas";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.PackagePrice" = "Valeur du forfait";
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.PhoneNumber" = "TéléphoneNuméro";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.ProgrammInitialPrice" = "Prix initial du forfait";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.Residence" = "Résidence des lieux saints";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.Total" = "Total (taxes incluses)";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.Transportation" = "Transport";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.TransportationCost" = "Coût du transport";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.TransportationServicesProvidedWithinTheSites" = "Service de transport fourni";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.VAT"= "Valeur fiscale totale";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageDetails.WomenAreAllowedToRegisterWithoutAmahram" = "Les femmes sont autorisées à s'inscrire sans tuteur masculin";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageFilter.Filter" = "Filtre";
+
+/* No comment provided by engineer. */
+"HAJJ.PackageFilter.PackagePrice" = "Valeur du forfait";
+
+/* No comment provided by engineer. */
+"HAJJ.Packages.TopInstructions" = "Dans le cas où vous n'êtes pas nominé pour l'un des forfaits préférés, vous pouvez être nominé dans un autre forfait selon votre détermination de la fourchette de prix du forfait, veuillez préciser le prix";
+
+/* No comment provided by engineer. */
+"HAJJ.Packages.TopInstructionsSelected" = " La fourchette de prix a été ajoutée aux forfaits, et elle est organisée par un numéro ";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesCategories.Categories" = " Types de forfaits ";
+
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesCategories.CategoryPriceStartFrom" = "La valeur du package commence à partir de...";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesCategories.EconomyClass1"= "Hôtellerie 1 (Tentes améliorées)";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesCategories.EconomyClass1Details" = "Mina- tentes améliorées - plaques de plâtre et climatisation - lit ou canapé-lit - oreiller - drap de lit - draps pour couvertures - étagères pour chaussures - tapis glissants, moquettes ou céramiques - service Internet (Wi-Fi) - clinique médicale - guide religieux - agents de sécurité - Orientation et promotion.
+Petit-déjeuner, déjeuner, dîner et boissons 24h/24. lieux saints en bus ou en train";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesCategories.EconomyClass2" = "Hôtellerie 2 (Tentes)";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesCategories.EconomyClass2Details" = "Mina- tentes - équipement des tentes avec plaques de plâtre - climatisation comme indiqué dans le programme - canapé-lit - oreiller - drap - drap housse - étagères pour bagages - étagères pour chaussures - tapis ou moquette glissants - mise à disposition d'un service internet (Wi-Fi) - une clinique médicale - Guide religieux - agents de sécurité - orientation et promotion.
+Petit-déjeuner, déjeuner, dîner et boissons 24h/24. lieux saints en bus ou en train";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesCategories.HospitalityClass" = "horoscopes";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesCategories.HospitalityClassDetails" = "Mina Towers - Canapé-lit - Oreiller - Parure de lit - Drap ou couverture - Étagères pour bagages - Tapis, moquettes ou céramiques - Service Internet (WiFi) - Clinique médicale - Guide religieux - Agents de sécurité - Orientation et Tafwejj.
+   Petit-déjeuner, déjeuner, dîner et boissons 24h/24. lieux saints en bus";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesCategories.TableHeaderTitle" = "Vous pouvez afficher les détails des types de forfaits et connaître la différence entre eux";
+/* No comment provided by engineer. */
+"HAJJ.PackagesFilter.Category" = "Type de paquet";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesFilter.CategoryClassification" =  "Classement des catégories";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesFilter.ChooseCategory" = "Choisissez un type de package";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesFilter.PackageCity" = "Ville entrante";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesFilter.PackagesFilter"= "Filtre de paquets";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesFilter.SelectCity"= "Sélectionnez la ville d'arrivée";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesSort.FromHighToLow" ="Décroissant";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesSort.FromLowToHigh" = "De bas en haut";
+
+/* No comment provided by engineer. */
+"HAJJ.PackagesSort.SortPackagePrice" ="Trier la valeur du package";
+
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.AcknowledgmentOfConsent" = "Je déclare par la présente que je suis le demandeur pour accomplir les rituels du Hajj pour l'année 1444 AH.";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.AddPackage" = "Sélectionner le package";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Agree" = "OK";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.AreYouSureYouWantToDelete%@?"= "Etes-vous sûr que vous voulez supprimer %@?";
+
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.AreYouSureYouWantToDeleteBackupPackagePrice" = "Êtes-vous sûr de vouloir supprimer la fourchette de prix ?";
+
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.CreateNewHajjWish" = "Réservation de forfait Hajj";
+
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.HajjWishRegistration" = "Réservation du forfait Hajj";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.I declare agreeing to all Hajj Requirements, Terms and Conditions and Cancellation Policy for this year" = "J'accepte toutes les exigences, les termes et conditions et la politique d'annulation du Hajj pour cette année";
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.PackageBackupPrice"= "Sélectionnez la fourchette de prix";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.PackageCity:" = "Ville de conduite :";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.PackageNufrah:" = "Nufrah:";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.PleaseSelectAPackage" = "Veuillez sélectionner un package";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.requirements of Hajj" = "Exigences du Hajj";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Save" = "Enregistrer";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.SelectedPackages"= "Forfaits préférés";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.SetThePriceOfTheOptionalPackage" ="échelle des prix";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Term1" ="La priorité d'inscription est pour ceux qui n'ont pas encore effectué le Hajj, à l'exception de Muharram.";
+
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Term2" = "L'identité nationale ou la résidence doit être valable jusqu'à la fin du mois de Dhu al-Hijjah pour l'année 1444 AH";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Term3" = "Engagement à enregistrer les compagnons souhaitant effectuer le Hajj dans une seule installation et dans un forfait unifié, en utilisant la case d'ajout de compagnons lors de l'inscription, avec un nombre n'excédant pas 14 compagnons";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Term4" = "Adhérez au forfait choisi et venez avec l'installation du Hajj dans laquelle l'enregistrement a été effectué";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Term5" =" L'état de santé du pèlerin est bon et il ne souffre pas de maladies chroniques aiguës ou contagieuses susceptibles de mettre en danger sa sécurité et celle d'autrui ";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Term6" = "L'inscription dans le chemin est interdite sauf par le pèlerin lui-même et l'adjonction de compagnons";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Term7" = "Il n'est pas possible de s'inscrire dans l'installation du Hajj et un autre forfait à moins que la réservation précédente ne soit annulée et que la réservation soit refaite.";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Term8" = "Il est nécessaire que la valeur du forfait sélectionné soit payée au lieu de pèlerinage spécifié dans les délais annoncés afin que la réservation ne soit pas annulée";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.Term9" = "Le numéro de mobile utilisé pour la réservation ne peut pas être utilisé pour une autre réservation";
+
+"HAJJ.RegisterWishList.Term10" = " Adhérer aux instructions et procédures émises par le ministère du Hajj et de la Omra, le ministère de la Santé et d'autres autorités de réglementation ";
+
+"HAJJ.RegisterWishList.Term11" = "Engagement à partir de Mina selon ce qui est choisi dans les forfaits sélectionnés (accélérés ou retardés)";
+
+"HAJJ.RegisterWishList.Term12" = "Le pèlerin doit imprimer le permis de pèlerinage via le portail Absher, avec le QR Code clairement visible dessus, et le conserver pendant l'exécution des rituels. Il ne peut être utilisé par personne d'autre que le pèlerin.";
+
+"HAJJ.RegisterWishList.Term13" = "Ne payez aucun montant supplémentaire à l'installation du Hajj autre que la valeur du colis indiquée dans la piste électronique ou l'application Nusk";
+
+"HAJJ.RegisterWishList.Term14" =
+"La date du voyage de retour est soumise à la disponibilité des vols et à ce qui est notifié au pèlerin depuis l'installation du Hajj (si le forfait comprend la réservation de vols)";
+
+"HAJJ.RegisterWishList.Term15" ="En cas de plainte ou d'observations sur la mise en œuvre des termes de l'accord et l'absence de réponse de la première partie (l'établissement du Hajj), les observateurs du ministère du Hajj et de la Omra (comités de contrôle et de suivi) sera notifiée par le biais du Centre Enaya pour servir les invités de Rahman du ministère du Hajj et de la Omra, ou la plainte sera signalée par l'un des moyens suivants (notez que la date limite pour les plaintes est la fin du 15 Muharram) :";
+
+"HAJJ.RegisterWishList.Term16" = "- Téléphone (920002814)";
+
+"HAJJ.RegisterWishList.Term17" = "- E-mail : care@haj.gov.sa";
+
+"HAJJ.RegisterWishList.Term18" = "- Twitter MOHU_CARE@";
+
+
+
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.terms and conditions"  = "Termes et conditions";
+
+"HAJJ.RegisterWishList.cancelation.policy" = "Politique d'annulation";
+
+/* No comment provided by engineer. */
+"HAJJ.RegisterWishList.YouCanReorderYourPackages" = "Vous pouvez cliquer sur le package pour le réorganiser";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.Brother" = "Frère";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.Daughter" = "Fille";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.Father" = "Père";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.Husband" = "Mari";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.Mother" = "Mère";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.Other" = "Autre";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.Sister" = "Sœur";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.Son" = "Fils";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.Wife" = "Femme";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.WithoutMahram" = "Sans Mahram";
+
+/* No comment provided by engineer. */
+"HAJJ.Relation.WomenGroup" = "Sans Mahram";
+
+/* No comment provided by engineer. */
+"HAJJ.SaveButton" = "Enregistrer";
+
+/* No comment provided by engineer. */
+"HAJJ.Gender.Male" = "Homme";
+
+/* No comment provided by engineer. */
+
+
+/* No comment provided by engineer. */
+"HAJJ.AdahiType.Odhia" = "Sacrifice/Adhi";
+
+/* No comment provided by engineer. */
+"HAJJ.AdahiType.Sadaqah"  = "Sadaqah";
+
+/* No comment provided by engineer. */
+"HAJJ.Welcome" ="Bienvenue";
+
+
+////Adding missing keys
+"HAJJ.Gender.NotClear" = "Inconnu";
+"HAJJ.RegisterWishList.PleaseReloadPackagesToSelectThePriceRange" = "Veuillez actualiser les packages pour sélectionner la fourchette de prix";
+"HAJJ.RegisterWishList.PleaseAddOneOrMorePackages" = "Veuillez ajouter un ou plusieurs forfaits";
+"HAJJ.Main.ClearFilter"= "Supprimer le filtre";
+"HAJJ.ApplyForHajj.YouCanViewAndAddOtherApplicants"= "Vous pouvez afficher et ajouter d'autres candidats";
+"HAJJ.Applicants.NoApplicants" = "Aucun candidat";
+"HAJJ.Applicants.IDStartError" = "L'identité doit être citoyenne ou résidente";
+"HAJJ.More" = "Plus";
+
+"HAJJ.EditApplicants.RelationType" = "Relation de Mahram";
+
+"HAJJ.EditApplicants.RelationTitle" = "relation relative";
+
+"HAJJ.HajjStatus.unknown" =  "Inconnu";
+"HAJJ.HajjStatus.accepted" =  "accepté";
+"HAJJ.HajjStatus.cancelled" = "Annulé";
+
+//Hajj Follow Up ,,, Registration Details
+"HAJJ.RegistrationDetails.HajjRegistrationDetails" = "Détails de la réservation";
+"HAJJ.ReservationDetails.ViewAdhahi" = "Spectacle sacrificiel";
+
+"HAJJ.RegistrationDetails.PackageCostForIndividual" = "Coût du forfait par personne";
+"HAJJ.PackageDetails.Reservation.VAT"= "Valeur fiscale totale";
+"HAJJ.PackageDetails.PackageCostForAll" = "Valeur totale de la réservation (HT)";
+"HAJJ.PackageDetails.AdahiCost"= "Prix sacrificiel";
+
+"HAJJ.ApplyForHajj.CancellationPolicy" = "Politique d'annulation";
+
+"HAJJ.ReservationNumberCell.ReservationNumber"= "Numéro de réservation";
+"HAJJ.ReservationNumberCell.BillNumber" = "Numéro de facture";
+
+"HAJJ.ReservationDetails.CancelOrder" = "Supprimer";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.AccountHolderName" = "Nom du titulaire du compte";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.BankAccountInformation" = "Données de compte bancaire";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.Confirm" = "CONFIRMATION";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.ConfirmDetails" ="Validation des données";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.Edit" = "amendement";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.IBANNumber" = "Numéro IBAN";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.LocalBankName" = "Le nom de la banque locale";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.PleaseEnterInfo" = "Pour restituer le montant sur votre compte bancaire, veuillez entrer les informations suivantes :";
+
+"HAJJ.AmountRefund.AddIban.PleaseEnterInfo.AddIban.Title" = "Veuillez entrer vos coordonnées bancaires, les données seront utilisées en cas d'annulation de la réservation pour restituer automatiquement le montant sur votre compte.";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.TotalPrice" = "Montant total remboursable";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.SelectBank" = "Choisissez la banque";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.AmountRefund" ="Remboursements";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.WrongIBANFormat" = "Veuillez entrer un IBAN valide";
+
+/* No comment provided by engineer. */
+"HAJJ.AmountRefund.PleaseSelectBank" = "Veuillez sélectionner une banque";
+"HAJJ.AmountRefund.TheDataHasBeenSentSuccessfully" = "La demande de récupération a été créée avec succès";
+"HAJJ.AmountRefund.TheAmountWillBeTransferredToYourBankAccountWithin5Workingdays"  = "Le montant sera transféré sur votre compte bancaire dans les 5 jours ouvrables.";
+"HAJJ.AmountRefund.BackToMainView" = "Retour à l'écran principal";
+
+
+"HAJJ.EditApplicants.ApplicantsTitle" = "Compagnons";
+
+"Are you sure you want to cancel %@ ?"= "Êtes-vous sûr d'annuler la réservation de %@ ?";
+
+"HAJJ.AreYouSureYouWantToCancel?" = "Êtes-vous sûr d'annuler ?";
+
+"HAJJ.AmountRefund.CouldNotFindReservationNo" = "Impossible d'obtenir le numéro de réservation";
+
+"HAJJ.AmountRefund.EnterIBAN" = "Entrez l'IBAN";
+
+"HAJJ.Main.Send" = "Envoyer";
+
+"HAJJ.Main.CouldNotGetReservationId" = "Impossible d'obtenir l'ID de réservation";
+
+"HAJJ.Main.noIssueCertificateMessage" = "Le service est disponible pour ceux qui ont terminé le Hajj de cette année 2023.";
+
+"HAJJ.ReservationNumberCell.EndDateOfTheBill" = "Délai de paiement";
+
+"HAJJ.ReservationDetails.Package" = "Forfait";
+
+"HAJJ.Cancel" = "Annuler";
+
+"HAJJ.EditAdahi.BillNum" = "Numéro de facture";
+
+"HAJJ.EditAdahi.CouponNum" = "Numéro du coupon";
+
+"HAJJ.RegistrationDetails.TotalPriceVATIncluded" = "Total (taxe incluse)";
+
+"HAJJ.AmountRefund.EnterAccountHolderName" = "Entrez le nom du titulaire du compte";
+"HAJJ.AmountRefund.AccountHolderName" ="Nom du titulaire du compte";
+"HAJJ.AmountRefund.PleaseEnterAccountHolderName" = "Veuillez saisir le nom du titulaire du compte";
+
+"HAJJ.AddPackages.PleaseSelectPackage" = "Veuillez sélectionner un forfait";
+"HAJJ.AddPackages.AddPackage" = "Sélectionner le package";
+"HAJJ.Change" = "Modifier le package";
+"HAJJ.ApplyForHajj.Package" = "Forfait";
+"HAJJ.ApplyForHajj.ThereAreNoSelectedPackage" = "Vous n'avez pas de package sélectionné";
+"HAJJ.PackagesFilter.SelectCompany"  = "Sélectionnez un établissement Hajj";
+
+"HAJJ.PackagesFilter.Company" = "Installation du Hajj";
+
+"HAJJ.PackageDetails.Location" = "Localisation sur la carte";
+"HAJJ.PackageDetails.Directions"= "le site";
+"HAJJ.PackageDetails.GoogleMaps"  = "Google Maps";
+"HAJJ.ApplyForHajj.PaymentMethod" = "Mode de paiement";
+
+"HAJJ.PaymentType.Total" = "Complet";
+"HAJJ.PaymentType.Partially" = "Partiellement";
+"HAJJ.PaymentType.Installments" = "Versements";
+
+"HAJJ.ApplyForHajj.PleaseSelectPaymentMethod" = "Veuillez sélectionner un mode de paiement";
+"HAJJ.PackageDetails.Images" = "Photos du camp";
+
+"HAJJ.PackageDetails.GatheringPoints"  = "Point de rassemblement";
+
+"HAJJ.PackageDetails.GatheringAddress" = "Adresse";
+"HAJJ.PackageDetails.RepresentativeName" = "Nom de l'administrateur";
+
+"HAJJ.PackageDetails.Representative" = "Administrateur du point de rassemblement";
+"HAJJ.PackageDetails.GatheringLocation"= "Emplacement sur la carte";
+"HAJJ.PackageDetails.GatheringPhone" = "Numéro de contact";
+"HAJJ.PackageDetails.GatheringDirections" = "Emplacement";
+"HAJJ.PackageDetails.DirectionsNotAvailable" = "Les itinéraires ne sont pas disponibles";
+
+"HAJJ.PackageDetailsImagesCell.Photos" = "photo";
+"HAJJ.PackageDetailsImagesCell.Show.All.Photos" = "Afficher toutes les images";
+
+"HAJJ.Applicants.Done" = "Terminé";
+"HAJJ.Applicants.Gregorian" = "AD";
+"HAJJ.Applicants.UmmAlQura" = "Hijri";
+
+"HAJJ.ReservationNumberCell.Bills" = "Factures";
+"HAJJ.ReservationNumberCell.SadadBilledCode" =  " Code postpayé ";
+"HAJJ.ReservationNumberCell.SadadBilledName" = " Nom de l'émetteur de la facture postpayée ";
+"HAJJ.ReservationNumberCell.PaymentTypeName" =  "Mode de paiement";
+"HAJJ.ReservationBillCell.ReservationBillNum" = "Numéro de facture";
+"HAJJ.ReservationBillCell.BillType" = "Type de facture";
+"HAJJ.ReservationBillCell.ReservationBillAmount"  = "Valeur";
+"HAJJ.ReservationBillCell.BillDueDate" = "Délai de paiement";
+"HAJJ.PackageFilter.TransportationType" = "Méthode d'arrivée";
+"HAJJ.PackageFilter.SelectTransportationType" = "Sélectionner l'arrivée";
+"HAJJ.PackageFilter.Bus" = "Bus";
+"HAJJ.PackageFilter.Transportation" = "Transport";
+"HAJJ.PackageFilter.PrivateVehicle"= "Véhicule privé";
+"HAJJ.PackageFilter.AirPlane" = "Avion";
+
+"HAJJ.PackageDetails.Notes"  = "Remarques";
+
+"HAJJ.PackageDetails.CampOnHill" = "Campez sur la colline";
+"HAJJ.PackageDetails.EscalatorProvided" =   "Il y a un escalator";
+"HAJJ.PackageDetails.StairsCount" = "Nombre d'escaliers";
+
+"HAJJ.ReservationNumberCell.PaidBills" =  "Factures payées";
+"HAJJ.ReservationNumberCell.UnpaidBills" = "Factures impayées";
+
+"HAJJ.BillsView.Bills" = "Factures";
+"HAJJ.BillsView.BackToReservationDetails" = "Retour aux détails de la réservation";
+
+"HAJJ.BillsView.Paid" = "Montant de la facture";
+
+"HAJJ.BillFilter.SelectBillStatus" = "Sélectionner le statut de la facture";
+"HAJJ.BillFilter.BillStatus" = "Statut de la facture";
+"HAJJ.BillFilter.BillFilter" = "Filtre de facturation";
+
+"HAJJ.PackagesFilter.PleaseSelectACity" = "Veuillez sélectionner votre ville d'arrivée, de quelle ville souhaitez-vous venir ?";
+
+//"HAJJ.PackagesFilter.PleaseSelectACity" =  "Veuillez sélectionner une ville d'arrivée";
+
+"HAJJ.PackageDetails.CampDetails" = "Détail du camp";
+"HAJJ.PackageDetails.Details" = "Détails";
+
+"HAJJ.PackageDetails.ViewCampLocation" = "Afficher l'emplacement";
+"HAJJ.PackageDetails.DistantToTrainStationAndJamarat" = "Distance de la gare et du Jamarat";
+"HAJJ.PackageDetails.DistantToTrain" = " La distance entre le camp et la gare ";
+"HAJJ.PackageDetails.DistantToJamarat" = "Distance à Jamarat";
+"HAJJ.PackageDetails.DistantFromJamarat" = "Distance de retour depuis Jamarat";
+
+"HAJJ.PackageDetails.FacilitiesDetails" = "Détails supplémentaires";
+"HAJJ.PackageDetails.CampStairsCount" = "Nombre d'escaliers";
+"HAJJ.PackageDetails.NmberOfWCs" = "nombre de toilettes";
+
+"HAJJ.PackageDetails.EscalatorAvailable"  = "Un escalator est disponible";
+"HAJJ.PackageDetails.CampIsOnHigh" = "Campez en hauteur";
+
+
+"HAJJ.Applicants.ExceptionalRelationInstructions" = "Dans le cas où il n'y a pas de parenté entre un mahram et une femme, veuillez sélectionner Sans mahram.
+Les compagnons masculins qui n'ont pas le droit d'accomplir le Hajj peuvent demander une exception en tant que Mahram exempté en suivant les étapes suivantes : ";
+
+"HAJJ.Applicants.ExceptionalRelationInstructionPoint1" =
+"L'agence du Ministère de l'Intérieur chargée de l'Etat Civil est réexaminée pour les citoyens, et la Direction Générale des Passeports pour les résidents est réexaminée pour demander une dérogation.";
+
+"HAJJ.Applicants.ExceptionalRelationInstructionPoint2" =  " Référez-vous à votre demande sur le site de réservation en ligne et désignez un pèlerin qui n'a aucune éligibilité en tant que Mahram et choisissez de l'accompagner dans l'exception et la relation entre eux. " ;
+
+"HAJJ.Applicants.PleaseSelectExceptionalRelation" = "Veuillez spécifier la femme dans la demande d'exception pour";
+
+
+"HAJJ.Applicants.RequestAnException" = "demander une exception";
+"HAJJ.DISTANCE.UNIT.KM" = "combien";
+
+"HAJJ.PackageDetails.ViewLocation" =  "Afficher l'emplacement";
+
+"HAJJ.Main.ReservationCannotAccess"= "Désolé, vous avez une réservation active. Veuillez utiliser la demande de réservation";
+
+"HAJJ.ReservationBillCell.Status" = "Statut";
+
+"HAJJ.ApplyForHajj.CancelProfile?" = "Êtes-vous sûr d'annuler le compte ?";
+
+"HAJJ.ApplyForHajj.CancelProfileDetails" = "Si vous annulez, l'utilisateur principal et tous les compagnons seront supprimés et vous pourrez vous réinscrire si vous le souhaitez";
+
+"HAJJ.ApplyForHajj.CancelProfileRequestBtn" = "Confirmer";
+
+"HAJJ.ApplyForHajj.CancelCancelProfileRequestBtn" = "Annuler";
+
+"Hajj.Reservation.Cancel.Profile" = "Supprimer";
+
+"HAJJ.AmountRefund.ForSeason" = "Saison";
+
+"HAJJ.AmountRefund.SelectSeason"= "Sélectionner la saison";
+"HAJJ.AmountRefund.EnterReservationNumber" = "Sélectionner le numéro de réservation";
+
+"HAJJ.AmountRefund.ReservationNumber"  = "Numéro de réservation";
+
+"HAJJ.AmountRefund.PleaseSelectSeason"= "Veuillez sélectionner la saison";
+
+"HAJJ.AmountRefund.AmountRefundConfirmDetails" = "Confirmer les données";
+
+"HAJJ.AnoutRefund.UserNameHint" = "Le nom doit correspondre aux informations bancaires";
+
+"HAJJ.CANCEL.MAIN.APPLICANT.MSG" =  " Vous pouvez réserver à nouveau ou vous ajouter à une autre réservation en accompagnement " ;
+
+
+"HAJJ.RES.LIST.RES.NUMBER" = "Numéro de réservation";
+
+"HAJJ.RES.NUM.APPLICANT"= "Nombre de candidats";
+
+"HAJJ.RESERVATION.BACK" = "RETOUR";
+
+"HAJJ.RESERVATION.LIST.HEADER.TITLE" = "Vous pouvez désormais consulter le détail de vos réservations";
+
+"HAJJ.RES.LIST.TITLE" = "Réservations";
+
+"HAJJ.Reservation.NoReservation" = "Pas de réservation";
+
+"HAJJ.APPLICANT.HINT.MSG" = "Le nombre d'escortes ne doit pas dépasser 14 dans toutes les réservations";
+
+"HAJJ.Price.ExclueVAT" =  "TVA incluse";
+
+"HAJJ.MAKKAH.RESIDENCE.PRICE.NOT.EXIST" = "Aucun";
+
+"HAJJ.PKG.NO.MENA.HOUSING" = "Le forfait n'inclut pas le logement à Mina";
+
+"HAJJ.ApplyForHajj.bankdetails" = "Informations sur le compte bancaire";
+
+"HAJJ.ApplyForHajj.BankAccountMessage" = "Veuillez entrer vos coordonnées bancaires, les données seront utilisées en cas d'annulation de la réservation pour restituer automatiquement le montant sur votre compte.";
+
+"HAJJ.ApplyForHajj.BankAccount.No.Info" = "Aucun compte bancaire ajouté";
+
+"HAJJ.ApplyForHajj.BANK.ACCOUNT.INFO.TITLE" = "Ajouter des informations sur le compte bancaire";
+
+"HAJJ.RESERVATION.MAIN.APPLICANT.CANCEL" = "Si vous avez un montant disponible pour remboursement après l'annulation du demandeur, il sera automatiquement transféré sur votre compte bancaire identifié.";
+
+"HAJJ.Alert.Edit.Bank.Details"= "Modifier les détails du compte bancaire";
+
+"HAJJ.MAIN.APPLICANT.RESERVATION.CANCEL" = "Êtes-vous sûr d'annuler votre réservation ?";
+
+"HAJJ.NO.PACKAGES.FOUND" = "Aucun paquet n'est disponible";
+
+"HAJJ.ApplyForHajj.SelectPackage" = "Veuillez sélectionner un forfait";
+
+"HAJJ.MAHRAM.EXCEPTIONAL.MSG" = "Cher candidat, Votre candidature est en cours de traitement.
+   Les données du Maharam seront envoyées afin d'obtenir l'exception à l'autorité compétente, et vous serez averti par SMS lorsque la demande sera complétée";
+
+
+"HAJJ.CONFIRM.YES" = "Oui";
+
+"HAJJ.CONFIRM.NO" = "Non";
+
+"HAJJ.CONFIRMATION.PRIMARY.TITLE" = "";
+
+"HAJJ.CONFIRMATION.PRIMARY.DESC" = "Je certifie et reconnais que le Mahram inscrit dans la demande de réservation est le seul Mahram du demandeur ou des candidates (dont les détails sont indiqués dans la réservation), et qu'il/elles n'ont pas de Mahram autre que celui qui effectuera le Hajj cette année. J'assume l'entière responsabilité pouvant résulter de l'inexactitude des informations contenues dans cette déclaration. Allah est le témoin de mes paroles.";
+
+"HAJJ.CONFIRMATION.SECONDARY.TITLE" = "Êtes-vous sûr d'avoir terminé votre réservation ?";
+"HAJJ.CONFIRMATION.SECONDARY.DESC" = "Une facture de réservation sera émise pour le forfait sélectionné, et vous ne pourrez pas ajouter de compagnons après avoir confirmé la réservation";
+"HAJJ.RegistrationConfirmation.Ratification" = "Enregistrement";
+"HAJJ.CONFIRM.RESERVATION" = "Accusé de réception et confirmation";
+
+"HAJJ.BottomView.SendExceptionRequest" = "Envoyer une demande d'exception";
+
+"Hajj.Exception.Request.Submitted" = "La demande d'exception a été soumise avec succès";
+
+"HAJJ.BottomView.SendExceptionRequestMessage" = "Cher candidat, les données seront envoyées afin d'obtenir une dérogation de la part de l'autorité compétente, et vous serez averti par SMS lorsque la candidature sera complétée.";
+
+
+
+
+//Hjj Idnetity Card
+"HJJ.IDENTITYCARD.HJJCARDTITLE"="Carte de pèlerin";
+"HJJ.IDENTITYCARD.INNERHJJ"="Hajj à l'intérieur";
+"HJJ.IDENTITYCARD.OUTHJJ"="Hajj externe";
+"HJJ.IDENTITYCARD.VERSIONNUMBER"="Numéro de version :";
+"HJJ.IDENTITYCARD.SHOWCARD"="Spectacle de cartes";
+
+"HJJ.HJJIDENTITY.CARD.HJJIDENTITY"="Carte d'identité de pèlerin";
+"HJJ.HJJIDENTITY.CARD.VERSIONNUMBER"="Numéro de version : ";
+"HJJ.HJJIDENTITY.CARD.IDENTITYNUMBER"= "NUMÉRO D'IDENTIFICATION : ";
+"HJJ.HJJIDENTITY.CARD.BORDERNUMBER"="Numéro de la frontière";
+"HJJ.HJJIDENTITY.CARD.COMPANY"="La société";
+"HJJ.HJJIDENTITY.CARD.SERVICECENTER"="Centre de service après-vente";
+"HJJ.HJJIDENTITY.CARD.SPECIALNEEDS"="Personnes ayant des besoins spéciaux";
+"HJJ.HJJIDENTITY.CARD.HARDDISEASE"="Maladie chronique";
+"HJJ.HJJIDENTITY.CARD.ADDTO"="Ajouter à";
+
+"HJJ.HJJIDENTITY.CARD.CONTROLIDENTITYIMAGE"="Contrôle de l'image d'identité";
+"HJJ.HJJIDENTITY.CARD.HIDEPERSONALIMGE"="Masquer la photo de profil";
+"HJJ.HJJIDENTITY.CARD.HJJQUOTE"="Forfait Hajj";
+"HJJ.HJJIDENTITY.CARD.SHOWDETAILS"="Afficher les détails";
+"HJJ.HJJIDENTITY.CARD.NATIONALITY"="Nationalité : ";
+"HJJ.HJJIDENTITY.CARD.COMPANYSERVICEPROVIDER"="Société du fournisseur de services";
+
+"HJJ.HJJIDENTITY.CARD.IMPORTANTSITES"= "sites d'intérêt";
+"HJJ.HJJIDENTITY.CARD.VIEWNEARSTLOCATION"="Vous pouvez maintenant voir les sites près de chez vous";
+
+"HJJ.HJJIDENTITY.CARD.OTHERSERVICES"="Autres services";
+"HJJ.HJJIDENTITY.CARD.IMPORTANTNUMBERS" = "Numéros qui vous intéressent";
+"HJJ.HJJIDENTITY.CARD.HEALTHDATA"=" Données de santé";
+"HJJ.HJJIDENTITY.CARD.LODGINGSITES"="Lieux de logement";
+
+"HJJ.HJJIDENTITY.WALLET.ADDTO"="Ajouter à";
+"HJJ.HJJIDENTITY.WALLET.APPLEWALLET"="Portefeuille Apple";
+
+"HJJ.HJJIDENTITY.CONTROLIMAGE.TITLE"="Contrôle de l'image d'identité";
+"HJJ.HJJIDENTITY.CREATE_HAJJ_CERTIFICATION.BTN.TITLE"= "Télécharger le certificat d’accomplissement du Hajj";
+"HJJ.HJJIDENTITY.CONTROLIMAGE.EXTERNAL.PACKAGE.TITLE" = "Catégorie de forfait de services émotionnels";
+"HJJ.HJJIDENTITY.CONTROLIMAGE.HIDEIMGE"= "Floutez votre photo de profil";
+
+"HJJ.HJJIDENTITY.HAJJPACKAGE.TITLE"="Forfait Hajj";
+"HJJ.HJJIDENTITY.HAJJPACKAGE.SHOWDETAILS"="Afficher les détails";
+
+"HJJ.HJJIDENTITY.IMPORTANTLOCATION.TITLE"="Lieux qui vous intéressent";
+"HJJ.HJJIDENTITY.IMPORTANTLOCATION.HINT"="Vous pouvez maintenant voir les sites près de chez vous";
+
+"HJJ.HJJIDENTITY.OTHERSERVICES.TITLE"="Autres services";
+"HJJ.HJJIDENTITY.OTHERSERVICES.HEALTHRECORDS"="Données de santé";
+"HJJ.HJJIDENTITY.OTHERSERVICES.HOSELOCATION"="Lieux de logement";
+"HJJ.HJJIDENTITY.OTHERSERVICES.IMPORTANTNO"="Numéros d'intérêt";
+
+
+
+"HJJ.HJJIDENTITY.OTHERSERVICES.IMPORTANTNUMBERS.FATAWY"  = "Numéros fatwa";
+"HJJ.HJJIDENTITY.OTHERSERVICES.IMPORTANTNUMBERS.FREEFATAWY" = "Numéro de fatwa gratuit 24h/24";
+"HJJ.HJJIDENTITY.OTHERSERVICES.IMPORTANTNUMBERS.SAUDIAFATAMY" = "Numéro saoudien Dar Al Iftaa";
+"HJJ.HJJIDENTITY.OTHERSERVICES.IMPORTANTNUMBERS.HARMEENAFFAIRS" = "Présidence des Affaires des Deux Saintes Mosquées";
+"HJJ.HJJIDENTITY.OTHERSERVICES.IMPORTANTNUMBERS.FREENUMBERS" = "Contacter sans frais";
+"HJJ.HJJIDENTITY.OTHERSERVICES.IMPORTANTNUMBERS.HAJJMINISTERY" = "Ministère du Hajj et de la Omra";
+"HJJ.HJJIDENTITY.OTHERSERVICES.IMPORTANTNUMBERS.EMRGENCYNUMBER"  = "Services d'urgence et de sécurité";
+"HJJ.HJJIDENTITY.OTHERSERVICES.IMPORTANTNUMBERS.INQUIRES" = "Pour les demandes et consultations médicales";
+
+//HJJ Identity Card - Tafwej Table
+"HJJ.HJJIDENTITY.Tafwej.Title" = "Tableau Tafwej";
+"HJJ.HJJIDENTITY.Tafwej.FirstShot" =  "Premier coup";
+"HJJ.HJJIDENTITY.Tafwej.SecondShot" =  "Deuxième coup";
+"HJJ.HJJIDENTITY.Tafwej.ThirdShot" =  "Troisième coup";
+"HJJ.HJJIDENTITY.Tafwej.FourthShot"= "Quatrième coup";
+"HJJ.HJJIDENTITY.Tafwej.GroupName"  = "le nom du groupe";
+"HJJ.HJJIDENTITY.Tafwej.GroupNumber" =  "Numéro de groupe";
+"HJJ.HJJIDENTITY.Tafwej.DepartureTime" = "Tafwej Heure de départ";
+"HJJ.HJJIDENTITY.Tafwej.ThrowTime" = "Temps de lancer";
+"HJJ.HJJIDENTITY.Tafwej.GamartDoor" = "L'étage Jamarat";
+"HJJ.HJJIDENTITY.Tafwej.GamartPath" = "Chemin vers le Jamarat";
+"HJJ.HJJIDENTITY.Tafwej.GamartReturnPath" = "Le chemin de retour depuis le Jamarat";
+
+// MARK: - Health Data Alert
+"HEALTH.DATA.ALERT.TITLE" = "Veuillez ajouter vos informations de santé";
+"HEALTH.DATA.ALERT.SUB.TITLE" = "Ajouter des données de santé";
+"HEALTH.DATA.ALERT.MESSAGE" = "Ne plus afficher ce message";
+"HEALTH.DATA.ALERT.BUTTON.TITLE" = "Arrêter";
+
+"HJJ.Package.External.Package.A" = "A";
+"HJJ.Package.External.Package.B" = "B";
+"HJJ.Package.External.Package.C" = "C";
+"HJJ.Package.External.Package.D" = "D";
+
+
+// MARK: - Hij outsource details Package A
+"Hij.OutSource.firstSection.titile.GroupA" = "Arafat";
+
+"Hij.OutSource.firstSection.FirstService.title.GroupA" = "Camp";
+//
+"Hij.OutSource.firstSection.FirstService.details.one.GroupA" = "climatisation split";
+"Hij.OutSource.firstSection.FirstService.details.two.GroupA" =   "ventilateurs de pulvérisation";
+"Hij.OutSource.firstSection.FirstService.details.three.GroupA" = "Couloirs d'ombrage";
+"Hij.OutSource.firstSection.FirstService.details.four.GroupA" =  "Tapis de sol Maquette";
+"Hij.OutSource.firstSection.FirstService.details.five.GroupA" = "salle a manger";
+"Hij.OutSource.firstSection.FirstService.details.six.GroupA"  = "Salle de bain";
+"Hij.OutSource.firstSection.FirstService.details.seven.GroupA"= "Chapel";
+"Hij.OutSource.firstSection.FirstService.details.night.GroupA" = "clinique primaire";
+"Hij.OutSource.firstSection.FirstService.details.ten.GroupA" =  "Internet";
+"Hij.OutSource.firstSection.FirstService.details.eleven.GroupA"= "Eau du refroidisseur";
+"Hij.OutSource.firstSection.FirstService.details.twelve.GroupA" = "Chauffes-eau";
+"Hij.OutSource.firstSection.FirstService.details.thirteen.GroupA" = "Services de conciergerie";
+
+
+"Hij.OutSource.firstSection.SecondService.title.GroupA" = "logement";
+
+"Hij.OutSource.firstSection.SecondService.details.one.GroupA" = "Canapé-lit";
+"Hij.OutSource.firstSection.SecondService.details.two.GroupA" = "Oreiller en coton";
+"Hij.OutSource.firstSection.SecondService.details.three.GroupA" =  "Couverture de luxe";
+"Hij.OutSource.firstSection.SecondService.details.four.GroupA" = "draps de luxe";
+"Hij.OutSource.firstSection.SecondService.details.five.GroupA" = "maison d'oreillers";
+"Hij.OutSource.firstSection.SecondService.details.six.GroupA" = "Prises d'alimentation";
+
+
+"Hij.OutSource.firstSection.ThirdService.title.GroupA" = "restauration";
+
+"Hij.OutSource.firstSection.ThirdService.details.one.GroupA" = "Petit-déjeuner buffet";
+"Hij.OutSource.firstSection.ThirdService.details.two.GroupA" = "Déjeuner buffet";
+"Hij.OutSource.firstSection.ThirdService.details.three.GroupA" =  "Juices";
+"Hij.OutSource.firstSection.ThirdService.details.four.GroupA" = "Santé de l'eau";
+"Hij.OutSource.firstSection.ThirdService.details.five.GroupA" = "thé";
+"Hij.OutSource.firstSection.ThirdService.details.six.GroupA" =  "Coffee";
+"Hij.OutSource.firstSection.ThirdService.details.seven.GroupA" ="collations";
+
+
+"Hij.OutSource.SecondSection.titile.GroupA" = "Mina";
+
+"Hij.OutSource.SecondSection.FirstService.title.GroupA" = "Camp";
+
+"Hij.OutSource.SecondSection.FirstService.details.one.GroupA" = "climatisation split";
+"Hij.OutSource.SecondSection.FirstService.details.two.GroupA" = "ventilateurs de pulvérisation";
+"Hij.OutSource.SecondSection.FirstService.details.three.GroupA"= "Couloirs d'ombrage";
+"Hij.OutSource.SecondSection.FirstService.details.four.GroupA" = "tapis de couloir";
+"Hij.OutSource.SecondSection.FirstService.details.five.GroupA"  =  "Sols de camping avec moquette";
+"Hij.OutSource.SecondSection.FirstService.details.six.GroupA"  = "Cour de restauration";
+"Hij.OutSource.SecondSection.FirstService.details.seven.GroupA" = "Salle de bain carrelée";
+"Hij.OutSource.SecondSection.FirstService.details.night.GroupA"= "Chapel";
+"Hij.OutSource.SecondSection.FirstService.details.ten.GroupA" = "Clinique principale";
+"Hij.OutSource.SecondSection.FirstService.details.eleven.GroupA"  = "Internet";
+"Hij.OutSource.SecondSection.FirstService.details.twelve.GroupA" = "Eau du refroidisseur";
+"Hij.OutSource.SecondSection.FirstService.details.thirteen.GroupA" = "Chauffes-eau";
+"Hij.OutSource.SecondSection.FirstService.details.fourteen.GroupA" = "nettoyage";
+"Hij.OutSource.SecondSection.FirstService.details.fiveteen.GroupA" = "voitures de golf";
+
+"Hij.OutSource.SecondSection.SecondService.title.GroupA" = "Logement";
+"Hij.OutSource.SecondSection.SecondService.details.oneOne.GroupA" = "Étagère spéciale";
+
+"Hij.OutSource.SecondSection.SecondService.details.one.GroupA" = "roues pour valises";
+"Hij.OutSource.SecondSection.SecondService.details.two.GroupA" = "Lit avec matelas";
+"Hij.OutSource.SecondSection.SecondService.details.three.GroupA" = "Oreiller en coton";
+"Hij.OutSource.SecondSection.SecondService.details.four.GroupA" = "Couverture de luxe";
+"Hij.OutSource.SecondSection.SecondService.details.five.GroupA" = "Draps de luxe";
+"Hij.OutSource.SecondSection.SecondService.details.six.GroupA" = "Maison d'oreiller";
+"Hij.OutSource.SecondSection.SecondService.details.seven.GroupA" = "Sac de ravitaillement";
+"Hij.OutSource.SecondSection.SecondService.details.night.GroupA" = "Tapis de prière";
+"Hij.OutSource.SecondSection.SecondService.details.ten.GroupA" = "Umbrella";
+"Hij.OutSource.SecondSection.SecondService.details.eleven.GroupA" = "Prises d'alimentation";
+
+
+"Hij.OutSource.SecondSection.ThirdService.title.GroupA" = "restauration";
+"Hij.OutSource.SecondSection.ThirdService.details.oneOne.GroupA" = "Petit-déjeuner buffet";
+
+"Hij.OutSource.SecondSection.ThirdService.details.one.GroupA" = "Déjeuner buffet";
+"Hij.OutSource.SecondSection.ThirdService.details.two.GroupA" = "Dîner Buffet";
+"Hij.OutSource.SecondSection.ThirdService.details.three.GroupA" = "Juices";
+"Hij.OutSource.SecondSection.ThirdService.details.four.GroupA"  = "Santé de l'eau";
+"Hij.OutSource.SecondSection.ThirdService.details.five.GroupA" = "thé";
+"Hij.OutSource.SecondSection.ThirdService.details.six.GroupA"  = "Coffee";
+"Hij.OutSource.SecondSection.ThirdService.details.seven.GroupA" = "collations";
+
+
+"Hij.OutSource.ThirdSection.titile.GroupA" = "Mouzdalifa";
+
+"Hij.OutSource.ThirdSection.ThirdService.details.one.GroupA" = "tapis pour sols";
+"Hij.OutSource.ThirdSection.ThirdService.details.two.GroupA" =  "Dîner sec";
+"Hij.OutSource.ThirdSection.ThirdService.details.three.GroupA" = " Sac à dos";
+
+// MARK: - Hij outsource details Package B
+"Hij.OutSource.firstSection.titile.GroupB" = "Arafat";
+
+"Hij.OutSource.firstSection.FirstService.title.GroupA" = "Camp";
+
+"Hij.OutSource.firstSection.FirstService.details.one.GroupB" = "climatisation split";
+"Hij.OutSource.firstSection.FirstService.details.two.GroupB" = "Ventilateurs de pulvérisation";
+"Hij.OutSource.firstSection.FirstService.details.three.GroupB" = "Couloirs d'ombrage";
+"Hij.OutSource.firstSection.FirstService.details.four.GroupB" = "Tapis de sol Maquette";
+"Hij.OutSource.firstSection.FirstService.details.five.GroupB" =   "salle a manger";
+"Hij.OutSource.firstSection.FirstService.details.six.GroupB" = "Toilettes";
+"Hij.OutSource.firstSection.FirstService.details.seven.GroupB" ="Chapel";
+"Hij.OutSource.firstSection.FirstService.details.night.GroupB" = "clinique primaire";
+"Hij.OutSource.firstSection.FirstService.details.ten.GroupB" = "Internet";
+"Hij.OutSource.firstSection.FirstService.details.eleven.GroupB" = "Eau du refroidisseur";
+"Hij.OutSource.firstSection.FirstService.details.twelve.GroupB" = "Chauffes-eau";
+"Hij.OutSource.firstSection.FirstService.details.thirteen.GroupB" = "Services de conciergerie";
+
+
+"Hij.OutSource.firstSection.SecondService.title.GroupB" = "Logement";
+
+"Hij.OutSource.firstSection.SecondService.details.one.GroupB" = "Canapé-lit sans dossier";
+"Hij.OutSource.firstSection.SecondService.details.two.GroupB" = "Oreiller en coton";
+"Hij.OutSource.firstSection.SecondService.details.three.GroupB" = "Couverture de luxe";
+"Hij.OutSource.firstSection.SecondService.details.four.GroupB" = "Draps de luxe";
+"Hij.OutSource.firstSection.SecondService.details.five.GroupB" ="maison d'oreillers";
+"Hij.OutSource.firstSection.SecondService.details.six.GroupB" = "Prises d'alimentation";
+
+
+"Hij.OutSource.firstSection.ThirdService.title.GroupB" = "restauration";
+
+"Hij.OutSource.firstSection.ThirdService.details.one.GroupB" = "Petit-déjeuner buffet";
+"Hij.OutSource.firstSection.ThirdService.details.two.GroupB" = "Déjeuner buffet";
+"Hij.OutSource.firstSection.ThirdService.details.three.GroupB"= "Juices";
+"Hij.OutSource.firstSection.ThirdService.details.four.GroupB"= "Santé de l'eau";
+"Hij.OutSource.firstSection.ThirdService.details.five.GroupB" = "thé";
+"Hij.OutSource.firstSection.ThirdService.details.six.GroupB"= "Coffee";
+"Hij.OutSource.firstSection.ThirdService.details.seven.GroupB" = "collations";
+
+"Hij.OutSource.SecondSection.titile.GroupB" = "Mina";
+
+"Hij.OutSource.SecondSection.FirstService.title.GroupB" =  "Camp";
+"Hij.OutSource.SecondSection.FirstService.details.one.GroupB" = "climatisation split";
+"Hij.OutSource.SecondSection.FirstService.details.two.GroupB" = "Ventilateurs de pulvérisation";
+"Hij.OutSource.SecondSection.FirstService.details.three.GroupB" = "Couloirs d'ombrage";
+"Hij.OutSource.SecondSection.FirstService.details.four.GroupB" =   "tapis de couloir";
+"Hij.OutSource.SecondSection.FirstService.details.five.GroupB" = "Tapis de sol de camp";
+"Hij.OutSource.SecondSection.FirstService.details.six.GroupB" = "Cour de restauration";
+"Hij.OutSource.SecondSection.FirstService.details.seven.GroupB" = "Salle de bain carrelée";
+"Hij.OutSource.SecondSection.FirstService.details.night.GroupB" = "Chapel";
+"Hij.OutSource.SecondSection.FirstService.details.ten.GroupB" = "Clinique principale";
+"Hij.OutSource.SecondSection.FirstService.details.eleven.GroupB" = "Internet";
+"Hij.OutSource.SecondSection.FirstService.details.twelve.GroupB" = "Eau du refroidisseur";
+"Hij.OutSource.SecondSection.FirstService.details.thirteen.GroupB"  = "Chauffes-eau";
+"Hij.OutSource.SecondSection.FirstService.details.fourteen.GroupB"  = "nettoyage";
+
+
+
+"Hij.OutSource.SecondSection.SecondService.title.GroupB" = "Logement";
+
+
+"Hij.OutSource.SecondSection.SecondService.details.one.GroupB" = "Canapé-lit";
+"Hij.OutSource.SecondSection.SecondService.details.two.GroupB" = "Oreiller en coton";
+"Hij.OutSource.SecondSection.SecondService.details.three.GroupB" = "Couverture de luxe";
+"Hij.OutSource.SecondSection.SecondService.details.four.GroupB"= "Draps de luxe";
+"Hij.OutSource.SecondSection.SecondService.details.five.GroupB" = "Maison d'oreiller";
+"Hij.OutSource.SecondSection.SecondService.details.six.GroupB" = "Sac de ravitaillement";
+"Hij.OutSource.SecondSection.SecondService.details.seven.GroupB" = "Tapis de prière";
+"Hij.OutSource.SecondSection.SecondService.details.night.GroupB" = "Umbrella";
+"Hij.OutSource.SecondSection.SecondService.details.ten.GroupB" = "Prises d'alimentation";
+
+
+"Hij.OutSource.SecondSection.ThirdService.title.GroupB" = "restauration ";
+
+"Hij.OutSource.SecondSection.ThirdService.details.OneOne.GroupB" = "Petit-déjeuner buffet";
+"Hij.OutSource.SecondSection.ThirdService.details.one.GroupB" = "Déjeuner buffet";
+"Hij.OutSource.SecondSection.ThirdService.details.two.GroupB" = "Dîner Buffet";
+"Hij.OutSource.SecondSection.ThirdService.details.three.GroupB" = "Juices";
+"Hij.OutSource.SecondSection.ThirdService.details.four.GroupB" = "Santé de l'eau";
+"Hij.OutSource.SecondSection.ThirdService.details.five.GroupB" = "thé";
+"Hij.OutSource.SecondSection.ThirdService.details.six.GroupB" = "Coffee";
+"Hij.OutSource.SecondSection.ThirdService.details.seven.GroupB" = "collations";
+
+
+
+"Hij.OutSource.ThirdSection.titile.GroupA" = "Mouzdalifa";
+
+"Hij.OutSource.ThirdSection.ThirdService.details.one.GroupB" = "Tapis de sol";
+"Hij.OutSource.ThirdSection.ThirdService.details.two.GroupB" = "Dîner sec";
+"Hij.OutSource.ThirdSection.ThirdService.details.three.GroupB" =  " Sac à dos";
+
+
+
+// MARK: - Hij outsource details Package c
+"Hij.OutSource.firstSection.titile.GroupC" = "Arafat";
+
+"Hij.OutSource.firstSection.FirstService.title.GroupC" = "Camp";
+
+"Hij.OutSource.firstSection.FirstService.details.one.GroupC" = "climatisation split";
+"Hij.OutSource.firstSection.FirstService.details.two.GroupC" = "Ventilateurs";
+"Hij.OutSource.firstSection.FirstService.details.three.GroupC" = "tapis de couloir";
+"Hij.OutSource.firstSection.FirstService.details.four.GroupC" = "Camp moquetté";
+"Hij.OutSource.firstSection.FirstService.details.five.GroupC" = "Salle de bain";
+"Hij.OutSource.firstSection.FirstService.details.six.GroupC" = "Chapel";
+"Hij.OutSource.firstSection.FirstService.details.seven.GroupC" = "clinique primaire";
+"Hij.OutSource.firstSection.FirstService.details.night.GroupC" = "Internet";
+"Hij.OutSource.firstSection.FirstService.details.ten.GroupC" = "Eau du refroidisseur";
+"Hij.OutSource.firstSection.FirstService.details.eleven.GroupC" =  "Chauffes-eau";
+"Hij.OutSource.firstSection.FirstService.details.twelve.GroupC" = "Services de nettoyage ";
+
+
+
+"Hij.OutSource.firstSection.SecondService.title.GroupC" = "Logement";
+
+"Hij.OutSource.firstSection.SecondService.details.one.GroupC" = "Canapé-lit";
+"Hij.OutSource.firstSection.SecondService.details.two.GroupC" = "Oreiller en coton";
+"Hij.OutSource.firstSection.SecondService.details.three.GroupC" ="Hid";
+"Hij.OutSource.firstSection.SecondService.details.four.GroupC" = "COUVERTURES";
+"Hij.OutSource.firstSection.SecondService.details.five.GroupC" = "maison d'oreillers";
+"Hij.OutSource.firstSection.SecondService.details.six.GroupC" = "Prises d'alimentation";
+
+
+"Hij.OutSource.firstSection.ThirdService.title.GroupC" = "restauration";
+
+"Hij.OutSource.firstSection.ThirdService.details.one.GroupC"  = "petit déjeuner sec";
+"Hij.OutSource.firstSection.ThirdService.details.two.GroupC"  ="déjeuner chaud";
+"Hij.OutSource.firstSection.ThirdService.details.three.GroupC" = "Juices";
+"Hij.OutSource.firstSection.ThirdService.details.four.GroupC"= "eau saine";
+"Hij.OutSource.firstSection.ThirdService.details.five.GroupC" = "thé";
+"Hij.OutSource.firstSection.ThirdService.details.six.GroupC" = "Coffee";
+"Hij.OutSource.firstSection.ThirdService.details.seven.GroupC" = "collations";
+
+
+"Hij.OutSource.SecondSection.titile.GroupC" = "Mina";
+
+"Hij.OutSource.SecondSection.FirstService.title.GroupC" = "Camp";
+"Hij.OutSource.SecondSection.FirstService.details.one.GroupC" =  "climatisation split";
+"Hij.OutSource.SecondSection.FirstService.details.two.GroupC" = "Ventilateurs";
+"Hij.OutSource.SecondSection.FirstService.details.three.GroupC" = "tapis de couloir";
+"Hij.OutSource.SecondSection.FirstService.details.four.GroupC" = "Camp avec moquette";
+"Hij.OutSource.SecondSection.FirstService.details.five.GroupC" =  "Toilettes";
+"Hij.OutSource.SecondSection.FirstService.details.six.GroupC" =  "Chapel"; //
+//"Hij.OutSource.SecondSection.FirstService.details.seven.GroupC" = "Salle de bain carrelée";
+//"Hij.OutSource.SecondSection.FirstService.details.night.GroupC" = "Chapel";
+"Hij.OutSource.SecondSection.FirstService.details.ten.GroupC" = "Clinique principale";
+"Hij.OutSource.SecondSection.FirstService.details.eleven.GroupC" = "Internet";
+"Hij.OutSource.SecondSection.FirstService.details.twelve.GroupC"  = "Eau du refroidisseur";
+"Hij.OutSource.SecondSection.FirstService.details.thirteen.GroupC" = "Chauffes-eau";
+"Hij.OutSource.SecondSection.FirstService.details.fourteen.GroupC" = "services de nettoyage";
+
+
+
+"Hij.OutSource.SecondSection.SecondService.title.GroupC"= "logement";
+
+
+
+"Hij.OutSource.SecondSection.SecondService.details.one.GroupC" = "canapé-lit";
+"Hij.OutSource.SecondSection.SecondService.details.two.GroupC"  = "Coussin en coton";
+"Hij.OutSource.SecondSection.SecondService.details.three.GroupC"  = "Hid";
+"Hij.OutSource.SecondSection.SecondService.details.four.GroupC"  = "COUVERTURES";
+"Hij.OutSource.SecondSection.SecondService.details.five.GroupC" = "Sac de ravitaillement";
+"Hij.OutSource.SecondSection.SecondService.details.six.GroupC" = "Umbrella";
+"Hij.OutSource.SecondSection.SecondService.details.seven.GroupC" = "Maison d'oreiller";
+"Hij.OutSource.SecondSection.SecondService.details.night.GroupC" = "Prises de courant";
+
+
+"Hij.OutSource.SecondSection.ThirdService.title.GroupC" = "restauration";
+
+"Hij.OutSource.SecondSection.ThirdService.title.oneOne.GroupC"  = "Petit-déjeuner sec";
+"Hij.OutSource.SecondSection.ThirdService.details.one.GroupC" =  "Repas chaud";
+"Hij.OutSource.SecondSection.ThirdService.details.two.GroupC" = "Dîner chaud";
+"Hij.OutSource.SecondSection.ThirdService.details.three.GroupC" = "Juices";
+"Hij.OutSource.SecondSection.ThirdService.details.four.GroupC" = "Santé de l'eau";
+"Hij.OutSource.SecondSection.ThirdService.details.five.GroupC"  = "thé";
+"Hij.OutSource.SecondSection.ThirdService.details.six.GroupC"= "Coffee";
+"Hij.OutSource.SecondSection.ThirdService.details.seven.GroupC" = "collations";
+
+
+
+"Hij.OutSource.ThirdSection.titile.GroupC" = "Mouzdalifa";
+
+"Hij.OutSource.ThirdSection.ThirdService.details.one.GroupC" = "Mattress";
+"Hij.OutSource.ThirdSection.ThirdService.details.two.GroupC" = "Dîner sec";
+"Hij.OutSource.ThirdSection.ThirdService.details.three.GroupC" = "Sac à dos";
+
+
+
+// MARK: - Hij outsource details Package D
+"Hij.OutSource.firstSection.titile.GroupD" = "Arafat";
+
+"Hij.OutSource.firstSection.FirstService.title.GroupD" = "Camp";
+
+"Hij.OutSource.firstSection.FirstService.details.one.GroupD" = "Climatisation au fréon";
+"Hij.OutSource.firstSection.FirstService.details.two.GroupD" = "Fans de Hijjah";
+"Hij.OutSource.firstSection.FirstService.details.three.GroupD" = "tapis le camp";
+"Hij.OutSource.firstSection.FirstService.details.four.GroupD" = "Services de conciergerie";
+"Hij.OutSource.firstSection.FirstService.details.five.GroupD" = "Clinique de premiers soins";
+"Hij.OutSource.firstSection.FirstService.details.six.GroupD" = "Chapel";
+"Hij.OutSource.firstSection.FirstService.details.seven.GroupD" = "Chauffe-eau";
+
+"Hij.OutSource.firstSection.SecondService.title.GroupD" = "logement";
+
+"Hij.OutSource.firstSection.SecondService.details.one.GroupD"= "Matelas";
+"Hij.OutSource.firstSection.SecondService.details.two.GroupD"  = "coussin";
+"Hij.OutSource.firstSection.SecondService.details.three.GroupD" = "COUVERTURES";
+"Hij.OutSource.firstSection.SecondService.details.four.GroupD" = "Prises électriques";
+
+
+"Hij.OutSource.firstSection.ThirdService.title.GroupD" = "restauration";
+
+"Hij.OutSource.firstSection.ThirdService.details.one.GroupD" = "Petit-déjeuner sec";
+"Hij.OutSource.firstSection.ThirdService.details.two.GroupD" = "Repas chaud";
+"Hij.OutSource.firstSection.ThirdService.details.three.GroupD" = "Santé de l'eau";
+"Hij.OutSource.firstSection.ThirdService.details.four.GroupD" = "thé";
+"Hij.OutSource.firstSection.ThirdService.details.five.GroupD"= "Coffee";
+
+
+"Hij.OutSource.SecondSection.titile.GroupD" = "Mina";
+
+"Hij.OutSource.SecondSection.FirstService.title.GroupD" = "Camp";
+"Hij.OutSource.SecondSection.FirstService.details.one.GroupD" = "Adaptation du camp";
+"Hij.OutSource.SecondSection.FirstService.details.two.GroupD" = "Le camp était recouvert de moquette";
+
+"Hij.OutSource.SecondSection.FirstService.details.three.GroupD" = "Chapel";
+"Hij.OutSource.SecondSection.FirstService.details.four.GroupD" = "clinique primaire";
+"Hij.OutSource.SecondSection.FirstService.details.five.GroupD" = "Chauffes-eau";
+"Hij.OutSource.SecondSection.FirstService.details.six.GroupD" = "Services de nettoyage";
+"Hij.OutSource.SecondSection.FirstService.details.seven.GroupD" = "ventilateur d'air";
+
+"Hij.OutSource.SecondSection.SecondService.title.GroupD" = "logement";
+
+
+"Hij.OutSource.SecondSection.SecondService.details.one.GroupD" = "Matelas";
+"Hij.OutSource.SecondSection.SecondService.details.two.GroupD" = "coussin";
+"Hij.OutSource.SecondSection.SecondService.details.three.GroupD" = "COUVERTURES";
+"Hij.OutSource.SecondSection.SecondService.details.four.GroupD" = "Prises électriques";
+
+"Hij.OutSource.SecondSection.ThirdService.title.GroupD" = "restauration";
+"Hij.OutSource.SecondSection.ThirdService.details.OneOne.GroupD" = "Petit-déjeuner sec";
+"Hij.OutSource.SecondSection.ThirdService.details.one.GroupD"  = "Repas chaud";
+"Hij.OutSource.SecondSection.ThirdService.details.two.GroupD" = "Dîner chaud";
+"Hij.OutSource.SecondSection.ThirdService.details.three.GroupD" = "Santé de l'eau";
+"Hij.OutSource.SecondSection.ThirdService.details.four.GroupD" = "thé";
+"Hij.OutSource.SecondSection.ThirdService.details.five.GroupD" = "Coffee";
+
+"Hij.OutSource.ThirdSection.titile.GroupD" = "Mouzdalifah";
+
+"Hij.OutSource.ThirdSection.ThirdService.details.one.GroupD" = "les tapis";
+"Hij.OutSource.ThirdSection.ThirdService.details.two.GroupD" =  "Dîner sec";
+
+"Hij.OutSource.title" = "Détails du pack";
+"Hij.OutSource.package" = "catégorie bouquet d'al Mashaer";
+
+// TODO: - PHASE-2 TRANSLATION REQUIRED
+"NSK.ADAHI.TOTAL.AMT" = "Total Adahi Amount";
+"NSK.ADAHI.SELECTED" = "Adahi Selected";
+

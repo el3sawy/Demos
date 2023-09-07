@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PdfViewCustom" customModule="ServiceLocatorDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="imageCer" destination="F3S-X6-DCo" id="6Xf-l2-575"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HrA-yV-fRB">
+                    <rect key="frame" x="20" y="79" width="353" height="719"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="F3S-X6-DCo">
+                            <rect key="frame" x="-823.66666666666663" y="-740.66666666666663" width="2000.333333333333" height="2200.3333333333335"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="2000" id="NdZ-w3-nGa"/>
+                                <constraint firstAttribute="height" constant="2200" id="p9g-fM-nqi"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    <constraints>
+                        <constraint firstItem="F3S-X6-DCo" firstAttribute="centerX" secondItem="HrA-yV-fRB" secondAttribute="centerX" id="2Or-kQ-Rh0"/>
+                        <constraint firstItem="F3S-X6-DCo" firstAttribute="centerY" secondItem="HrA-yV-fRB" secondAttribute="centerY" id="oX6-le-cuw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="HrA-yV-fRB" secondAttribute="trailing" constant="20" id="Cpe-Rq-cYT"/>
+                <constraint firstItem="HrA-yV-fRB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="E43-wp-nkJ"/>
+                <constraint firstItem="HrA-yV-fRB" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="GtE-dq-2fI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="HrA-yV-fRB" secondAttribute="bottom" constant="20" id="gxY-YZ-RPF"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
