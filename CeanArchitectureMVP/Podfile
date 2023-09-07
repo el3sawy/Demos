@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '12.0'
+
+target 'CeanArchitectureMVP' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  pod 'SwiftyJSON', '5.0.0'
+  pod 'RealmSwift', '10.19.0'
+  pod 'SwiftLint', '0.43.1'
+  pod 'Resolver', '1.4.3'
+  # Pods for CeanArchitectureMVP
+
+  
+
+  target 'CeanArchitectureMVPTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

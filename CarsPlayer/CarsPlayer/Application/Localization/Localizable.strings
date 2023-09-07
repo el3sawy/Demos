@@ -1,0 +1,17 @@
+//
+//  Localizable.strings
+//  CarsPlayer
+//
+//  Created by Ahmed Elesawy on 28/07/2022.
+//
+
+"error_message_generic" = "Oops, something went wrong!";
+"error_message_can_not_send_request" = "Can not send request";
+"error_message_can_not_read_data" = "Can not read data";
+"button_title_ok" = "OK";
+"encountered_problem" = "We have encountered a problem";
+
+"title_message_for_and_new_brand" = "Please enter the name of the brand";
+"message_for_and_new_brand" =  "Set the name of the brand";
+
+
