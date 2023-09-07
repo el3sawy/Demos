@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="switchToLatestViewController" customModule="CombineDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="j4x-W3-fhb" id="2Ft-Vy-Atl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="E7p-Dj-NAq">
+                    <rect key="frame" x="13" y="64" width="388" height="31"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaO-Hi-TwC">
+                            <rect key="frame" x="0.0" y="0.0" width="120" height="31"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Apple"/>
+                            <connections>
+                                <action selector="appleTapped:" destination="-1" eventType="touchUpInside" id="wmA-ax-d75"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BVf-nV-29E">
+                            <rect key="frame" x="134" y="0.0" width="120" height="31"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Lemon"/>
+                            <connections>
+                                <action selector="lemonTapped:" destination="-1" eventType="touchUpInside" id="MhL-Qr-36e"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJd-64-Ssc">
+                            <rect key="frame" x="268" y="0.0" width="120" height="31"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="pineapple"/>
+                            <connections>
+                                <action selector="pineappleTapped:" destination="-1" eventType="touchUpInside" id="pAg-nd-dNV"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j4x-W3-fhb">
+                    <rect key="frame" x="20" y="115" width="374" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="owR-cb-6EV"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="j4x-W3-fhb" secondAttribute="trailing" constant="20" id="Jbg-Xr-I9x"/>
+                <constraint firstItem="j4x-W3-fhb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Vr4-0f-NRr"/>
+                <constraint firstItem="E7p-Dj-NAq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="13" id="Y08-LJ-J4I"/>
+                <constraint firstItem="j4x-W3-fhb" firstAttribute="top" secondItem="E7p-Dj-NAq" secondAttribute="bottom" constant="20" id="atZ-ue-eVr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="E7p-Dj-NAq" secondAttribute="trailing" constant="13" id="vpV-fp-3CG"/>
+                <constraint firstItem="E7p-Dj-NAq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="wax-3D-SB9"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="151"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

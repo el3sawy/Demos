@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B54DC80F-F0D9-478E-9AB8-0FDFC91EA627"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5B43733-9BD4-4A0E-9CBA-A04239C7D5BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombineUnitTestTests/NetworkTestss.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "testMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35790D8B-D70C-4960-8437-6E213BAC5346"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombineUnitTestTests/NetworkTestss.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "dataTaskPublisher"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56B5D4DF-9C2B-40D3-AB96-263F2A5C252C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombineUnitTestTests/NetworkTestss.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "startLoading()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1D1AC95-0EAC-49CE-9A14-B6474EEDB730"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombineUnitTestTests/NetworkTestss.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1D1AC95-0EAC-49CE-9A14-B6474EEDB730 - 53ee4ebc328495a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombineUnitTestTests.NetworkTestss.testExample() -&gt; ()"
+                  moduleName = "CombineUnitTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ntg/Documents/Demos/Combine/CombineUnitTest/CombineUnitTestTests/NetworkTestss.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "B1D1AC95-0EAC-49CE-9A14-B6474EEDB730 - e3ca843e6714b49b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Foundation.URLError&gt;) -&gt; () in CombineUnitTestTests.NetworkTestss.testExample() -&gt; ()"
+                  moduleName = "CombineUnitTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ntg/Documents/Demos/Combine/CombineUnitTest/CombineUnitTestTests/NetworkTestss.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "B1D1AC95-0EAC-49CE-9A14-B6474EEDB730 - 53ee4ebc328495a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombineUnitTestTests.NetworkTestss.testExample() -&gt; ()"
+                  moduleName = "CombineUnitTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ntg/Documents/Demos/Combine/CombineUnitTest/CombineUnitTestTests/NetworkTestss.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1052">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF9992F6-6015-41B5-B8C0-FE368B298328"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombineUnitTestTests/NetworkTestss.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C29A72B8-E9C1-4A95-B3FD-53FFA39E4C5B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombineUnitTestTests/NetworkTestss.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEAE2952-7AAC-4D2D-A066-BC98B534D2C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CombineUnitTestTests/NetworkTestss.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "startLoading()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BEAE2952-7AAC-4D2D-A066-BC98B534D2C3 - e6d2fc575ba426c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombineUnitTestTests.MockURLProtocol.startLoading() -&gt; ()"
+                  moduleName = "CombineUnitTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ntg/Documents/Demos/Combine/CombineUnitTest/CombineUnitTestTests/NetworkTestss.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "BEAE2952-7AAC-4D2D-A066-BC98B534D2C3 - e6d2fc575ba426c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombineUnitTestTests.MockURLProtocol.startLoading() -&gt; ()"
+                  moduleName = "CombineUnitTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ntg/Documents/Demos/Combine/CombineUnitTest/CombineUnitTestTests/NetworkTestss.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "BEAE2952-7AAC-4D2D-A066-BC98B534D2C3 - e6d2fc575ba426c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CombineUnitTestTests.MockURLProtocol.startLoading() -&gt; ()"
+                  moduleName = "CombineUnitTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ntg/Documents/Demos/Combine/CombineUnitTest/CombineUnitTestTests/NetworkTestss.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

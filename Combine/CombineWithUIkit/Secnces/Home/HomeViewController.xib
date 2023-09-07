@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="CombineWithUIkit" customModuleProvider="target">
+            <connections>
+                <outlet property="ButtonDemo" destination="mye-Vk-xdw" id="J2H-nJ-9wv"/>
+                <outlet property="textFieldButton" destination="DF1-pK-55S" id="fg0-6q-Idp"/>
+                <outlet property="textViewButton" destination="cvY-Qa-Ve8" id="2KE-ST-cTG"/>
+                <outlet property="toggleButton" destination="ZLn-DR-Sug" id="Yvh-bH-3KI"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="AJV-yU-zRZ">
+                    <rect key="frame" x="20" y="64" width="374" height="266"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DF1-pK-55S">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
+                            <color key="backgroundColor" red="0.91947942969999996" green="0.20578142999999999" blue="0.15680092570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="TextFiled">
+                                <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="baseForegroundColor" red="0.96413764749999997" green="0.96413764749999997" blue="0.96413764749999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </buttonConfiguration>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvY-Qa-Ve8">
+                            <rect key="frame" x="0.0" y="74" width="374" height="44"/>
+                            <color key="backgroundColor" red="0.91947942969999996" green="0.20578142999999999" blue="0.15680092570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Text View">
+                                <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="baseForegroundColor" red="0.96413764749999997" green="0.96413764749999997" blue="0.96413764749999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </buttonConfiguration>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mye-Vk-xdw">
+                            <rect key="frame" x="0.0" y="148" width="374" height="44"/>
+                            <color key="backgroundColor" red="0.91947942969999996" green="0.20578142999999999" blue="0.15680092570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Button">
+                                <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="baseForegroundColor" red="0.96413764749999997" green="0.96413764749999997" blue="0.96413764749999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </buttonConfiguration>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLn-DR-Sug">
+                            <rect key="frame" x="0.0" y="222" width="374" height="44"/>
+                            <color key="backgroundColor" red="0.91947942969999996" green="0.20578142999999999" blue="0.15680092570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Toggle">
+                                <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="baseForegroundColor" red="0.96413764749999997" green="0.96413764749999997" blue="0.96413764749999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </buttonConfiguration>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AJV-yU-zRZ" secondAttribute="trailing" constant="20" id="HNt-sU-Tmh"/>
+                <constraint firstItem="AJV-yU-zRZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="JTY-aX-MQd"/>
+                <constraint firstItem="AJV-yU-zRZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="aSW-ni-eDE"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="76"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

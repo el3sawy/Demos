@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScanOperatorViewController" customModule="CombineDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="PIx-tW-yzM" id="GEm-eR-bvU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="TU0-iI-RoC">
+                    <rect key="frame" x="10" y="54" width="394" height="31"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pxk-Tm-irU">
+                            <rect key="frame" x="0.0" y="0.0" width="122" height="31"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Apple"/>
+                            <connections>
+                                <action selector="appleTapped:" destination="-1" eventType="touchUpInside" id="z8r-dX-WjB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQP-tb-KrT">
+                            <rect key="frame" x="136" y="0.0" width="122" height="31"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Lemon"/>
+                            <connections>
+                                <action selector="lemonTapped:" destination="-1" eventType="touchUpInside" id="XKk-dc-gwt"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSd-Ep-8NA">
+                            <rect key="frame" x="272" y="0.0" width="122" height="31"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="pineapple"/>
+                            <connections>
+                                <action selector="pineappleTapped:" destination="-1" eventType="touchUpInside" id="Twn-7h-vsg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="PIx-tW-yzM">
+                    <rect key="frame" x="10" y="95" width="394" height="757"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="PIx-tW-yzM" secondAttribute="bottom" constant="10" id="58b-Ae-Sp2"/>
+                <constraint firstItem="TU0-iI-RoC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="Gyn-p6-xFX"/>
+                <constraint firstItem="PIx-tW-yzM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="QZi-Ic-fQF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PIx-tW-yzM" secondAttribute="trailing" constant="10" id="pNI-L5-jsx"/>
+                <constraint firstItem="TU0-iI-RoC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="s9f-xN-eNz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TU0-iI-RoC" secondAttribute="trailing" constant="10" id="us5-2n-uvJ"/>
+                <constraint firstItem="PIx-tW-yzM" firstAttribute="top" secondItem="TU0-iI-RoC" secondAttribute="bottom" constant="10" id="vpT-3V-RGn"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="121"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
