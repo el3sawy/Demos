@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3272E783-DE50-4170-B4C0-57B9D05ACF29"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB02299A-E866-4BB6-B070-8C6F1815ADAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoviesTests/Network/Tests/NetworkTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB02299A-E866-4BB6-B070-8C6F1815ADAE - 9480df548e6ced64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Movies.ListMovieModel) -&gt; () in MoviesTests.NetworkTests.test() -&gt; ()"
+                  moduleName = "MoviesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nego/Desktop/Demos/Movies/MoviesTests/Network/Tests/NetworkTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "AB02299A-E866-4BB6-B070-8C6F1815ADAE - 9480df548e6ced07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Movies.ListMovieModel) -&gt; () in MoviesTests.NetworkTests.test() -&gt; ()"
+                  moduleName = "MoviesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nego/Desktop/Demos/Movies/MoviesTests/Network/Tests/NetworkTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "AB02299A-E866-4BB6-B070-8C6F1815ADAE - 9480df548e6ced07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Movies.ListMovieModel) -&gt; () in MoviesTests.NetworkTests.test() -&gt; ()"
+                  moduleName = "MoviesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nego/Desktop/Demos/Movies/MoviesTests/Network/Tests/NetworkTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "61">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2666EA04-6A6D-43E8-A67E-065DE63B9224"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Movies/Modules/Scenes/Movies/ListMovies/MovieCell/MovieCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "MovieCollectionViewCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50157F4C-D3D2-4CD7-9099-4B6609A08506"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoviesTests/Modules /Movies/ListMovies/ViewModel/Tests/ListMoviesViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "test_fetchMovies_success()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
