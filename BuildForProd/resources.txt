@@ -1,0 +1,43 @@
+App submission checklist https://bugfender.com/blog/mobile-app-launch-checklist/
+List of Xcode build settings https://xcodebuildsettings.com/#
+
+Build schemes and xcconfig 
+https://testfairy.com/blog/ios-build-schemes-explained/
+https://medium.com/practical-ios-development/some-practical-uses-for-xcode-build-schemes-and-build-configurations-swift-e50d15a1304f
+https://thoughtbot.com/blog/let-s-setup-your-ios-environments#schemes
+https://www.appcoda.com/xcconfig-guide/
+https://nshipster.com/xcconfig/
+https://www.talentica.com/blogs/ios-build-management-using-custom-build-scheme/
+https://medium.com/practical-ios-development/some-practical-uses-for-xcode-build-schemes-and-build-configurations-swift-e50d15a1304f
+
+Conditional directive https://www.swiftbysundell.com/articles/using-compiler-directives-in-swift/
+
+Data Storage and iCloud Sync
+https://developer.apple.com/icloud/documentation/data-storage/index.html
+https://developer.apple.com/documentation/foundation/urlresourcevalues/1780002-isexcludedfrombackup
+
+Feature Flags
+https://martinfowler.com/articles/feature-toggles.html
+https://martinfowler.com/bliki/CanaryRelease.html
+
+Trunk based development https://www.optimizely.com/optimization-glossary/trunk-based-development/
+
+Firebase vs TestFlight https://itnext.io/firebase-app-distribution-vs-testflight-16ade1f6d349
+
+Bundle Settings https://abhimuralidharan.medium.com/adding-settings-to-your-ios-app-cecef8c5497
+
+Bitcode https://www.guardsquare.com/en/blog/enable-bitcode
+
+IDFA Ad-tracking
+https://www.adjust.com/glossary/limit-ad-tracking/
+https://www.adjust.com/glossary/idfa/
+
+Profiles distribution https://stackoverflow.com/a/59343662
+
+
+#New Topics 
+1- settings bundle swift
+2- isExcludedFromBackup
+3- adobe target swift
+4- trunk based development
+5- if canImport
