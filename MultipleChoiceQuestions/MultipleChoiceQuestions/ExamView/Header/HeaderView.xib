@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView" customModule="MultipleChoiceQuestions" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderView" customModule="MultipleChoiceQuestions" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="711" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sa-dr-qTD">
+                    <rect key="frame" x="10" y="10" width="691" height="162"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0sa-dr-qTD" secondAttribute="trailing" constant="10" id="0QP-ow-vmg"/>
+                <constraint firstItem="0sa-dr-qTD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="15i-Wo-ZTk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="0sa-dr-qTD" secondAttribute="bottom" constant="10" id="7Jn-XI-M1R"/>
+                <constraint firstItem="0sa-dr-qTD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="xXg-Ph-sCr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lbl" destination="0sa-dr-qTD" id="Km3-OF-1RN"/>
+            </connections>
+            <point key="canvasLocation" x="-77.536231884057983" y="-111.83035714285714"/>
+        </view>
+    </objects>
+</document>

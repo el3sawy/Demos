@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "DFC5CDBB-7965-4D92-8414-AD8DB5A13EB5",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "defaultTestExecutionTimeAllowance" : 60,
+    "maximumTestExecutionTimeAllowance" : 60,
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:PlayWithUnittest.xcodeproj",
+        "identifier" : "77086A1B2A9F5E4900BCE8EC",
+        "name" : "PlayWithUnittestTests"
+      }
+    }
+  ],
+  "version" : 1
+}
