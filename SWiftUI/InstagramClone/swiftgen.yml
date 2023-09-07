@@ -1,0 +1,5 @@
+xcassets:
+  inputs: InstagramClone/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: Assets.swift
