@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E252DCCC-15C1-4A8C-9E33-80C6577DB178"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEC6A8A8-D311-44ED-9F23-75E894686193"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DynamicTypeMVVMTests/DynamicTypeMVVMTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FEC6A8A8-D311-44ED-9F23-75E894686193 - d746843f0eb51318"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in DynamicTypeMVVMTests.DynamicTypeMVVMTests.test() -&gt; ()"
+                  moduleName = "DynamicTypeMVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nego/Desktop/Demos/DynamicTypeMVVM/DynamicTypeMVVMTests/DynamicTypeMVVMTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "FEC6A8A8-D311-44ED-9F23-75E894686193 - d746843f0eb5137b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in DynamicTypeMVVMTests.DynamicTypeMVVMTests.test() -&gt; ()"
+                  moduleName = "DynamicTypeMVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nego/Desktop/Demos/DynamicTypeMVVM/DynamicTypeMVVMTests/DynamicTypeMVVMTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "FEC6A8A8-D311-44ED-9F23-75E894686193 - d746843f0eb5137b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in DynamicTypeMVVMTests.DynamicTypeMVVMTests.test() -&gt; ()"
+                  moduleName = "DynamicTypeMVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nego/Desktop/Demos/DynamicTypeMVVM/DynamicTypeMVVMTests/DynamicTypeMVVMTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
