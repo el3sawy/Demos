@@ -38,7 +38,13 @@ class ListProductTableViewCell: UITableViewCell {
     
 }
 
+/// The `ViewModel` struct represents the view model used to configure the `NewRecipeCollectionViewCell`.
+///
+/// Contains the necessary data for displaying the recipe information.
+/// - SeeAlso: `Recipe`
+///
 extension ListProductTableViewCell {
+    /// The view model used to configure the `NewRecipeCollectionViewCell`.
     struct ViewModelCell {
         let title: String
         let price: String

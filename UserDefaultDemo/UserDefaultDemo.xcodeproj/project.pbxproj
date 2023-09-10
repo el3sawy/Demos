@@ -17,6 +17,10 @@
 		77E4359B2AAE47AD00CCB47E /* ListProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E435992AAE47AD00CCB47E /* ListProductTableViewCell.xib */; };
 		77E4359D2AAE49C600CCB47E /* ListProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4359C2AAE49C600CCB47E /* ListProductViewModel.swift */; };
 		77E435A02AAE4B6800CCB47E /* ProdcutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4359F2AAE4B6800CCB47E /* ProdcutModel.swift */; };
+		77E435A42AAE53D600CCB47E /* ViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E435A32AAE53D600CCB47E /* ViewHeader.swift */; };
+		77E435A62AAE53DB00CCB47E /* ViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E435A52AAE53DB00CCB47E /* ViewHeader.xib */; };
+		77E435AA2AAE549200CCB47E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E435A82AAE549200CCB47E /* HomeViewController.swift */; };
+		77E435AB2AAE549200CCB47E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E435A92AAE549200CCB47E /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		77E435992AAE47AD00CCB47E /* ListProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListProductTableViewCell.xib; sourceTree = "<group>"; };
 		77E4359C2AAE49C600CCB47E /* ListProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductViewModel.swift; sourceTree = "<group>"; };
 		77E4359F2AAE4B6800CCB47E /* ProdcutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdcutModel.swift; sourceTree = "<group>"; };
+		77E435A32AAE53D600CCB47E /* ViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeader.swift; sourceTree = "<group>"; };
+		77E435A52AAE53DB00CCB47E /* ViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewHeader.xib; sourceTree = "<group>"; };
+		77E435A82AAE549200CCB47E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		77E435A92AAE549200CCB47E /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 		77E4357B2AADC89C00CCB47E /* UserDefaultDemo */ = {
 			isa = PBXGroup;
 			children = (
+				77E435A12AAE53B000CCB47E /* Home */,
 				77E435922AAE46FD00CCB47E /* ListProdcuts */,
 				77E435902AADC8B400CCB47E /* KeyValueWrapper.swift */,
 				77E4357C2AADC89C00CCB47E /* AppDelegate.swift */,
@@ -101,6 +110,33 @@
 				77E4359F2AAE4B6800CCB47E /* ProdcutModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		77E435A12AAE53B000CCB47E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				77E435A72AAE548100CCB47E /* VC */,
+				77E435A22AAE53BD00CCB47E /* HeaderView */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		77E435A22AAE53BD00CCB47E /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				77E435A32AAE53D600CCB47E /* ViewHeader.swift */,
+				77E435A52AAE53DB00CCB47E /* ViewHeader.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		77E435A72AAE548100CCB47E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				77E435A82AAE549200CCB47E /* HomeViewController.swift */,
+				77E435A92AAE549200CCB47E /* HomeViewController.xib */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E435892AADC89D00CCB47E /* LaunchScreen.storyboard in Resources */,
+				77E435A62AAE53DB00CCB47E /* ViewHeader.xib in Resources */,
 				77E4359B2AAE47AD00CCB47E /* ListProductTableViewCell.xib in Resources */,
 				77E435862AADC89D00CCB47E /* Assets.xcassets in Resources */,
 				77E435962AAE471200CCB47E /* ListProdctsViewController.xib in Resources */,
+				77E435AB2AAE549200CCB47E /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +216,8 @@
 				77E4357D2AADC89C00CCB47E /* AppDelegate.swift in Sources */,
 				77E4359D2AAE49C600CCB47E /* ListProductViewModel.swift in Sources */,
 				77E4359A2AAE47AD00CCB47E /* ListProductTableViewCell.swift in Sources */,
+				77E435AA2AAE549200CCB47E /* HomeViewController.swift in Sources */,
+				77E435A42AAE53D600CCB47E /* ViewHeader.swift in Sources */,
 				77E435A02AAE4B6800CCB47E /* ProdcutModel.swift in Sources */,
 				77E435912AADC8B400CCB47E /* KeyValueWrapper.swift in Sources */,
 				77E435952AAE471200CCB47E /* ListProdctsViewController.swift in Sources */,
