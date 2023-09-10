@@ -13,6 +13,10 @@
 		77E435912AADC8B400CCB47E /* KeyValueWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E435902AADC8B400CCB47E /* KeyValueWrapper.swift */; };
 		77E435952AAE471200CCB47E /* ListProdctsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E435932AAE471200CCB47E /* ListProdctsViewController.swift */; };
 		77E435962AAE471200CCB47E /* ListProdctsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E435942AAE471200CCB47E /* ListProdctsViewController.xib */; };
+		77E4359A2AAE47AD00CCB47E /* ListProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E435982AAE47AD00CCB47E /* ListProductTableViewCell.swift */; };
+		77E4359B2AAE47AD00CCB47E /* ListProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E435992AAE47AD00CCB47E /* ListProductTableViewCell.xib */; };
+		77E4359D2AAE49C600CCB47E /* ListProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4359C2AAE49C600CCB47E /* ListProductViewModel.swift */; };
+		77E435A02AAE4B6800CCB47E /* ProdcutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4359F2AAE4B6800CCB47E /* ProdcutModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		77E435902AADC8B400CCB47E /* KeyValueWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueWrapper.swift; sourceTree = "<group>"; };
 		77E435932AAE471200CCB47E /* ListProdctsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProdctsViewController.swift; sourceTree = "<group>"; };
 		77E435942AAE471200CCB47E /* ListProdctsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListProdctsViewController.xib; sourceTree = "<group>"; };
+		77E435982AAE47AD00CCB47E /* ListProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductTableViewCell.swift; sourceTree = "<group>"; };
+		77E435992AAE47AD00CCB47E /* ListProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListProductTableViewCell.xib; sourceTree = "<group>"; };
+		77E4359C2AAE49C600CCB47E /* ListProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductViewModel.swift; sourceTree = "<group>"; };
+		77E4359F2AAE4B6800CCB47E /* ProdcutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdcutModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +77,30 @@
 		77E435922AAE46FD00CCB47E /* ListProdcuts */ = {
 			isa = PBXGroup;
 			children = (
+				77E4359E2AAE4B5400CCB47E /* Models */,
+				77E435972AAE479800CCB47E /* Cell */,
 				77E435932AAE471200CCB47E /* ListProdctsViewController.swift */,
 				77E435942AAE471200CCB47E /* ListProdctsViewController.xib */,
+				77E4359C2AAE49C600CCB47E /* ListProductViewModel.swift */,
 			);
 			path = ListProdcuts;
+			sourceTree = "<group>";
+		};
+		77E435972AAE479800CCB47E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				77E435982AAE47AD00CCB47E /* ListProductTableViewCell.swift */,
+				77E435992AAE47AD00CCB47E /* ListProductTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		77E4359E2AAE4B5400CCB47E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77E4359F2AAE4B6800CCB47E /* ProdcutModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E435892AADC89D00CCB47E /* LaunchScreen.storyboard in Resources */,
+				77E4359B2AAE47AD00CCB47E /* ListProductTableViewCell.xib in Resources */,
 				77E435862AADC89D00CCB47E /* Assets.xcassets in Resources */,
 				77E435962AAE471200CCB47E /* ListProdctsViewController.xib in Resources */,
 			);
@@ -147,6 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E4357D2AADC89C00CCB47E /* AppDelegate.swift in Sources */,
+				77E4359D2AAE49C600CCB47E /* ListProductViewModel.swift in Sources */,
+				77E4359A2AAE47AD00CCB47E /* ListProductTableViewCell.swift in Sources */,
+				77E435A02AAE4B6800CCB47E /* ProdcutModel.swift in Sources */,
 				77E435912AADC8B400CCB47E /* KeyValueWrapper.swift in Sources */,
 				77E435952AAE471200CCB47E /* ListProdctsViewController.swift in Sources */,
 			);
