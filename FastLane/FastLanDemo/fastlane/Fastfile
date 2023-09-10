@@ -1,0 +1,86 @@
+default_platform(:ios)
+
+platform :ios do
+
+
+  lane :certinication do
+    match(app_identifier: ["com.Dinamo.App"])
+  end
+
+  desc "Install Cocopods for project "
+  lane :install_pods do 
+    cocoapods(
+      clean_install: true
+      )
+  end
+
+  lane :increase do
+    increment_build_number
+  end
+  lane :CI do
+    install_pods
+    certinication
+
+    gym(
+      scheme: "FastLanDemo Prod",
+      workspace: "FastLanDemo.xcworkspace",
+      output_name: "FastLanDemo.ipa",
+      build_path: "build/",
+      clean:true,
+      export_options: {
+        signingStyle: "manual",
+        compileBitcode: false, 
+        uploadBitcode: false,
+        method: "ad-hoc",
+        provisioningProfiles: {
+          "com.Dinamo.App" => "com.Dinamo.App_adhoc"
+      }})
+
+      firebase_app_distribution(
+        firebase_cli_token: "1//038nlMTKE7YgSCgYIARAAGAMSNwF-L9IrBZsxn6yW7ldENu3H6JugEqf5QUWTvJv-w5Tdv8PY3X2cvJz51RMECd1nh6XJ1C9pto8",
+        app: "1:750587419000:ios:3d89a977e0751b6ac8508d",
+        testers: "ahmedmaelesawy@gmail.com",
+        release_notes: "Lots of amazing new features to test out! Denamo"
+      )
+
+  end
+
+
+  desc "Description of what the lane does"
+  lane :CI2 do
+    gym(scheme: "FastLanDemo Prod",
+    workspace: "FastLanDemo.xcworkspace",
+    skip_profile_detection: true,
+    destination: "generic/platform=iOS",
+    silent: true,
+    suppress_xcode_output: true,
+    output_directory: "build/",
+    output_name: "FastLanDemo.ipa",
+    build_path: "build/archive/",
+    derived_data_path: "build/derivedData/",
+    clean:true,
+    export_options: {
+                signingStyle: "manual",
+                compileBitcode: false, 
+                uploadBitcode: false,
+                method: "ad-hoc",
+                provisioningProfiles: {
+                  "com.Dinamo.App" => "com.Dinamo.App_adhoc"
+    }})
+    
+  end
+
+  lane :beta do
+    build_app(
+      export_method: "ad-hoc",
+      export_options: {
+        provisioningProfiles: { 
+          "com.Dinamo.App" => "comDinamoApp_adhoc"
+        }
+      }
+    )
+  end
+end
+
+
+# Clean build artifacts
