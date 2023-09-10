@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ListProdctsViewController.swift
 //  UserDefaultDemo
 //
 //  Created by NTG on 10/09/2023.
@@ -7,13 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ListProdctsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-
