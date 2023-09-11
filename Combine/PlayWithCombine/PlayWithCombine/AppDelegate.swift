@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
        
         window = UIWindow()
-        window?.rootViewController =  ButtonViewController() //UINavigationController(rootViewController: HomeViewController())
+        window?.rootViewController =  PublishersViewController() //UINavigationController(rootViewController: HomeViewController())
         window?.makeKeyAndVisible()
         return true
     }

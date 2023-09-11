@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77E435B22AAF2CB200CCB47E /* TimerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E435B02AAF2CB200CCB47E /* TimerDemoViewController.swift */; };
+		77E435B32AAF2CB200CCB47E /* TimerDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E435B12AAF2CB200CCB47E /* TimerDemoViewController.xib */; };
 		9295FCA529854019008BA4D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295FCA429854019008BA4D0 /* AppDelegate.swift */; };
 		9295FCAE2985401A008BA4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9295FCAD2985401A008BA4D0 /* Assets.xcassets */; };
 		9295FCB12985401A008BA4D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9295FCAF2985401A008BA4D0 /* LaunchScreen.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77E435B02AAF2CB200CCB47E /* TimerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDemoViewController.swift; sourceTree = "<group>"; };
+		77E435B12AAF2CB200CCB47E /* TimerDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerDemoViewController.xib; sourceTree = "<group>"; };
 		9295FCA129854019008BA4D0 /* CombineWithUIkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineWithUIkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9295FCA429854019008BA4D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9295FCAD2985401A008BA4D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77E435AF2AAF2CA400CCB47E /* TimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				77E435B02AAF2CB200CCB47E /* TimerDemoViewController.swift */,
+				77E435B12AAF2CB200CCB47E /* TimerDemoViewController.xib */,
+			);
+			path = TimerDemo;
+			sourceTree = "<group>";
+		};
 		9295FC9829854019008BA4D0 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +106,7 @@
 		9295FCBC298540B9008BA4D0 /* Secnces */ = {
 			isa = PBXGroup;
 			children = (
+				77E435AF2AAF2CA400CCB47E /* TimerDemo */,
 				9295FCD92985A5E4008BA4D0 /* Home */,
 				9295FCD42985A48F008BA4D0 /* UISwitch */,
 				9295FCCD2985A24E008BA4D0 /* UITextView */,
@@ -218,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9295FCD82985A49A008BA4D0 /* UISwitchViewController.xib in Resources */,
+				77E435B32AAF2CB200CCB47E /* TimerDemoViewController.xib in Resources */,
 				9295FCD12985A255008BA4D0 /* UITextViewViewController.xib in Resources */,
 				9295FCC729859999008BA4D0 /* TextFiledViewController.xib in Resources */,
 				9295FCBB2985405F008BA4D0 /* ButtonViewController.xib in Resources */,
@@ -243,6 +258,7 @@
 				9295FCD72985A49A008BA4D0 /* UISwitchViewController.swift in Sources */,
 				9295FCDC2985A5F2008BA4D0 /* HomeViewController.swift in Sources */,
 				9295FCC9298599E0008BA4D0 /* UITextField+Comine.swift in Sources */,
+				77E435B22AAF2CB200CCB47E /* TimerDemoViewController.swift in Sources */,
 				9295FCD02985A255008BA4D0 /* UITextViewViewController.swift in Sources */,
 				9295FCC22985429E008BA4D0 /* Button+Combine.swift in Sources */,
 			);

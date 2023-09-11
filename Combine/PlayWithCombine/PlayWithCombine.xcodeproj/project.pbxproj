@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77E435B52AAF31E700CCB47E /* PublishersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E435B42AAF31E700CCB47E /* PublishersViewController.swift */; };
 		925960A828CE66BF008305D5 /* CustomSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925960A728CE66BF008305D5 /* CustomSink.swift */; };
 		9295FC9629853FD2008BA4D0 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295FC9429853FD2008BA4D0 /* ButtonViewController.swift */; };
 		9295FC9729853FD2008BA4D0 /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9295FC9529853FD2008BA4D0 /* ButtonViewController.xib */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77E435B42AAF31E700CCB47E /* PublishersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersViewController.swift; sourceTree = "<group>"; };
 		925960A728CE66BF008305D5 /* CustomSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSink.swift; sourceTree = "<group>"; };
 		9295FC9429853FD2008BA4D0 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 		9295FC9529853FD2008BA4D0 /* ButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				925960A728CE66BF008305D5 /* CustomSink.swift */,
 				9295FC9429853FD2008BA4D0 /* ButtonViewController.swift */,
 				9295FC9529853FD2008BA4D0 /* ButtonViewController.xib */,
+				77E435B42AAF31E700CCB47E /* PublishersViewController.swift */,
 			);
 			path = PlayWithCombine;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				92BB106728B37DBD00C43B06 /* Todo.swift in Sources */,
 				92C7A47428D796C4003C76E2 /* TestUIkitViewController.swift in Sources */,
 				92C7A47928D7AFF8003C76E2 /* TextField+.swift in Sources */,
+				77E435B52AAF31E700CCB47E /* PublishersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
