@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow()
         window?.rootViewController = CollectionViewViewController()
+//        SortViewController()
         window?.makeKeyAndVisible()
         return true
     }

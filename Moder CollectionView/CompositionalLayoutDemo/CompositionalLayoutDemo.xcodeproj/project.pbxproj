@@ -54,6 +54,17 @@
 		92E1C3D529219586007FD4DE /* TableViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1C3D429219586007FD4DE /* TableViewDemoViewController.swift */; };
 		92E1C3D729219882007FD4DE /* SubjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1C3D629219882007FD4DE /* SubjectModel.swift */; };
 		92E1C3D92921990D007FD4DE /* ConfigSubjectCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1C3D82921990D007FD4DE /* ConfigSubjectCollection.swift */; };
+		D9C3B5562B03CEEB008F021E /* StretchyHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3B5542B03CEEB008F021E /* StretchyHeaderViewController.swift */; };
+		D9C3B5572B03CEEB008F021E /* StretchyHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C3B5552B03CEEB008F021E /* StretchyHeaderViewController.xib */; };
+		D9C3B55B2B03CF5F008F021E /* HeaderDemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3B5592B03CF5F008F021E /* HeaderDemoCollectionViewCell.swift */; };
+		D9C3B55C2B03CF5F008F021E /* HeaderDemoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C3B55A2B03CF5F008F021E /* HeaderDemoCollectionViewCell.xib */; };
+		D9D772752B85F85D00EDDCFE /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D772732B85F85D00EDDCFE /* FAQViewController.swift */; };
+		D9D772762B85F85D00EDDCFE /* FAQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D772742B85F85D00EDDCFE /* FAQViewController.xib */; };
+		D9D7727A2B85F8B700EDDCFE /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D772782B85F8B700EDDCFE /* QuestionCollectionViewCell.swift */; };
+		D9D7727B2B85F8B700EDDCFE /* QuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D772792B85F8B700EDDCFE /* QuestionCollectionViewCell.xib */; };
+		D9D7727F2B862DB300EDDCFE /* OfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7727D2B862DB300EDDCFE /* OfferCollectionViewCell.swift */; };
+		D9D772802B862DB300EDDCFE /* OfferCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D7727E2B862DB300EDDCFE /* OfferCollectionViewCell.xib */; };
+		D9D772832B872DFA00EDDCFE /* FAQLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D772822B872DFA00EDDCFE /* FAQLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +117,17 @@
 		92E1C3D429219586007FD4DE /* TableViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemoViewController.swift; sourceTree = "<group>"; };
 		92E1C3D629219882007FD4DE /* SubjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectModel.swift; sourceTree = "<group>"; };
 		92E1C3D82921990D007FD4DE /* ConfigSubjectCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigSubjectCollection.swift; sourceTree = "<group>"; };
+		D9C3B5542B03CEEB008F021E /* StretchyHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderViewController.swift; sourceTree = "<group>"; };
+		D9C3B5552B03CEEB008F021E /* StretchyHeaderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StretchyHeaderViewController.xib; sourceTree = "<group>"; };
+		D9C3B5592B03CF5F008F021E /* HeaderDemoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDemoCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9C3B55A2B03CF5F008F021E /* HeaderDemoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderDemoCollectionViewCell.xib; sourceTree = "<group>"; };
+		D9D772732B85F85D00EDDCFE /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		D9D772742B85F85D00EDDCFE /* FAQViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQViewController.xib; sourceTree = "<group>"; };
+		D9D772782B85F8B700EDDCFE /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9D772792B85F8B700EDDCFE /* QuestionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionCollectionViewCell.xib; sourceTree = "<group>"; };
+		D9D7727D2B862DB300EDDCFE /* OfferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionViewCell.swift; sourceTree = "<group>"; };
+		D9D7727E2B862DB300EDDCFE /* OfferCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferCollectionViewCell.xib; sourceTree = "<group>"; };
+		D9D772822B872DFA00EDDCFE /* FAQLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +191,7 @@
 		9214C73B290EF06A00406316 /* ViewConroller */ = {
 			isa = PBXGroup;
 			children = (
+				922513F328FD7BD800010FA2 /* LayoutManager.swift */,
 				92551EFC28FB39F5002E5D08 /* ListEpisodesViewController.swift */,
 				92551EFD28FB39F5002E5D08 /* ListEpisodesViewController.xib */,
 			);
@@ -223,6 +246,7 @@
 		92551EE528FB3971002E5D08 /* CompositionalLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D9C3B5532B03CECF008F021E /* Stretchy Header Collection */,
 				92385C3029217CC9001FACCE /* ReusableComponent */,
 				921169EC2911B93000422875 /* Extentions */,
 				92963EE628FC0383004280EC /* CustomViews */,
@@ -240,6 +264,7 @@
 		92551EFA28FB39D0002E5D08 /* Sences */ = {
 			isa = PBXGroup;
 			children = (
+				D9D772722B85F84D00EDDCFE /* FAQ */,
 				92E1C3D329219572007FD4DE /* TableViewDemo */,
 				92385C2429216EFF001FACCE /* Home */,
 				923FEC14291C43D100B70CB3 /* Outline */,
@@ -257,7 +282,6 @@
 				9214C73A290EF04200406316 /* CollectionViewCells */,
 				92963EE928FC04F9004280EC /* DataLoaderUseCase.swift */,
 				92963EEB28FC214F004280EC /* ListEpisodesViewModel.swift */,
-				922513F328FD7BD800010FA2 /* LayoutManager.swift */,
 				92028FD32909C65600B26940 /* SectionHeader.swift */,
 			);
 			path = ListEpisodes;
@@ -358,6 +382,63 @@
 			path = TableViewDemo;
 			sourceTree = "<group>";
 		};
+		D9C3B5532B03CECF008F021E /* Stretchy Header Collection */ = {
+			isa = PBXGroup;
+			children = (
+				D9C3B5582B03CF44008F021E /* Herader */,
+				D9C3B5542B03CEEB008F021E /* StretchyHeaderViewController.swift */,
+				D9C3B5552B03CEEB008F021E /* StretchyHeaderViewController.xib */,
+			);
+			path = "Stretchy Header Collection";
+			sourceTree = "<group>";
+		};
+		D9C3B5582B03CF44008F021E /* Herader */ = {
+			isa = PBXGroup;
+			children = (
+				D9C3B5592B03CF5F008F021E /* HeaderDemoCollectionViewCell.swift */,
+				D9C3B55A2B03CF5F008F021E /* HeaderDemoCollectionViewCell.xib */,
+			);
+			path = Herader;
+			sourceTree = "<group>";
+		};
+		D9D772722B85F84D00EDDCFE /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				D9D772812B872DBA00EDDCFE /* ViewController */,
+				D9D7727C2B862D9A00EDDCFE /* OfferCell */,
+				D9D772772B85F8B700EDDCFE /* QuestionCell */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		D9D772772B85F8B700EDDCFE /* QuestionCell */ = {
+			isa = PBXGroup;
+			children = (
+				D9D772782B85F8B700EDDCFE /* QuestionCollectionViewCell.swift */,
+				D9D772792B85F8B700EDDCFE /* QuestionCollectionViewCell.xib */,
+			);
+			path = QuestionCell;
+			sourceTree = "<group>";
+		};
+		D9D7727C2B862D9A00EDDCFE /* OfferCell */ = {
+			isa = PBXGroup;
+			children = (
+				D9D7727D2B862DB300EDDCFE /* OfferCollectionViewCell.swift */,
+				D9D7727E2B862DB300EDDCFE /* OfferCollectionViewCell.xib */,
+			);
+			path = OfferCell;
+			sourceTree = "<group>";
+		};
+		D9D772812B872DBA00EDDCFE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D9D772742B85F85D00EDDCFE /* FAQViewController.xib */,
+				D9D772732B85F85D00EDDCFE /* FAQViewController.swift */,
+				D9D772822B872DFA00EDDCFE /* FAQLayout.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -416,12 +497,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D772802B862DB300EDDCFE /* OfferCollectionViewCell.xib in Resources */,
+				D9C3B55C2B03CF5F008F021E /* HeaderDemoCollectionViewCell.xib in Resources */,
 				92551EF328FB3972002E5D08 /* LaunchScreen.storyboard in Resources */,
 				92551EFF28FB39F5002E5D08 /* ListEpisodesViewController.xib in Resources */,
 				927A64FB291AEB1600BF3BE9 /* ListMountainsViewController.xib in Resources */,
 				9214C739290EEE8B00406316 /* SeriesCellCollectionViewCell.xib in Resources */,
 				92028FD22909BACD00B26940 /* EpisodeCell.xib in Resources */,
+				D9D7727B2B85F8B700EDDCFE /* QuestionCollectionViewCell.xib in Resources */,
 				927A6502291AEBFF00BF3BE9 /* MountainsCollectionViewCell.xib in Resources */,
+				D9D772762B85F85D00EDDCFE /* FAQViewController.xib in Resources */,
+				D9C3B5572B03CEEB008F021E /* StretchyHeaderViewController.xib in Resources */,
 				92963EF128FC2EF0004280EC /* EpisodesCollectionViewCell.xib in Resources */,
 				92551EF028FB3972002E5D08 /* Assets.xcassets in Resources */,
 			);
@@ -440,6 +526,7 @@
 				92E1C3D92921990D007FD4DE /* ConfigSubjectCollection.swift in Sources */,
 				92385C3629218915001FACCE /* SectionEpisode.swift in Sources */,
 				923FEC0F291C1F1C00B70CB3 /* MountainDataSource.swift in Sources */,
+				D9D772832B872DFA00EDDCFE /* FAQLayout.swift in Sources */,
 				927A64FD291AEBBF00BF3BE9 /* MountainsRawData.swift in Sources */,
 				92E1C3D229219294007FD4DE /* ConfiOutlineCollection.swift in Sources */,
 				922513F428FD7BD800010FA2 /* LayoutManager.swift in Sources */,
@@ -451,12 +538,15 @@
 				9214C738290EEE8B00406316 /* SeriesCellCollectionViewCell.swift in Sources */,
 				92E1C3D729219882007FD4DE /* SubjectModel.swift in Sources */,
 				92551EFE28FB39F5002E5D08 /* ListEpisodesViewController.swift in Sources */,
+				D9D7727F2B862DB300EDDCFE /* OfferCollectionViewCell.swift in Sources */,
 				92551F0B28FB42FC002E5D08 /* URLEnum.swift in Sources */,
 				923FEC13291C30C600B70CB3 /* UITextField+Combine.swift in Sources */,
+				D9C3B55B2B03CF5F008F021E /* HeaderDemoCollectionViewCell.swift in Sources */,
 				923FEC1A291C450100B70CB3 /* OutlineItem.swift in Sources */,
 				92551F0228FB3A64002E5D08 /* Network.swift in Sources */,
 				92385C3429217D26001FACCE /* Pushable.swift in Sources */,
 				927A6504291AEDBD00BF3BE9 /* MountainLayout.swift in Sources */,
+				D9C3B5562B03CEEB008F021E /* StretchyHeaderViewController.swift in Sources */,
 				92551F0E28FB43D2002E5D08 /* EpisodeModel.swift in Sources */,
 				92385C2729216F47001FACCE /* HomeViewController.swift in Sources */,
 				927A64FA291AEB1600BF3BE9 /* ListMountainsViewController.swift in Sources */,
@@ -469,8 +559,10 @@
 				92385C2A29217076001FACCE /* HomeConfigCollection.swift in Sources */,
 				92385C3229217CD6001FACCE /* PresentableAlert.swift in Sources */,
 				92028FD42909C65600B26940 /* SectionHeader.swift in Sources */,
+				D9D7727A2B85F8B700EDDCFE /* QuestionCollectionViewCell.swift in Sources */,
 				92963EEA28FC04F9004280EC /* DataLoaderUseCase.swift in Sources */,
 				922513F228FD79F500010FA2 /* ColorCell.swift in Sources */,
+				D9D772752B85F85D00EDDCFE /* FAQViewController.swift in Sources */,
 				92385C2F29217C41001FACCE /* UIViewController+Push.swift in Sources */,
 				92551F0528FB4059002E5D08 /* AppRepository.swift in Sources */,
 			);
@@ -541,7 +633,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -596,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

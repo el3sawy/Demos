@@ -15,7 +15,51 @@
 		921AB89828F342ED00C70639 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921AB89628F342ED00C70639 /* HomeViewController.xib */; };
 		921AB89B28F346C700C70639 /* ContactPreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921AB89A28F346C700C70639 /* ContactPreviewView.xib */; };
 		921AB89D28F3470000C70639 /* ContactPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921AB89C28F3470000C70639 /* ContactPreviewView.swift */; };
+		D93AFB172B3D94A100341786 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93AFB162B3D94A100341786 /* WidgetKit.framework */; };
+		D93AFB192B3D94A100341786 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93AFB182B3D94A100341786 /* SwiftUI.framework */; };
+		D93AFB1C2B3D94A100341786 /* WeidgetDemoBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AFB1B2B3D94A100341786 /* WeidgetDemoBundle.swift */; };
+		D93AFB1E2B3D94A100341786 /* WeidgetDemoLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AFB1D2B3D94A100341786 /* WeidgetDemoLiveActivity.swift */; };
+		D93AFB202B3D94A100341786 /* WeidgetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AFB1F2B3D94A100341786 /* WeidgetDemo.swift */; };
+		D93AFB222B3D94A100341786 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AFB212B3D94A100341786 /* AppIntent.swift */; };
+		D93AFB242B3D94A200341786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93AFB232B3D94A200341786 /* Assets.xcassets */; };
+		D93AFB282B3D94A200341786 /* WeidgetDemoExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D93AFB152B3D94A100341786 /* WeidgetDemoExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D9482E9A2B39E0F80056BF5B /* TestToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9482E982B39E0F80056BF5B /* TestToastViewController.swift */; };
+		D9482E9B2B39E0F80056BF5B /* TestToastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9482E992B39E0F80056BF5B /* TestToastViewController.xib */; };
+		D9482E9D2B39E1130056BF5B /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9482E9C2B39E1130056BF5B /* ToastView.swift */; };
+		D981AC672B04D7B400395066 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D981AC662B04D7B400395066 /* Lottie */; };
+		D981AC692B04D8FF00395066 /* square_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = D981AC682B04D8FF00395066 /* square_animation.json */; };
+		D98886102AF03AE000FA6029 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D988860F2AF03AE000FA6029 /* DemoViewController.swift */; };
+		D990DC1C2B13C2AB00166A02 /* HeaderAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990DC1A2B13C2AB00166A02 /* HeaderAnimationViewController.swift */; };
+		D990DC1D2B13C2AB00166A02 /* HeaderAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D990DC1B2B13C2AB00166A02 /* HeaderAnimationViewController.xib */; };
+		D9A22A512B1DFD1000609F1E /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A22A4F2B1DFD1000609F1E /* MapsViewController.swift */; };
+		D9A22A522B1DFD1000609F1E /* MapsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A22A502B1DFD1000609F1E /* MapsViewController.xib */; };
+		D9CDB29B2B0600EE00861CC9 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDB2992B0600EE00861CC9 /* ProgressViewController.swift */; };
+		D9CDB29C2B0600EE00861CC9 /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9CDB29A2B0600EE00861CC9 /* ProgressViewController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D93AFB262B3D94A200341786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921AB87528F3429E00C70639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D93AFB142B3D94A100341786;
+			remoteInfo = WeidgetDemoExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D93AFB292B3D94A200341786 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D93AFB282B3D94A200341786 /* WeidgetDemoExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		921AB87D28F3429E00C70639 /* LayoutTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +72,26 @@
 		921AB89628F342ED00C70639 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		921AB89A28F346C700C70639 /* ContactPreviewView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactPreviewView.xib; sourceTree = "<group>"; };
 		921AB89C28F3470000C70639 /* ContactPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPreviewView.swift; sourceTree = "<group>"; };
+		D93AFB152B3D94A100341786 /* WeidgetDemoExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WeidgetDemoExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93AFB162B3D94A100341786 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D93AFB182B3D94A100341786 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D93AFB1B2B3D94A100341786 /* WeidgetDemoBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeidgetDemoBundle.swift; sourceTree = "<group>"; };
+		D93AFB1D2B3D94A100341786 /* WeidgetDemoLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeidgetDemoLiveActivity.swift; sourceTree = "<group>"; };
+		D93AFB1F2B3D94A100341786 /* WeidgetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeidgetDemo.swift; sourceTree = "<group>"; };
+		D93AFB212B3D94A100341786 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		D93AFB232B3D94A200341786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D93AFB252B3D94A200341786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9482E982B39E0F80056BF5B /* TestToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestToastViewController.swift; sourceTree = "<group>"; };
+		D9482E992B39E0F80056BF5B /* TestToastViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestToastViewController.xib; sourceTree = "<group>"; };
+		D9482E9C2B39E1130056BF5B /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		D981AC682B04D8FF00395066 /* square_animation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = square_animation.json; sourceTree = "<group>"; };
+		D988860F2AF03AE000FA6029 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		D990DC1A2B13C2AB00166A02 /* HeaderAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAnimationViewController.swift; sourceTree = "<group>"; };
+		D990DC1B2B13C2AB00166A02 /* HeaderAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderAnimationViewController.xib; sourceTree = "<group>"; };
+		D9A22A4F2B1DFD1000609F1E /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		D9A22A502B1DFD1000609F1E /* MapsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapsViewController.xib; sourceTree = "<group>"; };
+		D9CDB2992B0600EE00861CC9 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		D9CDB29A2B0600EE00861CC9 /* ProgressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +99,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D981AC672B04D7B400395066 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93AFB122B3D94A100341786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93AFB192B3D94A100341786 /* SwiftUI.framework in Frameworks */,
+				D93AFB172B3D94A100341786 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				921AB87F28F3429E00C70639 /* LayoutTests */,
+				D93AFB1A2B3D94A100341786 /* WeidgetDemo */,
 				921AB87E28F3429E00C70639 /* Products */,
+				D988860B2AEFD44D00FA6029 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				921AB87D28F3429E00C70639 /* LayoutTests.app */,
+				D93AFB152B3D94A100341786 /* WeidgetDemoExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +137,9 @@
 		921AB87F28F3429E00C70639 /* LayoutTests */ = {
 			isa = PBXGroup;
 			children = (
+				D9482E972B39E0EA0056BF5B /* TestTost */,
+				D9A22A4E2B1DFD0500609F1E /* Maps */,
+				D95668832B13C226005B4A9B /* HeaderAnimation */,
 				921AB89928F346C000C70639 /* ContactPreviewView */,
 				921AB89428F342E400C70639 /* Home */,
 				921AB88028F3429E00C70639 /* AppDelegate.swift */,
@@ -67,6 +147,7 @@
 				921AB88928F3429F00C70639 /* Assets.xcassets */,
 				921AB88B28F3429F00C70639 /* LaunchScreen.storyboard */,
 				921AB88E28F3429F00C70639 /* Info.plist */,
+				D988860F2AF03AE000FA6029 /* DemoViewController.swift */,
 			);
 			path = LayoutTests;
 			sourceTree = "<group>";
@@ -75,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				921AB89528F342ED00C70639 /* HomeViewController.swift */,
+				D981AC682B04D8FF00395066 /* square_animation.json */,
 				921AB89628F342ED00C70639 /* HomeViewController.xib */,
 			);
 			path = Home;
@@ -83,10 +165,70 @@
 		921AB89928F346C000C70639 /* ContactPreviewView */ = {
 			isa = PBXGroup;
 			children = (
+				D9CDB2982B0600DE00861CC9 /* ProgressView */,
 				921AB89A28F346C700C70639 /* ContactPreviewView.xib */,
 				921AB89C28F3470000C70639 /* ContactPreviewView.swift */,
 			);
 			path = ContactPreviewView;
+			sourceTree = "<group>";
+		};
+		D93AFB1A2B3D94A100341786 /* WeidgetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D93AFB1B2B3D94A100341786 /* WeidgetDemoBundle.swift */,
+				D93AFB1D2B3D94A100341786 /* WeidgetDemoLiveActivity.swift */,
+				D93AFB1F2B3D94A100341786 /* WeidgetDemo.swift */,
+				D93AFB212B3D94A100341786 /* AppIntent.swift */,
+				D93AFB232B3D94A200341786 /* Assets.xcassets */,
+				D93AFB252B3D94A200341786 /* Info.plist */,
+			);
+			path = WeidgetDemo;
+			sourceTree = "<group>";
+		};
+		D9482E972B39E0EA0056BF5B /* TestTost */ = {
+			isa = PBXGroup;
+			children = (
+				D9482E982B39E0F80056BF5B /* TestToastViewController.swift */,
+				D9482E992B39E0F80056BF5B /* TestToastViewController.xib */,
+				D9482E9C2B39E1130056BF5B /* ToastView.swift */,
+			);
+			path = TestTost;
+			sourceTree = "<group>";
+		};
+		D95668832B13C226005B4A9B /* HeaderAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D990DC1A2B13C2AB00166A02 /* HeaderAnimationViewController.swift */,
+				D990DC1B2B13C2AB00166A02 /* HeaderAnimationViewController.xib */,
+			);
+			path = HeaderAnimation;
+			sourceTree = "<group>";
+		};
+		D988860B2AEFD44D00FA6029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D93AFB162B3D94A100341786 /* WidgetKit.framework */,
+				D93AFB182B3D94A100341786 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A22A4E2B1DFD0500609F1E /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				D9A22A4F2B1DFD1000609F1E /* MapsViewController.swift */,
+				D9A22A502B1DFD1000609F1E /* MapsViewController.xib */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		D9CDB2982B0600DE00861CC9 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDB2992B0600EE00861CC9 /* ProgressViewController.swift */,
+				D9CDB29A2B0600EE00861CC9 /* ProgressViewController.xib */,
+			);
+			path = ProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,15 +241,37 @@
 				921AB87928F3429E00C70639 /* Sources */,
 				921AB87A28F3429E00C70639 /* Frameworks */,
 				921AB87B28F3429E00C70639 /* Resources */,
+				D93AFB292B3D94A200341786 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D93AFB272B3D94A200341786 /* PBXTargetDependency */,
+			);
+			name = LayoutTests;
+			packageProductDependencies = (
+				D981AC662B04D7B400395066 /* Lottie */,
+			);
+			productName = LayoutTests;
+			productReference = 921AB87D28F3429E00C70639 /* LayoutTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D93AFB142B3D94A100341786 /* WeidgetDemoExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93AFB2C2B3D94A200341786 /* Build configuration list for PBXNativeTarget "WeidgetDemoExtension" */;
+			buildPhases = (
+				D93AFB112B3D94A100341786 /* Sources */,
+				D93AFB122B3D94A100341786 /* Frameworks */,
+				D93AFB132B3D94A100341786 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LayoutTests;
-			productName = LayoutTests;
-			productReference = 921AB87D28F3429E00C70639 /* LayoutTests.app */;
-			productType = "com.apple.product-type.application";
+			name = WeidgetDemoExtension;
+			productName = WeidgetDemoExtension;
+			productReference = D93AFB152B3D94A100341786 /* WeidgetDemoExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -116,11 +280,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					921AB87C28F3429E00C70639 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					D93AFB142B3D94A100341786 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
@@ -133,11 +300,15 @@
 				Base,
 			);
 			mainGroup = 921AB87428F3429E00C70639;
+			packageReferences = (
+				D981AC652B04D7B400395066 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 921AB87E28F3429E00C70639 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				921AB87C28F3429E00C70639 /* LayoutTests */,
+				D93AFB142B3D94A100341786 /* WeidgetDemoExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -149,8 +320,21 @@
 			files = (
 				921AB89B28F346C700C70639 /* ContactPreviewView.xib in Resources */,
 				921AB88D28F3429F00C70639 /* LaunchScreen.storyboard in Resources */,
+				D9482E9B2B39E0F80056BF5B /* TestToastViewController.xib in Resources */,
+				D981AC692B04D8FF00395066 /* square_animation.json in Resources */,
 				921AB88A28F3429F00C70639 /* Assets.xcassets in Resources */,
 				921AB89828F342ED00C70639 /* HomeViewController.xib in Resources */,
+				D9CDB29C2B0600EE00861CC9 /* ProgressViewController.xib in Resources */,
+				D990DC1D2B13C2AB00166A02 /* HeaderAnimationViewController.xib in Resources */,
+				D9A22A522B1DFD1000609F1E /* MapsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93AFB132B3D94A100341786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93AFB242B3D94A200341786 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,13 +346,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				921AB89D28F3470000C70639 /* ContactPreviewView.swift in Sources */,
+				D9482E9A2B39E0F80056BF5B /* TestToastViewController.swift in Sources */,
+				D990DC1C2B13C2AB00166A02 /* HeaderAnimationViewController.swift in Sources */,
 				921AB88528F3429E00C70639 /* ViewController.swift in Sources */,
+				D9482E9D2B39E1130056BF5B /* ToastView.swift in Sources */,
+				D9A22A512B1DFD1000609F1E /* MapsViewController.swift in Sources */,
 				921AB88128F3429E00C70639 /* AppDelegate.swift in Sources */,
+				D9CDB29B2B0600EE00861CC9 /* ProgressViewController.swift in Sources */,
 				921AB89728F342ED00C70639 /* HomeViewController.swift in Sources */,
+				D98886102AF03AE000FA6029 /* DemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93AFB112B3D94A100341786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93AFB202B3D94A100341786 /* WeidgetDemo.swift in Sources */,
+				D93AFB222B3D94A100341786 /* AppIntent.swift in Sources */,
+				D93AFB1C2B3D94A100341786 /* WeidgetDemoBundle.swift in Sources */,
+				D93AFB1E2B3D94A100341786 /* WeidgetDemoLiveActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D93AFB272B3D94A200341786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D93AFB142B3D94A100341786 /* WeidgetDemoExtension */;
+			targetProxy = D93AFB262B3D94A200341786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		921AB88B28F3429F00C70639 /* LaunchScreen.storyboard */ = {
@@ -301,6 +510,7 @@
 		921AB89228F3429F00C70639 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +538,7 @@
 		921AB89328F3429F00C70639 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -346,6 +557,73 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.LayoutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D93AFB2A2B3D94A200341786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeidgetDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeidgetDemo;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.LayoutTests.WeidgetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D93AFB2B2B3D94A200341786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeidgetDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeidgetDemo;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.LayoutTests.WeidgetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,7 +651,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D93AFB2C2B3D94A200341786 /* Build configuration list for PBXNativeTarget "WeidgetDemoExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93AFB2A2B3D94A200341786 /* Debug */,
+				D93AFB2B2B3D94A200341786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D981AC652B04D7B400395066 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D981AC662B04D7B400395066 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D981AC652B04D7B400395066 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 921AB87528F3429E00C70639 /* Project object */;
 }

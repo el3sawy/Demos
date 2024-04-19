@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8C625A0E-BD28-4B22-B7E2-99BEFAA29D56"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE6A8C08-C95C-4EAA-B68F-E02A25458EAC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmilesUnitTestDemo/Network/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "request()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE6A8C08-C95C-4EAA-B68F-E02A25458EAC - 7ac9f0d554351f4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesUnitTestDemo.Network.request() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;SmilesUnitTestDemo.ItemModel&gt;, SmilesUnitTestDemo.NetworkError&gt;"
+                  moduleName = "SmilesUnitTestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/SmilesUnitTestDemo/SmilesUnitTestDemo/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "EE6A8C08-C95C-4EAA-B68F-E02A25458EAC - 7ac9f0d554351f4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesUnitTestDemo.Network.request() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;SmilesUnitTestDemo.ItemModel&gt;, SmilesUnitTestDemo.NetworkError&gt;"
+                  moduleName = "SmilesUnitTestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/SmilesUnitTestDemo/SmilesUnitTestDemo/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40FCB366-167F-4B15-A80E-81A859FF1F95"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmilesUnitTestDemoTests/Mocks/NetowrkMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "request()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40FCB366-167F-4B15-A80E-81A859FF1F95 - 60337183ef04caa1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesUnitTestDemoTests.NetworkMock.request() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;SmilesUnitTestDemo.ItemModel&gt;, SmilesUnitTestDemo.NetworkError&gt;"
+                  moduleName = "SmilesUnitTestDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/SmilesUnitTestDemo/SmilesUnitTestDemoTests/Mocks/NetowrkMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "40FCB366-167F-4B15-A80E-81A859FF1F95 - 15f332804bed9372"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Array&lt;SmilesUnitTestDemo.ItemModel&gt;, SmilesUnitTestDemo.NetworkError&gt;) -&gt; ()) -&gt; () in SmilesUnitTestDemoTests.NetworkMock.request() -&gt; Combine.AnyPublisher&lt;Swift.Array&lt;SmilesUnitTestDemo.ItemModel&gt;, SmilesUnitTestDemo.NetworkError&gt;"
+                  moduleName = "SmilesUnitTestDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/SmilesUnitTestDemo/SmilesUnitTestDemoTests/Mocks/NetowrkMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C58C95F-F0C6-458F-BF7D-A1FF8DEA27B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmilesUnitTestDemo/Modules/ListProdcutCombine/UseCase/ListItemsUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchItems()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C58C95F-F0C6-458F-BF7D-A1FF8DEA27B2 - c11b1d122a2a1745"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesUnitTestDemo.ListItemsUseCase.fetchItems() -&gt; Combine.AnyPublisher&lt;SmilesUnitTestDemo.ListItemsUseCase.State, Swift.Never&gt;"
+                  moduleName = "SmilesUnitTestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/SmilesUnitTestDemo/SmilesUnitTestDemo/Modules/ListProdcutCombine/UseCase/ListItemsUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "2C58C95F-F0C6-458F-BF7D-A1FF8DEA27B2 - 8134c73313081f41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;SmilesUnitTestDemo.ListItemsUseCase.State, Swift.Never&gt;) -&gt; ()) -&gt; () in SmilesUnitTestDemo.ListItemsUseCase.fetchItems() -&gt; Combine.AnyPublisher&lt;SmilesUnitTestDemo.ListItemsUseCase.State, Swift.Never&gt;"
+                  moduleName = "SmilesUnitTestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/SmilesUnitTestDemo/SmilesUnitTestDemo/Modules/ListProdcutCombine/UseCase/ListItemsUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "2C58C95F-F0C6-458F-BF7D-A1FF8DEA27B2 - c11b1d122a2a1745"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesUnitTestDemo.ListItemsUseCase.fetchItems() -&gt; Combine.AnyPublisher&lt;SmilesUnitTestDemo.ListItemsUseCase.State, Swift.Never&gt;"
+                  moduleName = "SmilesUnitTestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/SmilesUnitTestDemo/SmilesUnitTestDemo/Modules/ListProdcutCombine/UseCase/ListItemsUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "2C58C95F-F0C6-458F-BF7D-A1FF8DEA27B2 - 8134c73313081f41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;SmilesUnitTestDemo.ListItemsUseCase.State, Swift.Never&gt;) -&gt; ()) -&gt; () in SmilesUnitTestDemo.ListItemsUseCase.fetchItems() -&gt; Combine.AnyPublisher&lt;SmilesUnitTestDemo.ListItemsUseCase.State, Swift.Never&gt;"
+                  moduleName = "SmilesUnitTestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/SmilesUnitTestDemo/SmilesUnitTestDemo/Modules/ListProdcutCombine/UseCase/ListItemsUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

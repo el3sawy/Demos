@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6CD2C6B2-CDA2-4C40-AD39-C321F0EB2FFE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F45A872B-D91A-4C19-8E00-E7AE8D9EA1CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiFactoryDemo/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "buttonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8D5F129-CC0E-4737-959F-3EE5D67A71AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiFactoryDemo/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "configureViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4FFC448-0D75-49D4-8E09-D41434954DCA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiFactoryDemoTests/DiFactoryDemoTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F4FFC448-0D75-49D4-8E09-D41434954DCA - cd551f9e55f32215"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in DiFactoryDemoTests.DiFactoryDemoTests.test() -&gt; ()"
+                  moduleName = "DiFactoryDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/DiFactoryDemo/DiFactoryDemoTests/DiFactoryDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "F4FFC448-0D75-49D4-8E09-D41434954DCA - cd551f9e55f32232"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in DiFactoryDemoTests.DiFactoryDemoTests.test() -&gt; ()"
+                  moduleName = "DiFactoryDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/DiFactoryDemo/DiFactoryDemoTests/DiFactoryDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "F4FFC448-0D75-49D4-8E09-D41434954DCA - cd551f9e55f321d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in DiFactoryDemoTests.DiFactoryDemoTests.test() -&gt; ()"
+                  moduleName = "DiFactoryDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/DiFactoryDemo/DiFactoryDemoTests/DiFactoryDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "F4FFC448-0D75-49D4-8E09-D41434954DCA - cd551f9e55f321f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in DiFactoryDemoTests.DiFactoryDemoTests.test() -&gt; ()"
+                  moduleName = "DiFactoryDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/DiFactoryDemo/DiFactoryDemoTests/DiFactoryDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "F4FFC448-0D75-49D4-8E09-D41434954DCA - cd551f9e55f321f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in DiFactoryDemoTests.DiFactoryDemoTests.test() -&gt; ()"
+                  moduleName = "DiFactoryDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/DiFactoryDemo/DiFactoryDemoTests/DiFactoryDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "F4FFC448-0D75-49D4-8E09-D41434954DCA - cd551f9e55f321f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in DiFactoryDemoTests.DiFactoryDemoTests.test() -&gt; ()"
+                  moduleName = "DiFactoryDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Documents/Ahmed/Demos/DiFactoryDemo/DiFactoryDemoTests/DiFactoryDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

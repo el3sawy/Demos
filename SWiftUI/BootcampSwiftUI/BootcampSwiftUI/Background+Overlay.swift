@@ -14,6 +14,7 @@ struct Background_Overlay: View {
         VStack(spacing: 20) {
             Text("Ahmed  ")
                 .frame(width: 60, height: 60, alignment: .center)
+                .padding()
                 .background(
                     Circle()
                         .fill(Color.red)

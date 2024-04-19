@@ -22,6 +22,7 @@
 		92B2103829AE9DB7004C513F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B2103729AE9DB7004C513F /* Network.swift */; };
 		92B2103B29AE9FA8004C513F /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B2103A29AE9FA8004C513F /* LocalStorage.swift */; };
 		92B2103D29AEA16B004C513F /* ListChatUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B2103C29AEA16B004C513F /* ListChatUseCase.swift */; };
+		D98886092AEFD3EF00FA6029 /* SmilesFilterAndSort in Frameworks */ = {isa = PBXBuildFile; productRef = D98886082AEFD3EF00FA6029 /* SmilesFilterAndSort */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		92B2103729AE9DB7004C513F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		92B2103A29AE9FA8004C513F /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
 		92B2103C29AEA16B004C513F /* ListChatUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChatUseCase.swift; sourceTree = "<group>"; };
+		D98886062AEFD3E100FA6029 /* SmilesFilterAndSort */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SmilesFilterAndSort; path = ../../../../Desktop/Smiles/Modules/SmilesFilterAndSort; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98886092AEFD3EF00FA6029 /* SmilesFilterAndSort in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +61,10 @@
 		92B2100529AE97DA004C513F = {
 			isa = PBXGroup;
 			children = (
+				D98886062AEFD3E100FA6029 /* SmilesFilterAndSort */,
 				92B2101029AE97DA004C513F /* ChatApp */,
 				92B2100F29AE97DA004C513F /* Products */,
+				D98886072AEFD3EF00FA6029 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +147,13 @@
 			path = LocalStorage;
 			sourceTree = "<group>";
 		};
+		D98886072AEFD3EF00FA6029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +170,9 @@
 			dependencies = (
 			);
 			name = ChatApp;
+			packageProductDependencies = (
+				D98886082AEFD3EF00FA6029 /* SmilesFilterAndSort */,
+			);
 			productName = ChatApp;
 			productReference = 92B2100E29AE97DA004C513F /* ChatApp.app */;
 			productType = "com.apple.product-type.application";
@@ -444,6 +459,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D98886082AEFD3EF00FA6029 /* SmilesFilterAndSort */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SmilesFilterAndSort;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92B2100629AE97DA004C513F /* Project object */;
 }

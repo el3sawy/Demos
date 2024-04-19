@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow()
-        window?.rootViewController = HomeViewController()
+        window?.rootViewController =  TestToastViewController() //UINavigationController(rootViewController: )
         window?.makeKeyAndVisible()
         return true
     }

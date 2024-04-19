@@ -10,19 +10,19 @@ import SwiftUI
 struct TextView: View {
     var body: some View {
         VStack {
-            Text("Hello, world! Ahmed Naguib test Ahmed N")
+            Text("Hello, world! Ahmed Naguib test Ahmed N ahmed ")
                 .font(.title)
     //            .font(.system(size: 16)) we can also set this but not changed with setting
                 .fontWeight(.semibold)
     //            .bold() can also set this
-    //            .underline(true, color: Color.red) set line under text
+//                .underline(true, color: Color.red) //set line under text
 //                .strikethrough(true, color: Color.red) //set line in the middle
-    //            .baselineOffset(10) // Space between lines
+//                .baselineOffset(10) // Space between lines
 //                .multilineTextAlignment(.center)
-                .lineLimit(1)
+//                .lineLimit(1)
                 .foregroundColor(.red)
 //                .frame(width: 100, height: 100, alignment: .center)
-            .minimumScaleFactor(0.5)
+//            .minimumScaleFactor(0.5)
             
             
             Text("Ahmed")

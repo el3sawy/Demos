@@ -30,7 +30,6 @@ class ListEpisodesViewController: UIViewController {
     
     
     private func fetchData() {
-        
         viewModel.reloadCollectionView
             .receive(on: DispatchQueue.main)
             .sink { [weak self] in

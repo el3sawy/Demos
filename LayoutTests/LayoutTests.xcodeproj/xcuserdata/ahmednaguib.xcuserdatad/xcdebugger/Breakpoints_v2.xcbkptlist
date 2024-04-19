@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4EFCA5CD-31F2-4E64-937F-BE4FAD6F56D5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FE44A5E-F159-43D0-9E23-5387DA055D4C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/FilterLayout.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "createSections(index:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4FE44A5E-F159-43D0-9E23-5387DA055D4C - d7e0966d883a16d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.FilterLayout.createSections(index: Swift.Int) -&gt; Swift.Optional&lt;__C.NSCollectionLayoutSection&gt;"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/FilterLayout.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "4FE44A5E-F159-43D0-9E23-5387DA055D4C - d7e0966d883a1609"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.FilterLayout.createSections(index: Swift.Int) -&gt; Swift.Optional&lt;__C.NSCollectionLayoutSection&gt;"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/FilterLayout.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "716">
+               </Location>
+               <Location
+                  uuid = "4FE44A5E-F159-43D0-9E23-5387DA055D4C - d7e0966d883a09ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.FilterLayout.createSections(index: Swift.Int) -&gt; Swift.Optional&lt;__C.NSCollectionLayoutSection&gt;"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/FilterLayout.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4084711A-58EE-4F6E-A44D-BBC641E4C22D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/FilterLayout.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "createSections(index:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4084711A-58EE-4F6E-A44D-BBC641E4C22D - d7e0966d883a16f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.FilterLayout.createSections(index: Swift.Int) -&gt; Swift.Optional&lt;__C.NSCollectionLayoutSection&gt;"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/FilterLayout.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "4084711A-58EE-4F6E-A44D-BBC641E4C22D - d7e0966d883a16f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.FilterLayout.createSections(index: Swift.Int) -&gt; Swift.Optional&lt;__C.NSCollectionLayoutSection&gt;"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/FilterLayout.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "4084711A-58EE-4F6E-A44D-BBC641E4C22D - d7e0966d883a1628"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.FilterLayout.createSections(index: Swift.Int) -&gt; Swift.Optional&lt;__C.NSCollectionLayoutSection&gt;"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/FilterLayout.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "4084711A-58EE-4F6E-A44D-BBC641E4C22D - d7e0966d883a1628"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.FilterLayout.createSections(index: Swift.Int) -&gt; Swift.Optional&lt;__C.NSCollectionLayoutSection&gt;"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/FilterLayout.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "4084711A-58EE-4F6E-A44D-BBC641E4C22D - d7e0966d883a09ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.FilterLayout.createSections(index: Swift.Int) -&gt; Swift.Optional&lt;__C.NSCollectionLayoutSection&gt;"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/FilterLayout.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB8B49EA-8ACB-40FE-84C4-5FD2EC7D46F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/SortViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B14DD533-B9AA-4B5A-9003-122D4C0C2605"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/SortViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "685DB7E6-302A-4A3B-8519-CB302DCDF492"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/SortViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "685DB7E6-302A-4A3B-8519-CB302DCDF492 - 426e9caf789a864a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.SortViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/SortViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "685DB7E6-302A-4A3B-8519-CB302DCDF492 - 426e9caf789a864a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.SortViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/SortViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "685DB7E6-302A-4A3B-8519-CB302DCDF492 - 426e9caf789a8627"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.SortViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/Sort/Views/ViewController/SortViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01BC4661-E8AF-4E12-B6FE-BF2935EC2194"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/FilterContainer/FilterContainerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "FilterContainerViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75C3A21D-C79B-41E4-925B-F6BEB48842CD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/FilterContainer/ViewModel/FilterContainerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "bindFilters()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75C3A21D-C79B-41E4-925B-F6BEB48842CD - 52a98c6919e5120a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmilesFilterAndSort.FilterUIModel) -&gt; () in SmilesFilterAndSort.FilterContainerViewModel.bindFilters() -&gt; ()"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/FilterContainer/ViewModel/FilterContainerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "75C3A21D-C79B-41E4-925B-F6BEB48842CD - 6253aee501b6e9f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmilesFilterAndSort.FilterContainerViewModel.bindFilters() -&gt; ()"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/FilterContainer/ViewModel/FilterContainerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "75C3A21D-C79B-41E4-925B-F6BEB48842CD - 52a98c6919e512e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SmilesFilterAndSort.FilterUIModel) -&gt; () in SmilesFilterAndSort.FilterContainerViewModel.bindFilters() -&gt; ()"
+                  moduleName = "LayoutTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmednaguib/Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/FilterContainer/ViewModel/FilterContainerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BE3E3C0-ED73-4C39-800D-A30ABE974786"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/FilterContainer/ViewModel/FilterContainerUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchFilters()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19996AE7-A55A-4A89-907B-A9DC14CF0E36"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Desktop/Smiles/Modules/SmilesFilterAndSort/Sources/SmilesFilterAndSort/FilterContainer/ViewModel/FilterContainerUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "handleResponse(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FCCCD4B-3387-4847-9EC9-4A7A5BB874D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Desktop/Smiles/Modules/SmilesOrderTracking/Sources/SmilesOrderTracking/OrderTraking/Views/ViewController/FilterLayout.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "configLayoutSection()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BF2DE05-204A-4ED7-8B31-C610BDF54B13"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LayoutTests/HeaderAnimation/HeaderAnimationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7085DE3F-ADDD-48A4-A708-EDD25581F2F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LayoutTests/TestTost/ToastView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "labelAction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

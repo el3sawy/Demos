@@ -52,6 +52,16 @@
 		92D4133C29E6C56800D091E0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4133B29E6C56800D091E0 /* ProfileView.swift */; };
 		92F3B759294CD13F00DACC05 /* ScrollViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3B758294CD13F00DACC05 /* ScrollViewDemo.swift */; };
 		92F3B75B294CDCBE00DACC05 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3B75A294CDCBE00DACC05 /* GridView.swift */; };
+		D9331DD02B7D38EA00CFCAA4 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9331DCF2B7D38EA00CFCAA4 /* CustomButtonView.swift */; };
+		D9331DD22B7D435200CFCAA4 /* CustomViewBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9331DD12B7D435200CFCAA4 /* CustomViewBuilderView.swift */; };
+		D9331DD42B7D495400CFCAA4 /* PassingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9331DD32B7D495400CFCAA4 /* PassingDataView.swift */; };
+		D9331DD72B7D4E7400CFCAA4 /* ScrollViewPassingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9331DD62B7D4E7400CFCAA4 /* ScrollViewPassingData.swift */; };
+		D972E2D52BD1BC890025FD7F /* PreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D972E2D42BD1BC890025FD7F /* PreferenceKeyView.swift */; };
+		D972E2D72BD259E60025FD7F /* SizePreferencView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D972E2D62BD259E60025FD7F /* SizePreferencView.swift */; };
+		D972E2DA2BD2C7140025FD7F /* NestedObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D972E2D92BD2C7140025FD7F /* NestedObservableView.swift */; };
+		D990775B2B82700900BF5B2F /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990775A2B82700900BF5B2F /* CustomTabBarView.swift */; };
+		D990775D2B8299D900BF5B2F /* OrderTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990775C2B8299D900BF5B2F /* OrderTrackingView.swift */; };
+		D9FEC0FC2B7CB11F0071A950 /* CustomModiferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FEC0FB2B7CB11F0071A950 /* CustomModiferView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +111,16 @@
 		92D4133B29E6C56800D091E0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		92F3B758294CD13F00DACC05 /* ScrollViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewDemo.swift; sourceTree = "<group>"; };
 		92F3B75A294CDCBE00DACC05 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		D9331DCF2B7D38EA00CFCAA4 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		D9331DD12B7D435200CFCAA4 /* CustomViewBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBuilderView.swift; sourceTree = "<group>"; };
+		D9331DD32B7D495400CFCAA4 /* PassingDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataView.swift; sourceTree = "<group>"; };
+		D9331DD62B7D4E7400CFCAA4 /* ScrollViewPassingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPassingData.swift; sourceTree = "<group>"; };
+		D972E2D42BD1BC890025FD7F /* PreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyView.swift; sourceTree = "<group>"; };
+		D972E2D62BD259E60025FD7F /* SizePreferencView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferencView.swift; sourceTree = "<group>"; };
+		D972E2D92BD2C7140025FD7F /* NestedObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedObservableView.swift; sourceTree = "<group>"; };
+		D990775A2B82700900BF5B2F /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		D990775C2B8299D900BF5B2F /* OrderTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTrackingView.swift; sourceTree = "<group>"; };
+		D9FEC0FB2B7CB11F0071A950 /* CustomModiferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModiferView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +210,7 @@
 				9263669329E55DB400F98FB7 /* ObservableObjectBootcamp.swift */,
 				9263669529E580F300F98FB7 /* EnvironmentObjectView.swift */,
 				9263669729E5ED1100F98FB7 /* AppStorageBootCamp.swift */,
+				D9FEC0FA2B7CAFD60071A950 /* Advanced */,
 				9263669929E5EFF500F98FB7 /* OnboardingViews */,
 				92C1EE5A2938C4CE00CEDC9A /* Assets.xcassets */,
 				9257147329EC0B6C004ED1E5 /* IntermediateLevel */,
@@ -204,6 +225,47 @@
 				92C1EE5D2938C4CE00CEDC9A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9331DD52B7D4E5900CFCAA4 /* PassData */ = {
+			isa = PBXGroup;
+			children = (
+				D9331DD32B7D495400CFCAA4 /* PassingDataView.swift */,
+				D972E2D42BD1BC890025FD7F /* PreferenceKeyView.swift */,
+				D990775C2B8299D900BF5B2F /* OrderTrackingView.swift */,
+				D9331DD62B7D4E7400CFCAA4 /* ScrollViewPassingData.swift */,
+				D972E2D62BD259E60025FD7F /* SizePreferencView.swift */,
+			);
+			path = PassData;
+			sourceTree = "<group>";
+		};
+		D972E2D82BD2C6FB0025FD7F /* NestedObservable */ = {
+			isa = PBXGroup;
+			children = (
+				D972E2D92BD2C7140025FD7F /* NestedObservableView.swift */,
+			);
+			path = NestedObservable;
+			sourceTree = "<group>";
+		};
+		D99077592B826FDB00BF5B2F /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D990775A2B82700900BF5B2F /* CustomTabBarView.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		D9FEC0FA2B7CAFD60071A950 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				D972E2D82BD2C6FB0025FD7F /* NestedObservable */,
+				D99077592B826FDB00BF5B2F /* CustomTabBar */,
+				D9331DD52B7D4E5900CFCAA4 /* PassData */,
+				D9FEC0FB2B7CB11F0071A950 /* CustomModiferView.swift */,
+				D9331DCF2B7D38EA00CFCAA4 /* CustomButtonView.swift */,
+				D9331DD12B7D435200CFCAA4 /* CustomViewBuilderView.swift */,
+			);
+			path = Advanced;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +341,13 @@
 				9263669D29E5F71200F98FB7 /* OnboardingView.swift in Sources */,
 				92C1EE692938D14B00CEDC9A /* ShadowView.swift in Sources */,
 				92AA03DB29E17FBF0068FDD7 /* TransitionViewBootCam.swift in Sources */,
+				D972E2DA2BD2C7140025FD7F /* NestedObservableView.swift in Sources */,
 				921D3A0929E4A5FE00850649 /* tabBarView.swift in Sources */,
 				925F248D2947A958002B0076 /* Icon+ImgesView.swift in Sources */,
 				92AA03DF29E1917D0068FDD7 /* PopoverView.swift in Sources */,
+				D972E2D72BD259E60025FD7F /* SizePreferencView.swift in Sources */,
 				92747A9C294DED6D00AF125C /* ButtonView.swift in Sources */,
+				D990775B2B82700900BF5B2F /* CustomTabBarView.swift in Sources */,
 				925F248F2947B87E002B0076 /* Background+Overlay.swift in Sources */,
 				92C1EE592938C4CD00CEDC9A /* TextView.swift in Sources */,
 				92C1EE572938C4CD00CEDC9A /* BootcampSwiftUIApp.swift in Sources */,
@@ -297,15 +362,19 @@
 				92BA3D6B29ED6E5200CBA929 /* ScrollViewReaderBootCamp.swift in Sources */,
 				92AA03DD29E18B680068FDD7 /* SheetView.swift in Sources */,
 				92C7FB5D29F8091200E42E78 /* CoreDataBootCamp.swift in Sources */,
+				D9331DD42B7D495400CFCAA4 /* PassingDataView.swift in Sources */,
 				92D20CFE29E34EE30006E578 /* ActionSheetBootCamp.swift in Sources */,
 				9263669429E55DB400F98FB7 /* ObservableObjectBootcamp.swift in Sources */,
 				9263669829E5ED1100F98FB7 /* AppStorageBootCamp.swift in Sources */,
+				D9331DD22B7D435200CFCAA4 /* CustomViewBuilderView.swift in Sources */,
 				92AA03E529E20D900068FDD7 /* AlertViewBootCamp.swift in Sources */,
 				92AA03E129E1FAF90068FDD7 /* NavigationViewBootcam.swift in Sources */,
 				92C7FB1929F6B1EC00E42E78 /* LocalNotificationView.swift in Sources */,
+				D990775D2B8299D900BF5B2F /* OrderTrackingView.swift in Sources */,
 				9257147529EC0B9A004ED1E5 /* LongPressBootCamp.swift in Sources */,
 				92F3B759294CD13F00DACC05 /* ScrollViewDemo.swift in Sources */,
 				925F24912947C54F002B0076 /* PaddingView.swift in Sources */,
+				D9331DD02B7D38EA00CFCAA4 /* CustomButtonView.swift in Sources */,
 				92D4133C29E6C56800D091E0 /* ProfileView.swift in Sources */,
 				9263669B29E5F4C200F98FB7 /* IntroView.swift in Sources */,
 				92D20D0229E353E20006E578 /* TextFieldBootCamp.swift in Sources */,
@@ -313,12 +382,15 @@
 				925F248B2947A086002B0076 /* GradientView.swift in Sources */,
 				92BA3D6D29ED744D00CBA929 /* GeometryReaderBootCamp.swift in Sources */,
 				92C7FB1529F69F6F00E42E78 /* RateViewBootCamp.swift in Sources */,
+				D972E2D52BD1BC890025FD7F /* PreferenceKeyView.swift in Sources */,
 				92AA03E329E204D90068FDD7 /* ListBootCamp.swift in Sources */,
 				92C7FB1D29F6E34300E42E78 /* weakSelfBootCamp.swift in Sources */,
 				9257147729EC146C004ED1E5 /* ZoomInOutView.swift in Sources */,
 				92747A9A294DE23000AF125C /* SafeAreaDemo.swift in Sources */,
 				92C7FB1B29F6BBD600E42E78 /* HashBootCamp.swift in Sources */,
+				D9FEC0FC2B7CB11F0071A950 /* CustomModiferView.swift in Sources */,
 				92D20D0029E351610006E578 /* ContextMenuBootCamp.swift in Sources */,
+				D9331DD72B7D4E7400CFCAA4 /* ScrollViewPassingData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

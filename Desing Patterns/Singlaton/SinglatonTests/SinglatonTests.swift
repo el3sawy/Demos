@@ -4,12 +4,12 @@
 //
 //  Created by Ahmed Elesawy on 01/01/2022.
 //
-
+//https://sachithrasiriwardhane.medium.com/thread-safe-singletons-and-their-usage-in-swift-c992d34d85dd
 import XCTest
 @testable import Singlaton
 
 class SinglatonTests: XCTestCase {
-
+    
     func testDatabase_serial() {
         let sut = Database.shared
         sut.addValue("ahmed", key: "Key1")
@@ -64,6 +64,7 @@ class SinglatonTests: XCTestCase {
         for i in 1...100 {
             concurrentQueue.async {
             AppSetting.shared.add(forKey: "\(i)", value: i)
+                print(  AppSetting.shared.dic.count, "======")
             }
         }
         
@@ -73,9 +74,10 @@ class SinglatonTests: XCTestCase {
         exception.fulfill()
         waitForExpectations(timeout: 5) { error in
             print(error)
+            XCTAssertEqual( AppSetting.shared.dic.count, 100)
         }
         
-        
+       
     }
     
 }
@@ -83,20 +85,25 @@ class SinglatonTests: XCTestCase {
 final class AppSetting {
     static var shared  = AppSetting()
     private let serialQueue = DispatchQueue(label: "serialQueue", attributes: .concurrent)
-    private var dic: [String: Int] = [:]
+     var dic: [String: Int] = [:]
     private init() {}
     
     func add(forKey: String, value: Int) {
         serialQueue.async(flags: .barrier) {
             self.dic[forKey] = value
+           
         }
     }
     
+    func count() {
+        print(dic.count, "count ======")
+    }
+    
     func getValue(forKey: String) -> Int {
-        serialQueue.sync {
+//        serialQueue.sync {
             print(forKey)
-        return dic[forKey] ?? 0
-        }
+            return dic[forKey] ?? 0
+//        }
     }
 }
 

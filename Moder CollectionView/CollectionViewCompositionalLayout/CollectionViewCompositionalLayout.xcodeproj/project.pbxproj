@@ -18,6 +18,10 @@
 		923606EC28F84B20002519B0 /* DynamicHeightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923606EA28F84B20002519B0 /* DynamicHeightViewController.xib */; };
 		923606F028F84B9C002519B0 /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923606EE28F84B9C002519B0 /* TextCollectionViewCell.swift */; };
 		923606F128F84B9C002519B0 /* TextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923606EF28F84B9C002519B0 /* TextCollectionViewCell.xib */; };
+		D98886012AEFC6E900FA6029 /* TextCollectionViewCell22.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98885FC2AEFC6E900FA6029 /* TextCollectionViewCell22.xib */; };
+		D98886022AEFC6E900FA6029 /* TextCollectionViewCell22.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98885FD2AEFC6E900FA6029 /* TextCollectionViewCell22.swift */; };
+		D98886032AEFC6E900FA6029 /* SortViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98885FF2AEFC6E900FA6029 /* SortViewController.xib */; };
+		D98886042AEFC6E900FA6029 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98886002AEFC6E900FA6029 /* SortViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		923606EA28F84B20002519B0 /* DynamicHeightViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicHeightViewController.xib; sourceTree = "<group>"; };
 		923606EE28F84B9C002519B0 /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
 		923606EF28F84B9C002519B0 /* TextCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextCollectionViewCell.xib; sourceTree = "<group>"; };
+		D98885FC2AEFC6E900FA6029 /* TextCollectionViewCell22.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextCollectionViewCell22.xib; sourceTree = "<group>"; };
+		D98885FD2AEFC6E900FA6029 /* TextCollectionViewCell22.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell22.swift; sourceTree = "<group>"; };
+		D98885FF2AEFC6E900FA6029 /* SortViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SortViewController.xib; sourceTree = "<group>"; };
+		D98886002AEFC6E900FA6029 /* SortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 			children = (
 				923606C128F80B49002519B0 /* CollectionViewCompositionalLayout */,
 				923606C028F80B49002519B0 /* Products */,
+				D98885F62AEFBE1D00FA6029 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +75,7 @@
 		923606C128F80B49002519B0 /* CollectionViewCompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
+				D98885F92AEFC6E900FA6029 /* Sort */,
 				923606E428F8411F002519B0 /* Dynamic cell height  */,
 				923606D628F80B80002519B0 /* Layout */,
 				923606C228F80B49002519B0 /* AppDelegate.swift */,
@@ -114,6 +124,48 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		D98885F62AEFBE1D00FA6029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98885F92AEFC6E900FA6029 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				D98885FA2AEFC6E900FA6029 /* CollectionViewCells */,
+				D98885FE2AEFC6E900FA6029 /* ViewController */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		D98885FA2AEFC6E900FA6029 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				D98885FB2AEFC6E900FA6029 /* TextCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		D98885FB2AEFC6E900FA6029 /* TextCell */ = {
+			isa = PBXGroup;
+			children = (
+				D98885FC2AEFC6E900FA6029 /* TextCollectionViewCell22.xib */,
+				D98885FD2AEFC6E900FA6029 /* TextCollectionViewCell22.swift */,
+			);
+			path = TextCell;
+			sourceTree = "<group>";
+		};
+		D98885FE2AEFC6E900FA6029 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D98885FF2AEFC6E900FA6029 /* SortViewController.xib */,
+				D98886002AEFC6E900FA6029 /* SortViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,6 +182,8 @@
 			dependencies = (
 			);
 			name = CollectionViewCompositionalLayout;
+			packageProductDependencies = (
+			);
 			productName = CollectionViewCompositionalLayout;
 			productReference = 923606BF28F80B49002519B0 /* CollectionViewCompositionalLayout.app */;
 			productType = "com.apple.product-type.application";
@@ -175,8 +229,10 @@
 				923606CF28F80B4B002519B0 /* LaunchScreen.storyboard in Resources */,
 				923606CC28F80B4B002519B0 /* Assets.xcassets in Resources */,
 				923606DA28F80B90002519B0 /* CollectionViewViewController.xib in Resources */,
+				D98886012AEFC6E900FA6029 /* TextCollectionViewCell22.xib in Resources */,
 				923606F128F84B9C002519B0 /* TextCollectionViewCell.xib in Resources */,
 				923606EC28F84B20002519B0 /* DynamicHeightViewController.xib in Resources */,
+				D98886032AEFC6E900FA6029 /* SortViewController.xib in Resources */,
 				923606E328F825DF002519B0 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,7 +248,9 @@
 				923606C328F80B49002519B0 /* AppDelegate.swift in Sources */,
 				923606E228F825DF002519B0 /* HeaderView.swift in Sources */,
 				923606D928F80B90002519B0 /* CollectionViewViewController.swift in Sources */,
+				D98886042AEFC6E900FA6029 /* SortViewController.swift in Sources */,
 				923606EB28F84B20002519B0 /* DynamicHeightViewController.swift in Sources */,
+				D98886022AEFC6E900FA6029 /* TextCollectionViewCell22.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

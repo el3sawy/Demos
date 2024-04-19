@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import SmilesFilterAndSort
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

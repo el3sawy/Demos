@@ -22,7 +22,7 @@ class TextFiledViewController: UIViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        weCanMakeAlso()
+//        weCanMakeAlso()
         nameTextField.textPublisher.sink { text in
             print(text)
         }.store(in: &bag)

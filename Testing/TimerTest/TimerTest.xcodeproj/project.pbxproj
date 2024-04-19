@@ -31,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		924C46BF2796B2A40004F1B3 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		924C46C12796B7560004F1B3 /* TimerTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = TimerTest.xctestplan; path = ../../../Documents/TimerTest.xctestplan; sourceTree = "<group>"; };
 		927A4F86279609C800334281 /* TimerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927A4F89279609C800334281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		927A4F8B279609C800334281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +66,6 @@
 		927A4F7D279609C800334281 = {
 			isa = PBXGroup;
 			children = (
-				924C46C12796B7560004F1B3 /* TimerTest.xctestplan */,
 				927A4F88279609C800334281 /* TimerTest */,
 				927A4F9F279609C900334281 /* TimerTestTests */,
 				927A4F87279609C800334281 /* Products */,

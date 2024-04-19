@@ -12,6 +12,7 @@ import AppCenterAnalytics
 import AppCenterCrashes
 import AppCenterDistribute
 import RWPickFlavor
+import OHHTTPStubs
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
