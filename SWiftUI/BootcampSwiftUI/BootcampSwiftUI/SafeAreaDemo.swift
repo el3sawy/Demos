@@ -10,7 +10,7 @@ import SwiftUI
 struct SafeAreaDemo: View {
     var body: some View {
         
-        Demo2()
+        Demo()
     }
 }
 

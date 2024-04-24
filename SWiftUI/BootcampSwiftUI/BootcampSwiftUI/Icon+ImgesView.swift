@@ -35,9 +35,9 @@ struct IconView: View {
                 .scaledToFill()
                 .frame(width: 300, height: 200)
                 .clipShape(
-//                    Circle()
+                    Circle()
 //                    Ellipse()
-                    RoundedRectangle(cornerRadius: 30)
+//                    RoundedRectangle(cornerRadius: 30)
                 )
             
             Image("icon")

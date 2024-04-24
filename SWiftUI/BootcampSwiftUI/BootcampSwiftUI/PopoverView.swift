@@ -34,20 +34,20 @@ struct PopoverView: View {
             
             // method Two ==> Transition
             
-//            ZStack {
-//                if isPresenter {
-//                    PopoverSecondViewView(showScreen: $isPresenter)
-//                        .padding(.top, 40)
-//                        .transition(.move(edge: .bottom))
-//                }
-//            }
-//            .zIndex(2.0)
+            ZStack {
+                if isPresenter {
+                    PopoverSecondViewView(showScreen: $isPresenter)
+                        .padding(.top, 40)
+                        .transition(.move(edge: .bottom))
+                }
+            }
+            .zIndex(2.0)
             
             
             // Method Three Animation offset
-            PopoverSecondViewView(showScreen: $isPresenter)
-                .padding(.top, 100)
-                .offset(y: isPresenter ? 0 : UIScreen.main.bounds.height)
+//            PopoverSecondViewView(showScreen: $isPresenter)
+//                .padding(.top, 100)
+//                .offset(y: isPresenter ? 0 : UIScreen.main.bounds.height)
             
             
         }

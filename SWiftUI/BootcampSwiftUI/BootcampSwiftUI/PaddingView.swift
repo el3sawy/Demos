@@ -21,7 +21,7 @@ struct PaddingView: View {
         .padding(.vertical, 10)
         .background(
             Color.white
-                .cornerRadius(10)
+                .clipShape(RoundedRectangle(cornerRadius: 30))
                 .shadow(color: Color.black.opacity(0.4)
                                , radius: 10, x: 0, y: 10)
         )

@@ -24,12 +24,12 @@ struct SheetView: View {
                     .background(Color.white.cornerRadius(5))
             }
         }
-        .fullScreenCover(isPresented: $showSheet, content: {
-            SheetSecondView()
-        })
-//        .sheet(isPresented: $showSheet) {
+//        .fullScreenCover(isPresented: $showSheet, content: {
 //            SheetSecondView()
-//        }
+//        })
+        .sheet(isPresented: $showSheet) {
+            SheetSecondView()
+        }
     }
 }
 
