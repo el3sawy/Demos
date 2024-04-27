@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GragGestureBootCamp2: View {
     
-    @State var startingOffserY: CGFloat = UIScreen.main.bounds.height * 0.85
+    @State var startingOffserY: CGFloat = UIScreen.main.bounds.height * 0.8
     @State var currentOffserY: CGFloat = 0
     @State var endingtOffserY: CGFloat = 0
     
