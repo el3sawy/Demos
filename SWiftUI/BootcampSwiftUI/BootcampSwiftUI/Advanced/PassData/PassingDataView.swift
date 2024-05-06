@@ -20,6 +20,7 @@ struct PassingDataView: View {
         .onPreferenceChange(CustomTitlePrefrenceKey.self , perform: { value in
             self.value = value
         })
+        
     }
 }
 

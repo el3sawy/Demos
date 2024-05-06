@@ -28,9 +28,9 @@ struct PopoverView: View {
             }
             
             // method one ==> Sheet
-            //        .sheet(isPresented: $isPresenter) {
-            //            PopoverSecondViewView()
-            //        }
+//                    .sheet(isPresented: $isPresenter) {
+//                        PopoverSecondViewView(showScreen: $isPresenter)
+//                    }
             
             // method Two ==> Transition
             
@@ -41,12 +41,12 @@ struct PopoverView: View {
                         .transition(.move(edge: .bottom))
                 }
             }
-            .zIndex(2.0)
+//            .zIndex(2.0)
             
             
             // Method Three Animation offset
 //            PopoverSecondViewView(showScreen: $isPresenter)
-//                .padding(.top, 100)
+//                .padding(.top, 300)
 //                .offset(y: isPresenter ? 0 : UIScreen.main.bounds.height)
             
             
@@ -79,6 +79,24 @@ struct PopoverSecondViewView: View {
                 Spacer()
             }
         }
+        .gesture(DragGesture(minimumDistance: 0, coordinateSpace: .local)
+                            .onEnded({ value in
+                                if value.translation.width < 0 {
+                                    // left
+                                }
+
+                                if value.translation.width > 0 {
+                                    // right
+                                }
+                                if value.translation.height < 0 {
+                                    // up
+                                }
+
+                                if value.translation.height > 0 {
+                                    // down
+                                    showScreen.toggle()
+                                }
+                            }))
     }
 }
 

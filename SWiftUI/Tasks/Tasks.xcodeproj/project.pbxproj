@@ -20,6 +20,10 @@
 		D98ED5292BDD81F3009E63E5 /* PassDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED5282BDD81F3009E63E5 /* PassDataView.swift */; };
 		D98ED52B2BDD8204009E63E5 /* PassDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED52A2BDD8204009E63E5 /* PassDataViewModel.swift */; };
 		D98ED52E2BDD8515009E63E5 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED52D2BDD8515009E63E5 /* SongCell.swift */; };
+		D9A899502BE6BE64009C965B /* BumbleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A8994F2BE6BE64009C965B /* BumbleCardView.swift */; };
+		D9A899532BE6C271009C965B /* Ex+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A899522BE6C271009C965B /* Ex+.swift */; };
+		D9BD232C2BE2CAC500A9B91C /* BumbleMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BD232B2BE2CAC500A9B91C /* BumbleMainView.swift */; };
+		D9BD232F2BE2D02200A9B91C /* BumbleFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BD232E2BE2D02200A9B91C /* BumbleFilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		D98ED5282BDD81F3009E63E5 /* PassDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDataView.swift; sourceTree = "<group>"; };
 		D98ED52A2BDD8204009E63E5 /* PassDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDataViewModel.swift; sourceTree = "<group>"; };
 		D98ED52D2BDD8515009E63E5 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		D9A8994F2BE6BE64009C965B /* BumbleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleCardView.swift; sourceTree = "<group>"; };
+		D9A899522BE6C271009C965B /* Ex+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+.swift"; sourceTree = "<group>"; };
+		D9BD232B2BE2CAC500A9B91C /* BumbleMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleMainView.swift; sourceTree = "<group>"; };
+		D9BD232E2BE2D02200A9B91C /* BumbleFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleFilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,8 @@
 		D98ED50B2BDBA175009E63E5 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				D9A899512BE6C266009C965B /* Extentions */,
+				D9BD232A2BE2CA1700A9B91C /* Bumble */,
 				D98ED52C2BDD850C009E63E5 /* SongCell */,
 				D98ED5272BDD81E6009E63E5 /* PassingData */,
 				D98ED5242BDD14CB009E63E5 /* StratchHeader */,
@@ -116,6 +126,32 @@
 				D98ED52D2BDD8515009E63E5 /* SongCell.swift */,
 			);
 			path = SongCell;
+			sourceTree = "<group>";
+		};
+		D9A899512BE6C266009C965B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				D9A899522BE6C271009C965B /* Ex+.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		D9BD232A2BE2CA1700A9B91C /* Bumble */ = {
+			isa = PBXGroup;
+			children = (
+				D9BD232D2BE2D00900A9B91C /* Components */,
+				D9BD232B2BE2CAC500A9B91C /* BumbleMainView.swift */,
+			);
+			path = Bumble;
+			sourceTree = "<group>";
+		};
+		D9BD232D2BE2D00900A9B91C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D9BD232E2BE2D02200A9B91C /* BumbleFilterView.swift */,
+				D9A8994F2BE6BE64009C965B /* BumbleCardView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,12 +229,16 @@
 				D98ED50F2BDBA176009E63E5 /* ContentView.swift in Sources */,
 				D98ED5292BDD81F3009E63E5 /* PassDataView.swift in Sources */,
 				D98ED51F2BDC058A009E63E5 /* ImageTitleRowCell.swift in Sources */,
+				D9BD232F2BE2D02200A9B91C /* BumbleFilterView.swift in Sources */,
 				D98ED5262BDD165A009E63E5 /* ListItemView.swift in Sources */,
+				D9BD232C2BE2CAC500A9B91C /* BumbleMainView.swift in Sources */,
 				D98ED5212BDD0EA8009E63E5 /* StratchHeaderCell.swift in Sources */,
+				D9A899502BE6BE64009C965B /* BumbleCardView.swift in Sources */,
 				D98ED51D2BDC0141009E63E5 /* ProductCell.swift in Sources */,
 				D98ED52B2BDD8204009E63E5 /* PassDataViewModel.swift in Sources */,
 				D98ED50D2BDBA176009E63E5 /* TasksApp.swift in Sources */,
 				D98ED51B2BDBA191009E63E5 /* CategoryCell.swift in Sources */,
+				D9A899532BE6C271009C965B /* Ex+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
