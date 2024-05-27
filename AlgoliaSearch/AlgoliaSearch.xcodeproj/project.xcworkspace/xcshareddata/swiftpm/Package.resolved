@@ -1,0 +1,15 @@
+{
+  "originHash" : "bad8ba9901490552d3937cadaf287b645e6ebe1da7116cfd4109ce9eb3011d49",
+  "pins" : [
+    {
+      "identity" : "algoliasearch-client-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/algolia/algoliasearch-client-swift",
+      "state" : {
+        "revision" : "996d9e171fdf4692ba279ea2f8a29acfe077ab37",
+        "version" : "8.20.1"
+      }
+    }
+  ],
+  "version" : 3
+}

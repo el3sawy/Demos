@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D937D55C2BECB6940002D2CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937D55B2BECB6940002D2CB /* AppDelegate.swift */; };
+		D937D5652BECB6980002D2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D937D5642BECB6980002D2CB /* Assets.xcassets */; };
+		D937D5682BECB6980002D2CB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D937D5672BECB6980002D2CB /* Base */; };
+		D937D5732BECB7380002D2CB /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D937D5722BECB7380002D2CB /* SearchViewController.xib */; };
+		D937D5742BECB7380002D2CB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937D5712BECB7380002D2CB /* SearchViewController.swift */; };
+		D937D5762BECB7B70002D2CB /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937D5752BECB7B70002D2CB /* LayoutManager.swift */; };
+		D937D57E2BECBB610002D2CB /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D937D57D2BECBB610002D2CB /* CategoryCollectionViewCell.xib */; };
+		D937D57F2BECBB610002D2CB /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937D57C2BECBB610002D2CB /* CategoryCollectionViewCell.swift */; };
+		D96A79AB2BED5EE90019CCF2 /* HeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96A79AA2BED5EE90019CCF2 /* HeaderCollectionViewCell.xib */; };
+		D96A79AC2BED5EE90019CCF2 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A79A92BED5EE90019CCF2 /* HeaderCollectionViewCell.swift */; };
+		D96A79B12BEDFD6B0019CCF2 /* AlgoliaSearchClient in Frameworks */ = {isa = PBXBuildFile; productRef = D96A79B02BEDFD6B0019CCF2 /* AlgoliaSearchClient */; };
+		D96A79B52BEDFDB70019CCF2 /* IntegationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96A79B42BEDFDB70019CCF2 /* IntegationViewController.xib */; };
+		D96A79B62BEDFDB70019CCF2 /* IntegationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A79B32BEDFDB70019CCF2 /* IntegationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D937D5582BECB6940002D2CB /* AlgoliaSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoliaSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D937D55B2BECB6940002D2CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D937D5642BECB6980002D2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D937D5672BECB6980002D2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D937D5692BECB6980002D2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D937D5712BECB7380002D2CB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D937D5722BECB7380002D2CB /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		D937D5752BECB7B70002D2CB /* LayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutManager.swift; sourceTree = "<group>"; };
+		D937D57C2BECBB610002D2CB /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		D937D57D2BECBB610002D2CB /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		D96A79A92BED5EE90019CCF2 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		D96A79AA2BED5EE90019CCF2 /* HeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		D96A79B32BEDFDB70019CCF2 /* IntegationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegationViewController.swift; sourceTree = "<group>"; };
+		D96A79B42BEDFDB70019CCF2 /* IntegationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntegationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D937D5552BECB6940002D2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96A79B12BEDFD6B0019CCF2 /* AlgoliaSearchClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D937D54F2BECB6940002D2CB = {
+			isa = PBXGroup;
+			children = (
+				D937D55A2BECB6940002D2CB /* AlgoliaSearch */,
+				D937D5592BECB6940002D2CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D937D5592BECB6940002D2CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D937D5582BECB6940002D2CB /* AlgoliaSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D937D55A2BECB6940002D2CB /* AlgoliaSearch */ = {
+			isa = PBXGroup;
+			children = (
+				D96A79B22BEDFD9D0019CCF2 /* Integration */,
+				D937D56F2BECB7220002D2CB /* Search */,
+				D937D55B2BECB6940002D2CB /* AppDelegate.swift */,
+				D937D5642BECB6980002D2CB /* Assets.xcassets */,
+				D937D5662BECB6980002D2CB /* LaunchScreen.storyboard */,
+				D937D5692BECB6980002D2CB /* Info.plist */,
+			);
+			path = AlgoliaSearch;
+			sourceTree = "<group>";
+		};
+		D937D56F2BECB7220002D2CB /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D937D5772BECBAAB0002D2CB /* Cells */,
+				D937D5702BECB7290002D2CB /* VC */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D937D5702BECB7290002D2CB /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D937D5712BECB7380002D2CB /* SearchViewController.swift */,
+				D937D5752BECB7B70002D2CB /* LayoutManager.swift */,
+				D937D5722BECB7380002D2CB /* SearchViewController.xib */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		D937D5772BECBAAB0002D2CB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D96A79A82BED5EC70019CCF2 /* Header */,
+				D937D57C2BECBB610002D2CB /* CategoryCollectionViewCell.swift */,
+				D937D57D2BECBB610002D2CB /* CategoryCollectionViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D96A79A82BED5EC70019CCF2 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D96A79A92BED5EE90019CCF2 /* HeaderCollectionViewCell.swift */,
+				D96A79AA2BED5EE90019CCF2 /* HeaderCollectionViewCell.xib */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		D96A79B22BEDFD9D0019CCF2 /* Integration */ = {
+			isa = PBXGroup;
+			children = (
+				D96A79B32BEDFDB70019CCF2 /* IntegationViewController.swift */,
+				D96A79B42BEDFDB70019CCF2 /* IntegationViewController.xib */,
+			);
+			path = Integration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D937D5572BECB6940002D2CB /* AlgoliaSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D937D56C2BECB6980002D2CB /* Build configuration list for PBXNativeTarget "AlgoliaSearch" */;
+			buildPhases = (
+				D937D5542BECB6940002D2CB /* Sources */,
+				D937D5552BECB6940002D2CB /* Frameworks */,
+				D937D5562BECB6940002D2CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoliaSearch;
+			packageProductDependencies = (
+				D96A79B02BEDFD6B0019CCF2 /* AlgoliaSearchClient */,
+			);
+			productName = AlgoliaSearch;
+			productReference = D937D5582BECB6940002D2CB /* AlgoliaSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D937D5502BECB6940002D2CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D937D5572BECB6940002D2CB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = D937D5532BECB6940002D2CB /* Build configuration list for PBXProject "AlgoliaSearch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D937D54F2BECB6940002D2CB;
+			packageReferences = (
+				D96A79AF2BEDFD6B0019CCF2 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */,
+			);
+			productRefGroup = D937D5592BECB6940002D2CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D937D5572BECB6940002D2CB /* AlgoliaSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D937D5562BECB6940002D2CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96A79B52BEDFDB70019CCF2 /* IntegationViewController.xib in Resources */,
+				D937D57E2BECBB610002D2CB /* CategoryCollectionViewCell.xib in Resources */,
+				D937D5652BECB6980002D2CB /* Assets.xcassets in Resources */,
+				D937D5682BECB6980002D2CB /* Base in Resources */,
+				D96A79AB2BED5EE90019CCF2 /* HeaderCollectionViewCell.xib in Resources */,
+				D937D5732BECB7380002D2CB /* SearchViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D937D5542BECB6940002D2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D937D57F2BECBB610002D2CB /* CategoryCollectionViewCell.swift in Sources */,
+				D937D5742BECB7380002D2CB /* SearchViewController.swift in Sources */,
+				D96A79AC2BED5EE90019CCF2 /* HeaderCollectionViewCell.swift in Sources */,
+				D937D55C2BECB6940002D2CB /* AppDelegate.swift in Sources */,
+				D96A79B62BEDFDB70019CCF2 /* IntegationViewController.swift in Sources */,
+				D937D5762BECB7B70002D2CB /* LayoutManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D937D5662BECB6980002D2CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D937D5672BECB6980002D2CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D937D56A2BECB6980002D2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D937D56B2BECB6980002D2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D937D56D2BECB6980002D2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlgoliaSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Naguib.com.AlgoliaSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D937D56E2BECB6980002D2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlgoliaSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Naguib.com.AlgoliaSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D937D5532BECB6940002D2CB /* Build configuration list for PBXProject "AlgoliaSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D937D56A2BECB6980002D2CB /* Debug */,
+				D937D56B2BECB6980002D2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D937D56C2BECB6980002D2CB /* Build configuration list for PBXNativeTarget "AlgoliaSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D937D56D2BECB6980002D2CB /* Debug */,
+				D937D56E2BECB6980002D2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D96A79AF2BEDFD6B0019CCF2 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/algolia/algoliasearch-client-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.20.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D96A79B02BEDFD6B0019CCF2 /* AlgoliaSearchClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D96A79AF2BEDFD6B0019CCF2 /* XCRemoteSwiftPackageReference "algoliasearch-client-swift" */;
+			productName = AlgoliaSearchClient;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D937D5502BECB6940002D2CB /* Project object */;
+}

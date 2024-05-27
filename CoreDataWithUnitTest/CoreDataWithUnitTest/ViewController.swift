@@ -7,6 +7,7 @@
 
 import UIKit
 import Combine
+import CoreData
 
 class ViewController: UIViewController {
 
@@ -14,7 +15,7 @@ class ViewController: UIViewController {
     var sub = Set<AnyCancellable>()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        NSMainQueueConcurrencyType
         local.productSubject.sink { products in
             print(products)
         }

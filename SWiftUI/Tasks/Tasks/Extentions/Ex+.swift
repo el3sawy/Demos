@@ -10,7 +10,7 @@ import SwiftUI
 
 
 extension View {
-    func readingFrame(coordinateSpace: CoordinateSpace = .global,
+    func readingFrame1(coordinateSpace: CoordinateSpace = .global,
                       onChange: @escaping (_ frame: CGRect) -> ()) -> some View {
         
         

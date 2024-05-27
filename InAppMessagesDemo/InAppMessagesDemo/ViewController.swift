@@ -37,12 +37,12 @@ class ViewController: UIViewController, InAppMessagingDisplayDelegate {
     
     
     @IBAction func btn(_ sender: Any) {
-        InAppMessaging.inAppMessaging().triggerEvent("inappmessaging_compose_ee")
-//        let vc = UIHostingController(rootView: AcreenShotView())
-//        vc.modalPresentationStyle = .fullScreen
-//        present(vc, animated: true)
+        InAppMessaging.inAppMessaging().triggerEvent("AhmedNaguibDemo")
     }
     
 
 }
 
+extension UIViewController {
+    
+}

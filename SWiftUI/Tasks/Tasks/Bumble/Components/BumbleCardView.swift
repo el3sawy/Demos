@@ -23,8 +23,8 @@ struct BumbleCardView: View {
         .clipShape(RoundedRectangle(cornerRadius: 32))
         .padding(.top, 1)
         .background(Color.yellow.opacity(0.2))
-        .scaledToFill()
-        .readingFrame { frame in
+        
+        .readingFrame1 { frame in
             cardFrame = frame
         }
     }

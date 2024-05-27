@@ -69,8 +69,7 @@ class LayoutManager {
             groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.85), heightDimension: .absolute(240))
         }
         let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitem: item, count: 3)
-        let sectionBackground = NSCollectionLayoutDecorationItem.background(
-            elementKind: .)
+       
         let section = NSCollectionLayoutSection(group: group)
         section.orthogonalScrollingBehavior = .groupPaging
         section.boundarySupplementaryItems = [createHeaderItem()]

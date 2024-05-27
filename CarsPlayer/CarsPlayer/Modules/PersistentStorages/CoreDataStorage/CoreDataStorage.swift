@@ -82,7 +82,7 @@ extension CoreDataStorage: Storage {
 extension CoreDataStorage {
     func saveContext() {
         guard viewContext.hasChanges else { return }
-        
+        NSMainQueueConcurrencyType
         viewContext.perform { [weak self] in
             guard let self = self else { return }
             do {
