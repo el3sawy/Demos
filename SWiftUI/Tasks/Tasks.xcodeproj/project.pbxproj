@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D20C54392C0482E90039C46D /* NetflixFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20C54382C0482E90039C46D /* NetflixFilterCell.swift */; };
 		D91379782C03B1E40039DD8D /* BumbleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91379772C03B1E40039DD8D /* BumbleHomeView.swift */; };
 		D913797B2C03B52D0039DD8D /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = D913797A2C03B52D0039DD8D /* SwiftfulUI */; };
 		D913797D2C03C6240039DD8D /* ProfileImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913797C2C03C6240039DD8D /* ProfileImageCell.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D20C54382C0482E90039C46D /* NetflixFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixFilterCell.swift; sourceTree = "<group>"; };
 		D91379772C03B1E40039DD8D /* BumbleHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleHomeView.swift; sourceTree = "<group>"; };
 		D913797C2C03C6240039DD8D /* ProfileImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageCell.swift; sourceTree = "<group>"; };
 		D913797E2C03C96D0039DD8D /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D20C54372C047F650039C46D /* Netflix */ = {
+			isa = PBXGroup;
+			children = (
+				D20C54382C0482E90039C46D /* NetflixFilterCell.swift */,
+			);
+			path = Netflix;
+			sourceTree = "<group>";
+		};
 		D98ED5002BDBA175009E63E5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +95,7 @@
 		D98ED50B2BDBA175009E63E5 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				D20C54372C047F650039C46D /* Netflix */,
 				D9A899512BE6C266009C965B /* Extentions */,
 				D9BD232A2BE2CA1700A9B91C /* Bumble */,
 				D98ED52C2BDD850C009E63E5 /* SongCell */,
@@ -251,6 +262,7 @@
 				D98ED5262BDD165A009E63E5 /* ListItemView.swift in Sources */,
 				D9BD232C2BE2CAC500A9B91C /* BumbleMainView.swift in Sources */,
 				D98ED5212BDD0EA8009E63E5 /* StratchHeaderCell.swift in Sources */,
+				D20C54392C0482E90039C46D /* NetflixFilterCell.swift in Sources */,
 				D9A899502BE6BE64009C965B /* BumbleCardView.swift in Sources */,
 				D91379782C03B1E40039DD8D /* BumbleHomeView.swift in Sources */,
 				D913797D2C03C6240039DD8D /* ProfileImageCell.swift in Sources */,
