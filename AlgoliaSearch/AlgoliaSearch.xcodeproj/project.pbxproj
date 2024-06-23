@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2EE8FFB2C2899EC00C48D8A /* Newfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EE8FFA2C2899EC00C48D8A /* Newfiles.swift */; };
 		D937D55C2BECB6940002D2CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937D55B2BECB6940002D2CB /* AppDelegate.swift */; };
 		D937D5652BECB6980002D2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D937D5642BECB6980002D2CB /* Assets.xcassets */; };
 		D937D5682BECB6980002D2CB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D937D5672BECB6980002D2CB /* Base */; };
@@ -24,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D2EE8FFA2C2899EC00C48D8A /* Newfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newfiles.swift; sourceTree = "<group>"; };
 		D937D5582BECB6940002D2CB /* AlgoliaSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoliaSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D937D55B2BECB6940002D2CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D937D5642BECB6980002D2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 			children = (
 				D96A79B32BEDFDB70019CCF2 /* IntegationViewController.swift */,
 				D96A79B42BEDFDB70019CCF2 /* IntegationViewController.xib */,
-				D2EE8FFA2C2899EC00C48D8A /* Newfiles.swift */,
 			);
 			path = Integration;
 			sourceTree = "<group>";
@@ -215,7 +212,6 @@
 				D96A79AC2BED5EE90019CCF2 /* HeaderCollectionViewCell.swift in Sources */,
 				D937D55C2BECB6940002D2CB /* AppDelegate.swift in Sources */,
 				D96A79B62BEDFDB70019CCF2 /* IntegationViewController.swift in Sources */,
-				D2EE8FFB2C2899EC00C48D8A /* Newfiles.swift in Sources */,
 				D937D5762BECB7B70002D2CB /* LayoutManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
