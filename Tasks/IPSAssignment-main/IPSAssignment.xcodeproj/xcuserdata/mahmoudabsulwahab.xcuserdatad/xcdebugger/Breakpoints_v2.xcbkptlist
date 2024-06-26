@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "729BD976-4411-4DFE-93B4-42000ECE0E2C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPSAssignmentTests/LessonsViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "test_show_error_message_when_error_throwen()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574 - bd41332f5a2f33cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for IPSAssignmentTests.LessonsViewModelTests.test_show_error_message_when_error_throwen() async -&gt; ()"
+                  moduleName = "IPSAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignmentTests/LessonsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "143">
+               </Location>
+               <Location
+                  uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574 - 329812a63be363b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for IPSAssignmentTests.LessonsViewModelTests.test_show_error_message_when_error_throwen() async -&gt; ()"
+                  moduleName = "IPSAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignmentTests/LessonsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574 - e707fc1683cc73cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for IPSAssignmentTests.LessonsViewModelTests.test_show_error_message_when_error_throwen() async -&gt; ()"
+                  moduleName = "IPSAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignmentTests/LessonsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574 - bd41332f5a2f302a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for IPSAssignmentTests.LessonsViewModelTests.test_show_error_message_when_error_throwen() async -&gt; ()"
+                  moduleName = "IPSAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignmentTests/LessonsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "143">
+               </Location>
+               <Location
+                  uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574 - 329812a63be36051"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for IPSAssignmentTests.LessonsViewModelTests.test_show_error_message_when_error_throwen() async -&gt; ()"
+                  moduleName = "IPSAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignmentTests/LessonsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574 - e707fc1683cc7028"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for IPSAssignmentTests.LessonsViewModelTests.test_show_error_message_when_error_throwen() async -&gt; ()"
+                  moduleName = "IPSAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignmentTests/LessonsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574 - bd41332f5a2f3049"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for IPSAssignmentTests.LessonsViewModelTests.test_show_error_message_when_error_throwen() async -&gt; ()"
+                  moduleName = "IPSAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignmentTests/LessonsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "143">
+               </Location>
+               <Location
+                  uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574 - 329812a63be36032"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for IPSAssignmentTests.LessonsViewModelTests.test_show_error_message_when_error_throwen() async -&gt; ()"
+                  moduleName = "IPSAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignmentTests/LessonsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574 - e707fc1683cc704b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for IPSAssignmentTests.LessonsViewModelTests.test_show_error_message_when_error_throwen() async -&gt; ()"
+                  moduleName = "IPSAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignmentTests/LessonsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "78882ACF-F591-4C1F-AFCB-C08F8C834574 - bd41332f5a2f3049"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for IPSAssignmentTests.LessonsViewModelTests.test_show_error_message_when_error_throwen() async -&gt; ()"
+                  moduleName = "IPSAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignmentTests/LessonsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84749F22-7B42-48E1-B968-AD60164EBA40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPSAssignment/Modules/Lessons/PresentationLayer/ViewModel/LessonsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "updateDownloadedLessonIsCachedFlag(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C0ED8EE-5EFA-4E07-ACA3-A746D60C92C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPSAssignment/Modules/Lessons/PresentationLayer/ViewModel/LessonsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "updateDownloadedLessonIsCachedFlag(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5D8927C-6280-4A2F-A8F0-BD48162B58E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPSAssignment/Modules/LessonDetails/ViewModel/LessonDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "nextButtonDidTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5D8927C-6280-4A2F-A8F0-BD48162B58E1 - dff36dd234f1ce79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IPSAssignment.LessonDetailsViewModel.nextButtonDidTapped() -&gt; ()"
+                  moduleName = "IPSAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignment/Modules/LessonDetails/ViewModel/LessonDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "F5D8927C-6280-4A2F-A8F0-BD48162B58E1 - dff36dd234f1ce79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IPSAssignment.LessonDetailsViewModel.nextButtonDidTapped() -&gt; ()"
+                  moduleName = "IPSAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudabsulwahab/Documents/IPSAssignment/IPSAssignment/Modules/LessonDetails/ViewModel/LessonDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "213">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3A658D3-F147-4E78-8B0B-A5B85DC23416"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPSAssignment/Modules/LessonDetails/ViewModel/LessonDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "nextButtonDidTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BE63169-EE69-4A00-8868-0F85FCD6FE3D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IPSAssignment/Modules/LessonDetails/ViewModel/LessonDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "nextButtonDidTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
