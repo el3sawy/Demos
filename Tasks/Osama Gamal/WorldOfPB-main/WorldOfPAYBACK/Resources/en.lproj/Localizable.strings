@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  WorldOfPAYBACK
+
+  Created by Osama Gamal on 08/05/2023.
+  
+*/
+"offline_device_error_text" = "Your device appears to be offline, Please check your internet connectivity";
