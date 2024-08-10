@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2A571429E2351900457506 /* RobustaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A571329E2351900457506 /* RobustaTests.swift */; };
+		DC5E31E329E1E30900DA6F60 /* BaseRepo in Frameworks */ = {isa = PBXBuildFile; productRef = DC5E31E229E1E30900DA6F60 /* BaseRepo */; };
+		DC5E31E529E1E30900DA6F60 /* CoreError in Frameworks */ = {isa = PBXBuildFile; productRef = DC5E31E429E1E30900DA6F60 /* CoreError */; };
+		DC5E31E729E1E30900DA6F60 /* CoreNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = DC5E31E629E1E30900DA6F60 /* CoreNetwork */; };
+		DC5E31E929E1E30900DA6F60 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = DC5E31E829E1E30900DA6F60 /* Data */; };
+		DC5E31EB29E1E30900DA6F60 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = DC5E31EA29E1E30900DA6F60 /* Domain */; };
+		DC5E31ED29E1E30900DA6F60 /* ImageCache in Frameworks */ = {isa = PBXBuildFile; productRef = DC5E31EC29E1E30900DA6F60 /* ImageCache */; };
+		DC5E31EF29E1E30900DA6F60 /* Presentation in Frameworks */ = {isa = PBXBuildFile; productRef = DC5E31EE29E1E30900DA6F60 /* Presentation */; };
+		DC5E31F129E1E30900DA6F60 /* Utils in Frameworks */ = {isa = PBXBuildFile; productRef = DC5E31F029E1E30900DA6F60 /* Utils */; };
+		DCDD543A29E12F2B000FF572 /* RobustaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDD543929E12F2B000FF572 /* RobustaApp.swift */; };
+		DCDD543E29E12F2E000FF572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDD543D29E12F2E000FF572 /* Assets.xcassets */; };
+		DCDD544229E12F2E000FF572 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDD544129E12F2E000FF572 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC2A571529E2351900457506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCDD542E29E12F2B000FF572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDD543529E12F2B000FF572;
+			remoteInfo = Robusta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC2A570C29E234BE00457506 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		DC2A571129E2351800457506 /* RobustaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobustaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2A571329E2351900457506 /* RobustaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobustaTests.swift; sourceTree = "<group>"; };
+		DCDD543629E12F2B000FF572 /* Robusta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Robusta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDD543929E12F2B000FF572 /* RobustaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobustaApp.swift; sourceTree = "<group>"; };
+		DCDD543D29E12F2E000FF572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCDD543F29E12F2E000FF572 /* Robusta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Robusta.entitlements; sourceTree = "<group>"; };
+		DCDD544129E12F2E000FF572 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC2A570E29E2351800457506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDD543329E12F2B000FF572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5E31EB29E1E30900DA6F60 /* Domain in Frameworks */,
+				DC5E31ED29E1E30900DA6F60 /* ImageCache in Frameworks */,
+				DC5E31E529E1E30900DA6F60 /* CoreError in Frameworks */,
+				DC5E31E729E1E30900DA6F60 /* CoreNetwork in Frameworks */,
+				DC5E31E929E1E30900DA6F60 /* Data in Frameworks */,
+				DC5E31E329E1E30900DA6F60 /* BaseRepo in Frameworks */,
+				DC5E31F129E1E30900DA6F60 /* Utils in Frameworks */,
+				DC5E31EF29E1E30900DA6F60 /* Presentation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2A571229E2351900457506 /* RobustaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2A571329E2351900457506 /* RobustaTests.swift */,
+			);
+			path = RobustaTests;
+			sourceTree = "<group>";
+		};
+		DC5E31E129E1E30900DA6F60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCDD542D29E12F2B000FF572 = {
+			isa = PBXGroup;
+			children = (
+				DCDD543829E12F2B000FF572 /* Robusta */,
+				DC2A571229E2351900457506 /* RobustaTests */,
+				DCDD543729E12F2B000FF572 /* Products */,
+				DC5E31E129E1E30900DA6F60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCDD543729E12F2B000FF572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDD543629E12F2B000FF572 /* Robusta.app */,
+				DC2A571129E2351800457506 /* RobustaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDD543829E12F2B000FF572 /* Robusta */ = {
+			isa = PBXGroup;
+			children = (
+				DCDD543929E12F2B000FF572 /* RobustaApp.swift */,
+				DC2A570C29E234BE00457506 /* TestPlan.xctestplan */,
+				DCDD543D29E12F2E000FF572 /* Assets.xcassets */,
+				DCDD543F29E12F2E000FF572 /* Robusta.entitlements */,
+				DCDD544029E12F2E000FF572 /* Preview Content */,
+			);
+			path = Robusta;
+			sourceTree = "<group>";
+		};
+		DCDD544029E12F2E000FF572 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCDD544129E12F2E000FF572 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC2A571029E2351800457506 /* RobustaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2A571729E2351900457506 /* Build configuration list for PBXNativeTarget "RobustaTests" */;
+			buildPhases = (
+				DC2A570D29E2351800457506 /* Sources */,
+				DC2A570E29E2351800457506 /* Frameworks */,
+				DC2A570F29E2351800457506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2A571629E2351900457506 /* PBXTargetDependency */,
+			);
+			name = RobustaTests;
+			productName = RobustaTests;
+			productReference = DC2A571129E2351800457506 /* RobustaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCDD543529E12F2B000FF572 /* Robusta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDD544529E12F2E000FF572 /* Build configuration list for PBXNativeTarget "Robusta" */;
+			buildPhases = (
+				DCDD543229E12F2B000FF572 /* Sources */,
+				DCDD543329E12F2B000FF572 /* Frameworks */,
+				DCDD543429E12F2B000FF572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Robusta;
+			packageProductDependencies = (
+				DC5E31E229E1E30900DA6F60 /* BaseRepo */,
+				DC5E31E429E1E30900DA6F60 /* CoreError */,
+				DC5E31E629E1E30900DA6F60 /* CoreNetwork */,
+				DC5E31E829E1E30900DA6F60 /* Data */,
+				DC5E31EA29E1E30900DA6F60 /* Domain */,
+				DC5E31EC29E1E30900DA6F60 /* ImageCache */,
+				DC5E31EE29E1E30900DA6F60 /* Presentation */,
+				DC5E31F029E1E30900DA6F60 /* Utils */,
+			);
+			productName = Robusta;
+			productReference = DCDD543629E12F2B000FF572 /* Robusta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCDD542E29E12F2B000FF572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DC2A571029E2351800457506 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DCDD543529E12F2B000FF572;
+					};
+					DCDD543529E12F2B000FF572 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DCDD543129E12F2B000FF572 /* Build configuration list for PBXProject "Robusta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCDD542D29E12F2B000FF572;
+			productRefGroup = DCDD543729E12F2B000FF572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCDD543529E12F2B000FF572 /* Robusta */,
+				DC2A571029E2351800457506 /* RobustaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC2A570F29E2351800457506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDD543429E12F2B000FF572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDD544229E12F2E000FF572 /* Preview Assets.xcassets in Resources */,
+				DCDD543E29E12F2E000FF572 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC2A570D29E2351800457506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2A571429E2351900457506 /* RobustaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDD543229E12F2B000FF572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDD543A29E12F2B000FF572 /* RobustaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC2A571629E2351900457506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDD543529E12F2B000FF572 /* Robusta */;
+			targetProxy = DC2A571529E2351900457506 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC2A571829E2351900457506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hussam.RobustaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robusta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Robusta";
+			};
+			name = Debug;
+		};
+		DC2A571929E2351900457506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hussam.RobustaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robusta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Robusta";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCDD544329E12F2E000FF572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCDD544429E12F2E000FF572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DCDD544629E12F2E000FF572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Robusta/Robusta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Robusta/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hussam.Robusta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCDD544729E12F2E000FF572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Robusta/Robusta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Robusta/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hussam.Robusta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC2A571729E2351900457506 /* Build configuration list for PBXNativeTarget "RobustaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2A571829E2351900457506 /* Debug */,
+				DC2A571929E2351900457506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDD543129E12F2B000FF572 /* Build configuration list for PBXProject "Robusta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDD544329E12F2E000FF572 /* Debug */,
+				DCDD544429E12F2E000FF572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDD544529E12F2E000FF572 /* Build configuration list for PBXNativeTarget "Robusta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDD544629E12F2E000FF572 /* Debug */,
+				DCDD544729E12F2E000FF572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC5E31E229E1E30900DA6F60 /* BaseRepo */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BaseRepo;
+		};
+		DC5E31E429E1E30900DA6F60 /* CoreError */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreError;
+		};
+		DC5E31E629E1E30900DA6F60 /* CoreNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreNetwork;
+		};
+		DC5E31E829E1E30900DA6F60 /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		DC5E31EA29E1E30900DA6F60 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		DC5E31EC29E1E30900DA6F60 /* ImageCache */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImageCache;
+		};
+		DC5E31EE29E1E30900DA6F60 /* Presentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Presentation;
+		};
+		DC5E31F029E1E30900DA6F60 /* Utils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Utils;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DCDD542E29E12F2B000FF572 /* Project object */;
+}

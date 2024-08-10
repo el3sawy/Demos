@@ -43,7 +43,6 @@
 		92B2103729AE9DB7004C513F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		92B2103A29AE9FA8004C513F /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
 		92B2103C29AEA16B004C513F /* ListChatUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChatUseCase.swift; sourceTree = "<group>"; };
-		D98886062AEFD3E100FA6029 /* SmilesFilterAndSort */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SmilesFilterAndSort; path = ../../../../Desktop/Smiles/Modules/SmilesFilterAndSort; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +60,6 @@
 		92B2100529AE97DA004C513F = {
 			isa = PBXGroup;
 			children = (
-				D98886062AEFD3E100FA6029 /* SmilesFilterAndSort */,
 				92B2101029AE97DA004C513F /* ChatApp */,
 				92B2100F29AE97DA004C513F /* Products */,
 				D98886072AEFD3EF00FA6029 /* Frameworks */,

@@ -1,0 +1,6 @@
+"navigation_bar_title" = "Transactions";
+"empty_transactiosn" = "You do not have any transactions.";
+"transactions_fetch_error_text" = "An error has occured, please try again later.";
+"retry" = "Retry";
+"sum_of_transactions" = "Sum Of Transactions";
+"transaction_details_navigation_bar_title" = "Transaction Details";

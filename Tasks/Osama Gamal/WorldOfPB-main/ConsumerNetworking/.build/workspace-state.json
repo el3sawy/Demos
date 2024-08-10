@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "hellodomain",
+          "kind" : "fileSystem",
+          "location" : "/Users/i0sa/Projects/PAYBACK_Coding_Challenge/HelloDomain",
+          "name" : "HelloDomain"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/i0sa/Projects/PAYBACK_Coding_Challenge/HelloDomain"
+        },
+        "subpath" : "hellodomain"
+      }
+    ]
+  },
+  "version" : 5
+}

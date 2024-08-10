@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8A6EBDF0-F052-4595-A544-B34911D73E39"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0138F3A7-ECF9-4D5F-91FA-A3D326D92F16"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldOfPAYBACK/DependencyContainer.swift"
+            startingColumnNumber = "34"
+            endingColumnNumber = "48"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "init(networking:configurations:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

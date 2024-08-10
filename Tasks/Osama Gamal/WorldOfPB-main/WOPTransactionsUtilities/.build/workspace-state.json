@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "wopdomain",
+          "kind" : "fileSystem",
+          "location" : "/Users/i0sa/Projects/PAYBACK_Coding_Challenge/WOPDomain",
+          "name" : "WOPDomain"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/i0sa/Projects/PAYBACK_Coding_Challenge/WOPDomain"
+        },
+        "subpath" : "wopdomain"
+      }
+    ]
+  },
+  "version" : 5
+}

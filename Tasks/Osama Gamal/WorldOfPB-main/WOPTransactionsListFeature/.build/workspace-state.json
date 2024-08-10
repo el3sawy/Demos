@@ -1,0 +1,52 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "wopdesignsystem",
+          "kind" : "fileSystem",
+          "location" : "/Users/i0sa/Projects/PAYBACK_Coding_Challenge/WOPDesignSystem",
+          "name" : "WOPDesignSystem"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/i0sa/Projects/PAYBACK_Coding_Challenge/WOPDesignSystem"
+        },
+        "subpath" : "wopdesignsystem"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "wopdomain",
+          "kind" : "fileSystem",
+          "location" : "/Users/i0sa/Projects/PAYBACK_Coding_Challenge/WOPDomain",
+          "name" : "WOPDomain"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/i0sa/Projects/PAYBACK_Coding_Challenge/WOPDomain"
+        },
+        "subpath" : "wopdomain"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "woptransactionsutilities",
+          "kind" : "fileSystem",
+          "location" : "/Users/i0sa/Projects/PAYBACK_Coding_Challenge/WOPTransactionsUtilities",
+          "name" : "WOPTransactionsUtilities"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/i0sa/Projects/PAYBACK_Coding_Challenge/WOPTransactionsUtilities"
+        },
+        "subpath" : "woptransactionsutilities"
+      }
+    ]
+  },
+  "version" : 5
+}
