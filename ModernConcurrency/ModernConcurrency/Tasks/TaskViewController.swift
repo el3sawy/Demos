@@ -103,7 +103,7 @@ class TaskViewController: UIViewController {
             
             let imageURL = URL(string: "https://source.unsplash.com/random")!
             print("Starting network request...")
-            let (imageData, _) = try await URLSession.shared.data(from: imageURL)
+            let (imageData, ee) = try await URLSession.shared.data(from: imageURL)
             print("Finised network request...\( Thread.current)")
             return UIImage(data: imageData)
         }

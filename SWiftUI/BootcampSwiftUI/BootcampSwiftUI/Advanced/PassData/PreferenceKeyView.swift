@@ -14,24 +14,54 @@ struct PreferenceKeyView: View {
             Text(name)
             PreferenceKeyTwoView()
             DemoGEO()
+                .clipShape(.rect(cornerRadius: 26))
         }
         .onPreferenceChange(PreferenceKeyName.self, perform: { value in
             print("222")
             self.name = value
+        })
+        
+        .onPreferenceChange(PreferenceKeyBool.self, perform: { value in
+            if value {
+                name = "True"
+            } else {
+                name = "False"
+            }
         })
     }
 }
 
 fileprivate struct PreferenceKeyTwoView: View {
     @State var name = "Ali"
+    @State var counter = 0
+    @State var b = true
     var body: some View {
-        Button {
-            name = "KOKO"
-        } label: {
-            Text("Tapp me plz")
+        VStack{
+            Button {
+    //            tt()
+                name = "KOKO \(counter)"
+               
+            } label: {
+                Text("Tapp me plz")
+            }
+            Text("HIIII")
+                
+        }
+        
+        .frame(maxWidth: .infinity)
+        .frame(height: 300)
+        .background(Color.red)
+        .onTapGesture {
+            b.toggle()
+            print("Tapped")
         }
         .customTex(name)
+        .customBool(b)
 
+    }
+    
+    func tt() {
+        counter += 1
     }
 }
 
@@ -70,5 +100,20 @@ fileprivate struct PreferenceKeyName: PreferenceKey {
 fileprivate extension View {
     func customTex(_ text: String) -> some View {
         self.preference(key: PreferenceKeyName.self, value: text)
+    }
+}
+
+
+fileprivate struct PreferenceKeyBool: PreferenceKey {
+    
+    static var defaultValue: Bool = true
+    static func reduce(value: inout Bool, nextValue: () -> Bool) {
+        defaultValue = nextValue()
+    }
+}
+
+fileprivate extension View {
+    func customBool(_ text: Bool) -> some View {
+        self.preference(key: PreferenceKeyBool.self, value: text)
     }
 }

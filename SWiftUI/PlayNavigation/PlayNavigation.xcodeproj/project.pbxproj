@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2AA19682C5D3E6D003B5F02 /* SampileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA19672C5D3E6D003B5F02 /* SampileApp.swift */; };
+		D2AA196A2C5D535F003B5F02 /* FoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA19692C5D535F003B5F02 /* FoodItemView.swift */; };
+		D2AA196D2C5D5405003B5F02 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA196C2C5D5405003B5F02 /* Route.swift */; };
+		D2AA196F2C5D545E003B5F02 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA196E2C5D545E003B5F02 /* NavigationRouter.swift */; };
+		D2AA19712C5E541C003B5F02 /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA19702C5E541C003B5F02 /* StudentView.swift */; };
+		D2AA19772C5FBBEB003B5F02 /* DeepLinkFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA19762C5FBBEB003B5F02 /* DeepLinkFinder.swift */; };
+		D2AA19792C601E5F003B5F02 /* NotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA19782C601E5F003B5F02 /* NotificationsManager.swift */; };
+		D2AA197B2C601E77003B5F02 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA197A2C601E77003B5F02 /* SettingsView.swift */; };
 		D97386882B78E3BF0036ACE7 /* PlayNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97386872B78E3BF0036ACE7 /* PlayNavigationApp.swift */; };
 		D973868A2B78E3BF0036ACE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97386892B78E3BF0036ACE7 /* ContentView.swift */; };
 		D973868C2B78E3C00036ACE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D973868B2B78E3C00036ACE7 /* Assets.xcassets */; };
@@ -14,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2AA19672C5D3E6D003B5F02 /* SampileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampileApp.swift; sourceTree = "<group>"; };
+		D2AA19692C5D535F003B5F02 /* FoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemView.swift; sourceTree = "<group>"; };
+		D2AA196C2C5D5405003B5F02 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		D2AA196E2C5D545E003B5F02 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		D2AA19702C5E541C003B5F02 /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
+		D2AA19722C5EBF5A003B5F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D2AA19762C5FBBEB003B5F02 /* DeepLinkFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkFinder.swift; sourceTree = "<group>"; };
+		D2AA19782C601E5F003B5F02 /* NotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsManager.swift; sourceTree = "<group>"; };
+		D2AA197A2C601E77003B5F02 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D97386842B78E3BF0036ACE7 /* PlayNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97386872B78E3BF0036ACE7 /* PlayNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayNavigationApp.swift; sourceTree = "<group>"; };
 		D97386892B78E3BF0036ACE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +49,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2AA19662C5D3E56003B5F02 /* SmileApp */ = {
+			isa = PBXGroup;
+			children = (
+				D2AA19672C5D3E6D003B5F02 /* SampileApp.swift */,
+				D2AA19692C5D535F003B5F02 /* FoodItemView.swift */,
+				D2AA19702C5E541C003B5F02 /* StudentView.swift */,
+				D2AA19782C601E5F003B5F02 /* NotificationsManager.swift */,
+				D2AA197A2C601E77003B5F02 /* SettingsView.swift */,
+			);
+			path = SmileApp;
+			sourceTree = "<group>";
+		};
+		D2AA196B2C5D53FB003B5F02 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				D2AA196C2C5D5405003B5F02 /* Route.swift */,
+				D2AA196E2C5D545E003B5F02 /* NavigationRouter.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		D2AA19752C5FBBDF003B5F02 /* DeepLink */ = {
+			isa = PBXGroup;
+			children = (
+				D2AA19762C5FBBEB003B5F02 /* DeepLinkFinder.swift */,
+			);
+			path = DeepLink;
+			sourceTree = "<group>";
+		};
 		D973867B2B78E3BF0036ACE7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +97,10 @@
 		D97386862B78E3BF0036ACE7 /* PlayNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				D2AA19752C5FBBDF003B5F02 /* DeepLink */,
+				D2AA19722C5EBF5A003B5F02 /* Info.plist */,
+				D2AA196B2C5D53FB003B5F02 /* Route */,
+				D2AA19662C5D3E56003B5F02 /* SmileApp */,
 				D97386872B78E3BF0036ACE7 /* PlayNavigationApp.swift */,
 				D97386892B78E3BF0036ACE7 /* ContentView.swift */,
 				D973868B2B78E3C00036ACE7 /* Assets.xcassets */,
@@ -138,7 +188,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D973868A2B78E3BF0036ACE7 /* ContentView.swift in Sources */,
+				D2AA19682C5D3E6D003B5F02 /* SampileApp.swift in Sources */,
+				D2AA196F2C5D545E003B5F02 /* NavigationRouter.swift in Sources */,
+				D2AA19772C5FBBEB003B5F02 /* DeepLinkFinder.swift in Sources */,
 				D97386882B78E3BF0036ACE7 /* PlayNavigationApp.swift in Sources */,
+				D2AA197B2C601E77003B5F02 /* SettingsView.swift in Sources */,
+				D2AA19792C601E5F003B5F02 /* NotificationsManager.swift in Sources */,
+				D2AA196D2C5D5405003B5F02 /* Route.swift in Sources */,
+				D2AA19712C5E541C003B5F02 /* StudentView.swift in Sources */,
+				D2AA196A2C5D535F003B5F02 /* FoodItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,18 +332,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PlayNavigation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayNavigation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Naguib.com.PlayNavigation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Naguib.com.PlayNavigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,18 +362,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PlayNavigation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayNavigation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Naguib.com.PlayNavigation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Naguib.com.PlayNavigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

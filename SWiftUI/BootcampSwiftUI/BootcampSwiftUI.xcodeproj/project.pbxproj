@@ -52,6 +52,7 @@
 		92D4133C29E6C56800D091E0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4133B29E6C56800D091E0 /* ProfileView.swift */; };
 		92F3B759294CD13F00DACC05 /* ScrollViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3B758294CD13F00DACC05 /* ScrollViewDemo.swift */; };
 		92F3B75B294CDCBE00DACC05 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F3B75A294CDCBE00DACC05 /* GridView.swift */; };
+		D212E4552C4C1CDB009DDAAD /* GridDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D212E4542C4C1CDB009DDAAD /* GridDemo.swift */; };
 		D9331DD02B7D38EA00CFCAA4 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9331DCF2B7D38EA00CFCAA4 /* CustomButtonView.swift */; };
 		D9331DD22B7D435200CFCAA4 /* CustomViewBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9331DD12B7D435200CFCAA4 /* CustomViewBuilderView.swift */; };
 		D9331DD42B7D495400CFCAA4 /* PassingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9331DD32B7D495400CFCAA4 /* PassingDataView.swift */; };
@@ -111,6 +112,7 @@
 		92D4133B29E6C56800D091E0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		92F3B758294CD13F00DACC05 /* ScrollViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewDemo.swift; sourceTree = "<group>"; };
 		92F3B75A294CDCBE00DACC05 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		D212E4542C4C1CDB009DDAAD /* GridDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridDemo.swift; sourceTree = "<group>"; };
 		D9331DCF2B7D38EA00CFCAA4 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		D9331DD12B7D435200CFCAA4 /* CustomViewBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBuilderView.swift; sourceTree = "<group>"; };
 		D9331DD32B7D495400CFCAA4 /* PassingDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataView.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				925F24902947C54F002B0076 /* PaddingView.swift */,
 				92F3B758294CD13F00DACC05 /* ScrollViewDemo.swift */,
 				92F3B75A294CDCBE00DACC05 /* GridView.swift */,
+				D212E4542C4C1CDB009DDAAD /* GridDemo.swift */,
 				92747A99294DE23000AF125C /* SafeAreaDemo.swift */,
 				92747A9B294DED6D00AF125C /* ButtonView.swift */,
 				92C1EE662938CB2C00CEDC9A /* ShapesView.swift */,
@@ -340,6 +343,7 @@
 			files = (
 				9263669D29E5F71200F98FB7 /* OnboardingView.swift in Sources */,
 				92C1EE692938D14B00CEDC9A /* ShadowView.swift in Sources */,
+				D212E4552C4C1CDB009DDAAD /* GridDemo.swift in Sources */,
 				92AA03DB29E17FBF0068FDD7 /* TransitionViewBootCam.swift in Sources */,
 				D972E2DA2BD2C7140025FD7F /* NestedObservableView.swift in Sources */,
 				921D3A0929E4A5FE00850649 /* tabBarView.swift in Sources */,

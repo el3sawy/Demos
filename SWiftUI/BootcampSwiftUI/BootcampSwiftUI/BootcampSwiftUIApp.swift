@@ -11,7 +11,7 @@ import SwiftUI
 struct BootcampSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            GragGestureBootCamp2()
+            PreferenceKeyView()
         }
     }
 }

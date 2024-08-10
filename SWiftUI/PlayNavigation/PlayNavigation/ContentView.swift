@@ -9,14 +9,15 @@ import SwiftUI
 
 
 struct DetailsView: View {
-    private let text: String
-    
-    init(text: String) {
-        self.text = text
-//        print(text)
-    }
+    @EnvironmentObject var router: NavigationRouter
+   
     var body: some View {
-        Text(text)
+        VStack  {
+            
+            Button("ss") {
+                router.reset()
+            }
+        }
             
     }
 }
@@ -26,24 +27,17 @@ struct DetailsView: View {
 struct ContentView: View {
     @State var test: [String] = []
     var body: some View {
-        NavigationStack(path: $test) {
-            
-        }
-        NavigationView {
-            ScrollView {
-               VStack(spacing: 30) {
-                    ForEach(0..<3) { i in
-                        
-                        
-                        
-                        NavigationLink("Index \(i)") {
-                            DetailsView(text: "Index \(i)")
-                        }
-                    }
+        NavigationView{
+            VStack {
+                
+                NavigationLink("Test") {
+                    DetailsView()
                 }
-//                .navigationTitle("Navigation Demo")
+
+                
             }
         }
+        
     }
 }
 

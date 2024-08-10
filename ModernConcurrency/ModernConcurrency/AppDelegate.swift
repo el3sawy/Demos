@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         window = UIWindow()
-        window?.rootViewController =  UINavigationController(rootViewController: TaskViewController())
+        window?.rootViewController =  UINavigationController(rootViewController: TestErrorViewController())
         window?.makeKeyAndVisible()
         return true
     }

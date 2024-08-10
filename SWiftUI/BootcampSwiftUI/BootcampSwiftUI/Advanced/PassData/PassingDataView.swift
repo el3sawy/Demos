@@ -38,6 +38,10 @@ fileprivate struct SecondView: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.value = "KOKO Ahmed"
         }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+            self.value = "KOKO Ahmed  test"
+        }
     }
 }
 
