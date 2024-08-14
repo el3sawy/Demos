@@ -11,7 +11,7 @@ import SwiftUI
 struct AdvancedViewsSwiftuiApp: App {
     var body: some Scene {
         WindowGroup {
-            GaugeDemo()
+            SizeClassesDemo1()
         }
     }
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E68DD52C6D2272007C101F /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DD42C6D2272007C101F /* ListDemo.swift */; };
+		04E68DD82C6D22D1007C101F /* SizeClassesDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DD72C6D22D1007C101F /* SizeClassesDemo1.swift */; };
+		04E68DDB2C6D274D007C101F /* HeightTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DDA2C6D274D007C101F /* HeightTextView.swift */; };
+		04E68DDD2C6D3175007C101F /* SizeClassesDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DDC2C6D3175007C101F /* SizeClassesDemo2.swift */; };
 		D2AC629C2C64BD5B0082487C /* AdvancedViewsSwiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC629B2C64BD5B0082487C /* AdvancedViewsSwiftuiApp.swift */; };
 		D2AC629E2C64BD5B0082487C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC629D2C64BD5B0082487C /* ContentView.swift */; };
 		D2AC62A02C64BD670082487C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AC629F2C64BD670082487C /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04E68DD42C6D2272007C101F /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
+		04E68DD72C6D22D1007C101F /* SizeClassesDemo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassesDemo1.swift; sourceTree = "<group>"; };
+		04E68DDA2C6D274D007C101F /* HeightTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightTextView.swift; sourceTree = "<group>"; };
+		04E68DDC2C6D3175007C101F /* SizeClassesDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassesDemo2.swift; sourceTree = "<group>"; };
 		D2AC62982C64BD5B0082487C /* AdvancedViewsSwiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedViewsSwiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AC629B2C64BD5B0082487C /* AdvancedViewsSwiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedViewsSwiftuiApp.swift; sourceTree = "<group>"; };
 		D2AC629D2C64BD5B0082487C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +62,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E68DD32C6D2265007C101F /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				04E68DD62C6D22C1007C101F /* SizeClasses */,
+				04E68DD42C6D2272007C101F /* ListDemo.swift */,
+			);
+			path = Example2;
+			sourceTree = "<group>";
+		};
+		04E68DD62C6D22C1007C101F /* SizeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				04E68DD72C6D22D1007C101F /* SizeClassesDemo1.swift */,
+				04E68DDC2C6D3175007C101F /* SizeClassesDemo2.swift */,
+			);
+			path = SizeClasses;
+			sourceTree = "<group>";
+		};
+		04E68DD92C6D2739007C101F /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				04E68DDA2C6D274D007C101F /* HeightTextView.swift */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
 		D2AC628F2C64BD5A0082487C = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +107,8 @@
 		D2AC629A2C64BD5B0082487C /* AdvancedViewsSwiftui */ = {
 			isa = PBXGroup;
 			children = (
+				04E68DD92C6D2739007C101F /* Tips */,
+				04E68DD32C6D2265007C101F /* Example2 */,
 				D2AC62B32C64DC4A0082487C /* Extentions */,
 				D2AC62AE2C64C42C0082487C /* IOS13 */,
 				D2AC62A92C64BED10082487C /* IOS16 */,
@@ -197,9 +233,13 @@
 				D2AC629E2C64BD5B0082487C /* ContentView.swift in Sources */,
 				D2AC62B02C64C4390082487C /* ContextMenuView.swift in Sources */,
 				D2AC62B72C64E19E0082487C /* GridView.swift in Sources */,
+				04E68DDD2C6D3175007C101F /* SizeClassesDemo2.swift in Sources */,
 				D2B8A11B2C665E52004819F9 /* LayoutDemoView.swift in Sources */,
+				04E68DD52C6D2272007C101F /* ListDemo.swift in Sources */,
+				04E68DD82C6D22D1007C101F /* SizeClassesDemo1.swift in Sources */,
 				D2AC62AB2C64BEE30082487C /* ImagePickerView.swift in Sources */,
 				D2AC62AD2C64C3210082487C /* ShareLinkView.swift in Sources */,
+				04E68DDB2C6D274D007C101F /* HeightTextView.swift in Sources */,
 				D2B8A11F2C6668E0004819F9 /* ViewThatFitsDemo.swift in Sources */,
 				D2B8A1232C667C60004819F9 /* ImageRendererView.swift in Sources */,
 				D2B8A11D2C66647D004819F9 /* ToolbarBackgroundDemo.swift in Sources */,
