@@ -22,6 +22,14 @@
 		D2B8A11F2C6668E0004819F9 /* ViewThatFitsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8A11E2C6668E0004819F9 /* ViewThatFitsDemo.swift */; };
 		D2B8A1212C66703B004819F9 /* GaugeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8A1202C66703B004819F9 /* GaugeDemo.swift */; };
 		D2B8A1232C667C60004819F9 /* ImageRendererView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8A1222C667C60004819F9 /* ImageRendererView.swift */; };
+		D2B8A1292C67859F004819F9 /* OverlayPreferenceOverlayDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8A1282C67859F004819F9 /* OverlayPreferenceOverlayDemo.swift */; };
+		D2B8A12C2C679854004819F9 /* DictionatyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8A12B2C679854004819F9 /* DictionatyView.swift */; };
+		D2B8A12E2C679987004819F9 /* PrefranceStringMatchSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8A12D2C679987004819F9 /* PrefranceStringMatchSizeView.swift */; };
+		D2D19E702C67A1D500195543 /* SameWidthTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D19E6F2C67A1D500195543 /* SameWidthTextView.swift */; };
+		D2D19E732C67DE4200195543 /* OverlayPreferenceBackgroundDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D19E722C67DE4200195543 /* OverlayPreferenceBackgroundDemo.swift */; };
+		D2D19E752C67F8D500195543 /* Al ignmentGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D19E742C67F8D500195543 /* Al ignmentGuideView.swift */; };
+		D2D19E772C67FF6300195543 /* FamousProblemText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D19E762C67FF6300195543 /* FamousProblemText.swift */; };
+		D2D19E792C693EE600195543 /* DetectingVisibleCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D19E782C693EE600195543 /* DetectingVisibleCells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +49,14 @@
 		D2B8A11E2C6668E0004819F9 /* ViewThatFitsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsDemo.swift; sourceTree = "<group>"; };
 		D2B8A1202C66703B004819F9 /* GaugeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeDemo.swift; sourceTree = "<group>"; };
 		D2B8A1222C667C60004819F9 /* ImageRendererView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRendererView.swift; sourceTree = "<group>"; };
+		D2B8A1282C67859F004819F9 /* OverlayPreferenceOverlayDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPreferenceOverlayDemo.swift; sourceTree = "<group>"; };
+		D2B8A12B2C679854004819F9 /* DictionatyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionatyView.swift; sourceTree = "<group>"; };
+		D2B8A12D2C679987004819F9 /* PrefranceStringMatchSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefranceStringMatchSizeView.swift; sourceTree = "<group>"; };
+		D2D19E6F2C67A1D500195543 /* SameWidthTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameWidthTextView.swift; sourceTree = "<group>"; };
+		D2D19E722C67DE4200195543 /* OverlayPreferenceBackgroundDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPreferenceBackgroundDemo.swift; sourceTree = "<group>"; };
+		D2D19E742C67F8D500195543 /* Al ignmentGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Al ignmentGuideView.swift"; sourceTree = "<group>"; };
+		D2D19E762C67FF6300195543 /* FamousProblemText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousProblemText.swift; sourceTree = "<group>"; };
+		D2D19E782C693EE600195543 /* DetectingVisibleCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingVisibleCells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,8 @@
 		D2AC629A2C64BD5B0082487C /* AdvancedViewsSwiftui */ = {
 			isa = PBXGroup;
 			children = (
+				D2B8A12A2C679842004819F9 /* Swift */,
+				D2B8A1262C678578004819F9 /* Exaples */,
 				D2AC62B32C64DC4A0082487C /* Extentions */,
 				D2AC62AE2C64C42C0082487C /* IOS13 */,
 				D2AC62A92C64BED10082487C /* IOS16 */,
@@ -95,6 +113,7 @@
 		D2AC62A92C64BED10082487C /* IOS16 */ = {
 			isa = PBXGroup;
 			children = (
+				D2D19E712C67DE0200195543 /* Preference */,
 				D2AC62AA2C64BEE30082487C /* ImagePickerView.swift */,
 				D2AC62B62C64E19E0082487C /* GridView.swift */,
 				D2AC62AC2C64C3210082487C /* ShareLinkView.swift */,
@@ -122,6 +141,35 @@
 				D2AC62B42C64DC580082487C /* GetSize.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		D2B8A1262C678578004819F9 /* Exaples */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8A12D2C679987004819F9 /* PrefranceStringMatchSizeView.swift */,
+				D2D19E6F2C67A1D500195543 /* SameWidthTextView.swift */,
+				D2D19E742C67F8D500195543 /* Al ignmentGuideView.swift */,
+				D2D19E762C67FF6300195543 /* FamousProblemText.swift */,
+				D2D19E782C693EE600195543 /* DetectingVisibleCells.swift */,
+			);
+			path = Exaples;
+			sourceTree = "<group>";
+		};
+		D2B8A12A2C679842004819F9 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8A12B2C679854004819F9 /* DictionatyView.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		D2D19E712C67DE0200195543 /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8A1282C67859F004819F9 /* OverlayPreferenceOverlayDemo.swift */,
+				D2D19E722C67DE4200195543 /* OverlayPreferenceBackgroundDemo.swift */,
+			);
+			path = Preference;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,10 +242,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D19E792C693EE600195543 /* DetectingVisibleCells.swift in Sources */,
+				D2D19E732C67DE4200195543 /* OverlayPreferenceBackgroundDemo.swift in Sources */,
 				D2AC629E2C64BD5B0082487C /* ContentView.swift in Sources */,
+				D2B8A12E2C679987004819F9 /* PrefranceStringMatchSizeView.swift in Sources */,
+				D2D19E752C67F8D500195543 /* Al ignmentGuideView.swift in Sources */,
 				D2AC62B02C64C4390082487C /* ContextMenuView.swift in Sources */,
 				D2AC62B72C64E19E0082487C /* GridView.swift in Sources */,
 				D2B8A11B2C665E52004819F9 /* LayoutDemoView.swift in Sources */,
+				D2B8A1292C67859F004819F9 /* OverlayPreferenceOverlayDemo.swift in Sources */,
 				D2AC62AB2C64BEE30082487C /* ImagePickerView.swift in Sources */,
 				D2AC62AD2C64C3210082487C /* ShareLinkView.swift in Sources */,
 				D2B8A11F2C6668E0004819F9 /* ViewThatFitsDemo.swift in Sources */,
@@ -205,7 +258,10 @@
 				D2B8A11D2C66647D004819F9 /* ToolbarBackgroundDemo.swift in Sources */,
 				D2B8A1212C66703B004819F9 /* GaugeDemo.swift in Sources */,
 				D2AC62B22C64C70B0082487C /* AddGradientToColor.swift in Sources */,
+				D2D19E772C67FF6300195543 /* FamousProblemText.swift in Sources */,
+				D2D19E702C67A1D500195543 /* SameWidthTextView.swift in Sources */,
 				D2AC629C2C64BD5B0082487C /* AdvancedViewsSwiftuiApp.swift in Sources */,
+				D2B8A12C2C679854004819F9 /* DictionatyView.swift in Sources */,
 				D2AC62B52C64DC580082487C /* GetSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

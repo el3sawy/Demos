@@ -55,12 +55,11 @@ final class HomeViewModel: ObservableObject {
     }
     
     func addDepartment() {
-        NSCompositeAttributeDescription
+        
         let dept = DepartmentEntity(context: manager.context)
         dept.name = "Marketing"
         dept.buisnesses = [businesses[0]]
-        dept.addToEmployees(<#T##value: EmployeeEntity##EmployeeEntity#>)
-        dept.addToBuisnesses(<#T##value: BuisnessEntity##BuisnessEntity#>)
+       
         save()
     }
     
