@@ -10,6 +10,7 @@ import SwiftUI
 struct ListDemo: View {
     var body: some View {
         List {
+            
             Text("Ahmed")
             Text("Ahmed")
                 .listRowSeparator(.hidden)

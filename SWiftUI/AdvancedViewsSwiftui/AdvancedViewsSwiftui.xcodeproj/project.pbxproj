@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04302FA52C7528FA00C16E71 /* SafeAreaInsetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04302FA42C7528FA00C16E71 /* SafeAreaInsetDemo.swift */; };
 		04E68DD52C6D2272007C101F /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DD42C6D2272007C101F /* ListDemo.swift */; };
 		04E68DD82C6D22D1007C101F /* SizeClassesDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DD72C6D22D1007C101F /* SizeClassesDemo1.swift */; };
 		04E68DDB2C6D274D007C101F /* HeightTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DDA2C6D274D007C101F /* HeightTextView.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04302FA42C7528FA00C16E71 /* SafeAreaInsetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetDemo.swift; sourceTree = "<group>"; };
 		04E68DD42C6D2272007C101F /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
 		04E68DD72C6D22D1007C101F /* SizeClassesDemo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassesDemo1.swift; sourceTree = "<group>"; };
 		04E68DDA2C6D274D007C101F /* HeightTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightTextView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				04E68DD62C6D22C1007C101F /* SizeClasses */,
 				04E68DD42C6D2272007C101F /* ListDemo.swift */,
+				04302FA42C7528FA00C16E71 /* SafeAreaInsetDemo.swift */,
 			);
 			path = Example2;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				04E68DD52C6D2272007C101F /* ListDemo.swift in Sources */,
 				04E68DD82C6D22D1007C101F /* SizeClassesDemo1.swift in Sources */,
 				D2AC62AB2C64BEE30082487C /* ImagePickerView.swift in Sources */,
+				04302FA52C7528FA00C16E71 /* SafeAreaInsetDemo.swift in Sources */,
 				D2AC62AD2C64C3210082487C /* ShareLinkView.swift in Sources */,
 				04E68DDB2C6D274D007C101F /* HeightTextView.swift in Sources */,
 				D2B8A11F2C6668E0004819F9 /* ViewThatFitsDemo.swift in Sources */,
