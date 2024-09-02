@@ -23,10 +23,22 @@ struct AccessibilityActionsDemo: View {
         .accessibilityElement(children: .combine)
         .accessibilityValue(name ? "ON " : "Off")
         .accessibilityAction {
-            name.toggle()
+//            name.toggle()
+           VStack {
+                Button {
+                                // Perform first action here
+                            } label: {
+                                Text("First Action")
+                            }
+                            Button {
+                                // Perform second action here
+                            } label: {
+                                Text("Second Action")
+                            }
+            }
         }
         .accessibility(label: Text(" Change name"))
-        .accessibilityAddTraits(.isButton)
+//        .accessibilityAddTraits(.isModal)
     }
 }
 

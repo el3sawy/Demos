@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04302FA52C7528FA00C16E71 /* SafeAreaInsetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04302FA42C7528FA00C16E71 /* SafeAreaInsetDemo.swift */; };
+		0490E1122C84ED7B007DE435 /* AlignmentGuide2demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490E1112C84ED7B007DE435 /* AlignmentGuide2demo.swift */; };
+		0490E1152C84FC85007DE435 /* ToolTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490E1142C84FC85007DE435 /* ToolTipView.swift */; };
 		04E68DD52C6D2272007C101F /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DD42C6D2272007C101F /* ListDemo.swift */; };
 		04E68DD82C6D22D1007C101F /* SizeClassesDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DD72C6D22D1007C101F /* SizeClassesDemo1.swift */; };
 		04E68DDB2C6D274D007C101F /* HeightTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DDA2C6D274D007C101F /* HeightTextView.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		04302FA42C7528FA00C16E71 /* SafeAreaInsetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetDemo.swift; sourceTree = "<group>"; };
+		0490E1112C84ED7B007DE435 /* AlignmentGuide2demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide2demo.swift; sourceTree = "<group>"; };
+		0490E1142C84FC85007DE435 /* ToolTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolTipView.swift; sourceTree = "<group>"; };
 		04E68DD42C6D2272007C101F /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
 		04E68DD72C6D22D1007C101F /* SizeClassesDemo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassesDemo1.swift; sourceTree = "<group>"; };
 		04E68DDA2C6D274D007C101F /* HeightTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightTextView.swift; sourceTree = "<group>"; };
@@ -80,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0490E1132C84FC76007DE435 /* ToolTip */ = {
+			isa = PBXGroup;
+			children = (
+				0490E1142C84FC85007DE435 /* ToolTipView.swift */,
+			);
+			path = ToolTip;
+			sourceTree = "<group>";
+		};
 		04E68DD32C6D2265007C101F /* Example2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +138,7 @@
 		D2AC629A2C64BD5B0082487C /* AdvancedViewsSwiftui */ = {
 			isa = PBXGroup;
 			children = (
+				0490E1132C84FC76007DE435 /* ToolTip */,
 				D2B8A12A2C679842004819F9 /* Swift */,
 				D2B8A1262C678578004819F9 /* Exaples */,
 				04E68DD92C6D2739007C101F /* Tips */,
@@ -188,6 +201,7 @@
 				D2B8A12D2C679987004819F9 /* PrefranceStringMatchSizeView.swift */,
 				D2D19E6F2C67A1D500195543 /* SameWidthTextView.swift */,
 				D2D19E742C67F8D500195543 /* Al ignmentGuideView.swift */,
+				0490E1112C84ED7B007DE435 /* AlignmentGuide2demo.swift */,
 				D2D19E762C67FF6300195543 /* FamousProblemText.swift */,
 				D2D19E782C693EE600195543 /* DetectingVisibleCells.swift */,
 			);
@@ -291,6 +305,7 @@
 				04E68DDD2C6D3175007C101F /* SizeClassesDemo2.swift in Sources */,
 				D2B8A11B2C665E52004819F9 /* LayoutDemoView.swift in Sources */,
 				D2B8A1292C67859F004819F9 /* OverlayPreferenceOverlayDemo.swift in Sources */,
+				0490E1152C84FC85007DE435 /* ToolTipView.swift in Sources */,
 				04E68DD52C6D2272007C101F /* ListDemo.swift in Sources */,
 				04E68DD82C6D22D1007C101F /* SizeClassesDemo1.swift in Sources */,
 				D2AC62AB2C64BEE30082487C /* ImagePickerView.swift in Sources */,
@@ -302,6 +317,7 @@
 				D2B8A11D2C66647D004819F9 /* ToolbarBackgroundDemo.swift in Sources */,
 				D2B8A1212C66703B004819F9 /* GaugeDemo.swift in Sources */,
 				D2AC62B22C64C70B0082487C /* AddGradientToColor.swift in Sources */,
+				0490E1122C84ED7B007DE435 /* AlignmentGuide2demo.swift in Sources */,
 				D2D19E772C67FF6300195543 /* FamousProblemText.swift in Sources */,
 				D2D19E702C67A1D500195543 /* SameWidthTextView.swift in Sources */,
 				D2AC629C2C64BD5B0082487C /* AdvancedViewsSwiftuiApp.swift in Sources */,

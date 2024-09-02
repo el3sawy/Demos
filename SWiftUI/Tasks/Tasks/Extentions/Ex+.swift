@@ -32,6 +32,7 @@ public struct FrameReader: View {
     }
     public var body: some View {
         GeometryReader { geometry in
+            
             Text("")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .onAppear {

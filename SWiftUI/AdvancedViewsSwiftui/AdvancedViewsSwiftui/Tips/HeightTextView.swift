@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct HeightTextView: View {
+    @State private var name = ""
     var body: some View {
        VStack {
+           TextField("Title", text: $name,  axis: .vertical)
+               .lineLimit(nil)
             HStack {
                 Text("This is a short string.")
                     .padding()

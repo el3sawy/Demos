@@ -16,7 +16,8 @@ struct DictionatyView: View {
             }
         
     }
-    
+
+
     func mapValues() {
         let results = ["Meghan": 80, "Chris": 90, "Charlotte": 95]
         let formattedResults = results.mapValues { "Score: \($0)" }

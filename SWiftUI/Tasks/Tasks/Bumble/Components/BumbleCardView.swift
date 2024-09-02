@@ -25,6 +25,7 @@ struct BumbleCardView: View {
         .background(Color.yellow.opacity(0.2))
         
         .readingFrame1 { frame in
+            
             cardFrame = frame
         }
     }
