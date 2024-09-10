@@ -15,6 +15,7 @@ struct SafeAreaInsetDemo: View {
                     .frame(height: 120)
 
             }
+            .padding(.top, 40)
             .listStyle(.plain)
             .controlSize(.mini)
             .safeAreaInset(edge: .top) {
