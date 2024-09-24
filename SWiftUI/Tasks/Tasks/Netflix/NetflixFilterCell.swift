@@ -18,6 +18,7 @@ struct NetflixFilterCell: View {
                 Image(systemName: "chevron.down")
             }
         }
+        
     }
 }
 

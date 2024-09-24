@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04302FA52C7528FA00C16E71 /* SafeAreaInsetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04302FA42C7528FA00C16E71 /* SafeAreaInsetDemo.swift */; };
+		043E76292C89E157002399CC /* Expainf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E76282C89E157002399CC /* Expainf.swift */; };
+		045F966A2C89C8C50090E73C /* ExpandAndClouspPandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F96692C89C8C50090E73C /* ExpandAndClouspPandView.swift */; };
 		0490E1122C84ED7B007DE435 /* AlignmentGuide2demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490E1112C84ED7B007DE435 /* AlignmentGuide2demo.swift */; };
 		0490E1152C84FC85007DE435 /* ToolTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490E1142C84FC85007DE435 /* ToolTipView.swift */; };
 		04E68DD52C6D2272007C101F /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E68DD42C6D2272007C101F /* ListDemo.swift */; };
@@ -42,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		04302FA42C7528FA00C16E71 /* SafeAreaInsetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetDemo.swift; sourceTree = "<group>"; };
+		043E76282C89E157002399CC /* Expainf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expainf.swift; sourceTree = "<group>"; };
+		045F96692C89C8C50090E73C /* ExpandAndClouspPandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandAndClouspPandView.swift; sourceTree = "<group>"; };
 		0490E1112C84ED7B007DE435 /* AlignmentGuide2demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide2demo.swift; sourceTree = "<group>"; };
 		0490E1142C84FC85007DE435 /* ToolTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolTipView.swift; sourceTree = "<group>"; };
 		04E68DD42C6D2272007C101F /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
@@ -215,6 +219,8 @@
 				0490E1112C84ED7B007DE435 /* AlignmentGuide2demo.swift */,
 				D2D19E762C67FF6300195543 /* FamousProblemText.swift */,
 				D2D19E782C693EE600195543 /* DetectingVisibleCells.swift */,
+				045F96692C89C8C50090E73C /* ExpandAndClouspPandView.swift */,
+				043E76282C89E157002399CC /* Expainf.swift */,
 			);
 			path = Exaples;
 			sourceTree = "<group>";
@@ -322,9 +328,11 @@
 				04E68DD82C6D22D1007C101F /* SizeClassesDemo1.swift in Sources */,
 				D2AC62AB2C64BEE30082487C /* ImagePickerView.swift in Sources */,
 				04302FA52C7528FA00C16E71 /* SafeAreaInsetDemo.swift in Sources */,
+				043E76292C89E157002399CC /* Expainf.swift in Sources */,
 				D2AC62AD2C64C3210082487C /* ShareLinkView.swift in Sources */,
 				04E68DDB2C6D274D007C101F /* HeightTextView.swift in Sources */,
 				D2B8A11F2C6668E0004819F9 /* ViewThatFitsDemo.swift in Sources */,
+				045F966A2C89C8C50090E73C /* ExpandAndClouspPandView.swift in Sources */,
 				D2B8A1232C667C60004819F9 /* ImageRendererView.swift in Sources */,
 				D2B8A11D2C66647D004819F9 /* ToolbarBackgroundDemo.swift in Sources */,
 				D2B8A1212C66703B004819F9 /* GaugeDemo.swift in Sources */,
