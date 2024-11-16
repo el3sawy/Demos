@@ -20,14 +20,14 @@ struct PresentViewDemo: View {
         .sheet(isPresented: $present){
             DetailsView()
                 .presentationBackgroundInteraction(.enabled)
-                .presentationDetents([.medium,.large])
+//                .presentationDetents([.medium,.large])
 //                .presentationContentInteraction(.automatic)
             
             
             //                .presentationCompactAdaptation(.sheet)
             //                .presentationDragIndicator(.visible)
             //                .presentationBackground(.red)
-            //                .presentationCornerRadius(50)
+                            .presentationCornerRadius(50)
             //                .presentationDetents([.medium])
             //                .interactiveDismissDisabled()
         }
