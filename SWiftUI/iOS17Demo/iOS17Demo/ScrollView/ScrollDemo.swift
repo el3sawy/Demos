@@ -17,12 +17,12 @@ struct ScrollDemo: View {
                 }
             ScrollView(.horizontal) {
                 HScrollContent(count: $count)
-                    .clipShape(.rect(cornerRadius: 10))
-                    .padding(.horizontal, 10)
+//                    .clipShape(.rect(cornerRadius: 10))
+//                    .padding(.horizontal, 10)
             }
-            .scrollIndicatorsFlash(trigger: count) 
-            .contentMargins(.bottom, 10, for: .scrollContent)
-            .defaultScrollAnchor(.center)
+//            .scrollIndicatorsFlash(trigger: count) 
+//            .contentMargins(.bottom, 10, for: .scrollContent)
+//            .defaultScrollAnchor(.center)
         }
     }
 }

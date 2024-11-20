@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HScrollContent: View {
+    @State private var flipped = false
     @Binding var count: Int
     var body: some View {
         HStack {
@@ -17,6 +18,14 @@ struct HScrollContent: View {
                     .frame(width: 60, height: 60)
                     .overlay {
                         Text(index.description)
+                    }
+                    .rotation3DEffect(
+                        .degrees(flipped ? 180 : 0),
+                        axis: (x: 1, y: 0, z: 0)
+                    )
+                    .animation(.easeInOut, value: flipped)
+                    .onTapGesture {
+                        flipped.toggle()
                     }
             }
         }
