@@ -18,7 +18,7 @@ struct TextView: View {
 //                .underline(true, color: Color.red) //set line under text
 //                .strikethrough(true, color: Color.red) //set line in the middle
 //                .baselineOffset(10) // Space between lines
-//                .multilineTextAlignment(.center)
+                .multilineTextAlignment(.leading)
 //                .lineLimit(1)
                 .foregroundColor(.red)
 //                .frame(width: 100, height: 100, alignment: .center)

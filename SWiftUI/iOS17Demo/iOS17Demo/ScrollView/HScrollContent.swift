@@ -18,6 +18,7 @@ struct HScrollContent: View {
                     .overlay {
                         Text(index.description)
                     }
+                    .shadow(color: .black, radius: 5, x: 0, y: 0)
             }
         }
     }

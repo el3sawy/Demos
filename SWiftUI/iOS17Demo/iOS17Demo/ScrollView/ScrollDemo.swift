@@ -23,6 +23,16 @@ struct ScrollDemo: View {
             .scrollIndicatorsFlash(trigger: count) 
             .contentMargins(.bottom, 10, for: .scrollContent)
             .defaultScrollAnchor(.center)
+            
+            
+            Text("Shadow")
+            ScrollView(.horizontal) {
+                HScrollContent(count: $count)
+                    .padding(.horizontal, 10)
+            }
+            .scrollClipDisabled()
+            
+            
         }
     }
 }

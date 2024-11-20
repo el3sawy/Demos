@@ -11,7 +11,7 @@ import SwiftUI
 struct iOS17DemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ScrollDemo()
+            ChatView()
         }
     }
 }
