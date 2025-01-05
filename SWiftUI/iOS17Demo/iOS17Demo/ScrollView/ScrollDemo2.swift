@@ -15,7 +15,7 @@ struct ScrollDemo2: View {
         ScrollView {
             VStack(alignment: .leading) {
                 ScrollView(.horizontal) {
-                    LazyHStack {
+                    HStack {
                         ForEach(images) { image in
                             Rectangle()
                                 .fill(image.color)
@@ -30,7 +30,8 @@ struct ScrollDemo2: View {
                 .scrollIndicators(.hidden)
                 .scrollTargetBehavior(.viewAligned)
                 .scrollPosition(id: $scrollId)
-                
+                .defaultScrollAnchor(.center)
+
                 Spacer()
                     .frame(height: 100)
                 
@@ -65,6 +66,7 @@ struct ScrollDemo2: View {
             }
             
         }
+        .padding(.top, 20)
     }
 }
 

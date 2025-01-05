@@ -27,8 +27,8 @@ struct AddGradientToColor: View {
                 .frame(width: 200, height: 200)
                 .background(.green)
                 .background(in: Circle().inset(by: -40))
-                .foregroundStyle(.white.shadow(.drop(radius: 3, y: 2)))
-                
+                .foregroundStyle(.white.shadow(.drop(radius: 3, y: 0)))
+
             Spacer()
         }
     }
