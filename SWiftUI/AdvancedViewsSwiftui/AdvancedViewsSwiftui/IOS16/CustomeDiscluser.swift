@@ -9,7 +9,9 @@ import SwiftUI
 
 struct CustomeDiscluser: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        DisclosureGroup(content: { Text("Hello") }, label: { Text("Hello") })
+            .disclosureGroupStyle(MyDisclosureStyle())
+
     }
 }
 
